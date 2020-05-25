@@ -1,20 +1,27 @@
+from pprint import pprint
 from bs4 import BeautifulSoup
 import requests
 
 
-def get_main_url():
+def user_input():
     usa_alias = ['us', 'usa', 'america', 'united states', 'states']
+    search_keywords = input('Please enter search words:')
+    city = input('Please enter City:')
+    state = input('Please enter State/Province:')
+    country = input('Country (Canada or US only):')
+
+    while country.lower() != 'canada' and country.lower() not in usa_alias:
+        country = input('Please enter a valid country (Canada or US only):')
+
+    return search_keywords, city, state, country
+
+
+def get_main_url():
     usa_domain = 'https://www.indeed.com'
     canada_domain = 'https://ca.indeed.com'
-    # ------------------------ USER INPUT------------------------------------
-    # search_keywords = input('Please enter search words:')
-    # city = input('Please enter City:')
-    # state = input('Please enter State/Province:')
-    # country = input('Country (Canada or US only):')
 
-    # while country.lower() != 'canada' and country.lower() not in usa_alias:
-    #     country = input('Please enter a valid country (Canada or US only):')
-    # -------------------------------------------------------------------------
+    # search_keywords, city, state, country = user_input()
+
     country = 'US'
     search_keywords = 'data scientist'
     city = 'san francisco'
@@ -35,30 +42,32 @@ def get_main_url():
         website = usa_domain + '/jobs?q=' + \
             search_keywords + '&l=' + city + '%2C+' + state
 
+    print(website)
+
     return website
 
 
 def get_eachjob_url(site):
     source = requests.get(site).text
-
-    soup = BeautifulSoup(source, 'lxml')
+    soup = BeautifulSoup(source, 'html.parser')
+    tag_name = 'data-jk'
+    base_url = 'https://www.indeed.com/viewjob?jk='
+    job_urls = []
 
     mydivs = soup.findAll(
         "div", class_="jobsearch-SerpJobCard unifiedRow row result")
 
-    with open("div.txt", "w") as text_file:
-        for div in mydivs:
-            text_file.write(str(div))
-            text_file.write(
-                '\n\n\n-----------------------------------------------------------\n\n\n')
+    for div in mydivs:
+        # can also use div.get(tagname)
+        job_urls.append(base_url+div[tag_name])
 
-    return 'checkout!'
+    return job_urls
 
 
 def main():
     main_url = get_main_url()
     urls = get_eachjob_url(main_url)
-    print(urls)
+    pprint(urls)
 
 
 if __name__ == "__main__":
