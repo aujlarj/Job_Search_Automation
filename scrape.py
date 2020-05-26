@@ -143,7 +143,12 @@ def get_eachjob_url(job_site):
 
 
 def scrape_each_job(url_jks):
-    pass
+    base_url = 'https://www.indeed.com/viewjob?jk='
+
+    for url_jk in url_jks:
+        full_link = base_url + url_jk
+        source = requests.get(full_link).text
+        job_page = BeautifulSoup(source, 'html.parser')
 
 
 def get_total_num_jobs(job_site):
