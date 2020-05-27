@@ -1,0 +1,542 @@
+<div id="welcomeToIndeedCard">
+</div>
+<div class="jobsearch-DesktopStickyContainer">
+ <div class="jobsearch-JobInfoHeader-title-container">
+  <h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+   Conversational Artificial Intelligence Architect, Manager - Applied Artificial Intelligence
+  </h3>
+ </div>
+ <div class="jobsearch-CompanyInfoWithoutHeaderImage jobsearch-CompanyInfoWithReview">
+  <div class="icl-u-xs-mt--xs icl-u-textColor--secondary jobsearch-JobInfoHeader-subtitle jobsearch-DesktopStickyContainer-subtitle">
+   <div class="jobsearch-InlineCompanyRating icl-u-xs-mt--xs jobsearch-DesktopStickyContainer-companyrating">
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     <a href="https://www.indeed.com/cmp/Deloitte?campaignid=mobvjcmp&amp;from=mobviewjob&amp;tk=1e99ha43vnr17800&amp;fromjk=ee64debe59e50c84" target="_blank">
+      Deloitte
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-lg-mr--sm icl-u-xs-hide">
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--sm" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="4.0" itemprop="ratingValue">
+       <meta content="9541" itemprop="ratingCount">
+        <a aria-label="4 out of 5" class="icl-Ratings-starsCountWrapper icl-Ratings-link" href="https://www.indeed.com/cmp/Deloitte/reviews?campaignid=viewjob&amp;cmpratingc=mobviewjob&amp;from=viewjob&amp;tk=1e99ha43vnr17800&amp;fromjk=ee64debe59e50c84&amp;jt=Conversational+Artificial+Intelligence+Architect%2C+Manager+-+Applied+Artificial+Intelligence">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 51.0px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          9,541 reviews
+         </div>
+        </a>
+       </meta>
+      </meta>
+     </div>
+    </div>
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     -
+    </div>
+    <div>
+     San Francisco, CA
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="jobsearch-CompanyReview icl-u-lg-hide">
+  <a class="icl-NavigableContainer-linkWrapper" href="https://www.indeed.com/cmp/Deloitte/reviews?campaignid=mobvjcmp&amp;cmpratingc=mobviewjob&amp;from=mobviewjob&amp;tk=1e99ha43vnr17800&amp;fromjk=ee64debe59e50c84&amp;jt=Conversational+Artificial+Intelligence+Architect%2C+Manager+-+Applied+Artificial+Intelligence">
+   <div class="icl-NavigableContainer icl-NavigableContainer--hasBorderBottom icl-NavigableContainer--hasBorderTop">
+    <div class="icl-NavigableContainer-innerContainer">
+     <h4 class="jobsearch-CompanyReview--heading">
+      Deloitte
+     </h4>
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--md" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="4.0" itemprop="ratingValue">
+       <meta content="9541" itemprop="ratingCount">
+        <div aria-label="4 out of 5" class="icl-Ratings-starsCountWrapper" tabindex="0">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 75.0px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          9,541 reviews
+         </div>
+        </div>
+        <div aria-hidden="true" class="icl-Ratings-description">
+         Read what people are saying about working here.
+        </div>
+       </meta>
+      </meta>
+     </div>
+     <div class="icl-NavigableContainer-iconContainer">
+      <div class="icl-NavigableContainer-icon icl-NavigableContainer-icon--isRightArrow">
+       <svg class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--black chevron-right" focusable="false" role="img">
+        <g>
+         <path d="M7.5,4.5L6.44,5.56,9.88,9,6.44,12.44,7.5,13.5,12,9Z">
+         </path>
+        </g>
+       </svg>
+      </div>
+     </div>
+    </div>
+   </div>
+  </a>
+ </div>
+ <div class="icl-u-lg-block icl-u-xs-hide">
+ </div>
+ <div id="indeedApplyExplanationContainer">
+ </div>
+ <div class="jobsearch-StickyContainerDivider">
+  <div class="jobsearch-StickyContainerDivider-line">
+  </div>
+ </div>
+</div>
+<div class="mosaic-zone" id="mosaic-zone-aboveExtractedJobDescription">
+</div>
+<script type="text/javascript">
+ try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveExtractedJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+</script>
+<div class="jobsearch-JobComponent-description icl-u-xs-mt--md">
+ <div class="mosaic-zone" id="mosaic-zone-aboveFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-jobDescriptionText" id="jobDescriptionText">
+  <div>
+   <div>
+    <b>
+     Strategy &amp; Analytics-Analytics and Cognitive
+    </b>
+    <br/>
+   </div>
+   <div>
+   </div>
+   <div>
+    <b>
+     Conversational
+    </b>
+    <b>
+     Artificial Intelligence Architect, Manager
+    </b>
+   </div>
+   <div>
+   </div>
+   <br/>
+   <div>
+    Limited immigration sponsorship may be available.
+    <br/>
+   </div>
+   <div>
+   </div>
+   <div>
+    <b>
+     Work you’ll do
+    </b>
+    <br/>
+    At Deloitte you will manage and deliver components of client engagements that identify, design, and implement technology and creative business solutions for large companies. Key responsibilities will include:
+   </div>
+   <ul>
+    <li>
+     Architect, Position, Design, Develop and Deploy enterprise solutions which include components across the Artificial Intelligence spectrum such as Chatbots, Virtual Assistants, Machine Learning, and Cognitive Services
+    </li>
+    <li>
+     Manage teams in the identification of business requirements, functional design, process design (including scenario design, flow mapping), prototyping, testing, training, defining support procedures.
+    </li>
+    <li>
+     Formulate planning, budgeting, forecasting and reporting strategies.
+    </li>
+    <li>
+     Manage full life cycle implementations.
+    </li>
+    <li>
+     Develop statements of work and/or client proposals.
+    </li>
+    <li>
+     Identify business opportunities to increase usability and profitability of information architecture.
+    </li>
+    <li>
+     Experience with program leadership, governance and change enablement.
+    </li>
+    <li>
+     Develop and manage vendor relationships.
+    </li>
+    <li>
+     Lead workshops for client education.
+    </li>
+    <li>
+     Manage resources and budget on client projects.
+    </li>
+    <li>
+     Assist and drive the team by providing oversight.
+    </li>
+   </ul>
+   <div>
+   </div>
+   <br/>
+   <div>
+    <b>
+     The team
+    </b>
+    <br/>
+    Analytics &amp; Cognitive
+    <br/>
+    In this age of disruption, organizations need to navigate the future with confidence, embracing decision making with clear, data-driven choices that deliver enterprise value in a dynamic business environment.
+    <br/>
+    <br/>
+    The Analytics &amp; Cognitive team leverages the power of data, analytics, robotics, science and cognitive technologies to uncover hidden relationships from vast troves of data, generate insights, and inform decision-making. Together with the Strategy practice, our Strategy &amp; Analytics portfolio helps clients transform their business by architecting enterprise programs and differentiated strategies to win in their chosen markets.
+    <br/>
+    <br/>
+    The Analytics &amp; Cognitive team works with our clients to:
+   </div>
+   <ul>
+    <li>
+     Implement large-scale data ecosystems including data management, governance and the integration of structured and unstructured data to generate insights leveraging cloud-based as well as client-owned platforms
+    </li>
+    <li>
+     Deploy automation and cognitive and science-based techniques to manage data, predict scenarios and prescribe actions
+    </li>
+    <li>
+     Drive operational efficiency by maintaining their data ecosystems, sourcing analytics expertise and providing As-a-Service offerings for continuous insights and improvements
+     <br/>
+    </li>
+   </ul>
+   <div>
+   </div>
+   <div>
+    <b>
+     Qualifications:
+    </b>
+   </div>
+   <ul>
+    <li>
+     <div>
+      6+ years of relevant work experience
+     </div>
+    </li>
+    <li>
+     <div>
+      1+ years of consulting experience on Conversational AI systems
+     </div>
+    </li>
+    <li>
+     <div>
+      2+ years of experience leading and managing project teams
+     </div>
+    </li>
+    <li>
+     <div>
+      2+ full cycle product experiences (prototype to production) deploying virtual agents or virtual assistants such as IPSoft Amelia, Kore.ai, Nuance Nina, Amazon Lex &amp; Alexa, Dialogflow, MS LUIS/Cortana or IBM Watson
+     </div>
+    </li>
+    <li>
+     <div>
+      3+ experiences developing and deploying voice and/or text conversational flows for virtual agents or virtual assistants such as IPSoft Amelia, Kore.ai, Nuance Nina, Amazon Lex &amp; Alexa, Dialogflow, or IBM Watson, MS LUIS/MS Azure Cognitive/ML
+     </div>
+    </li>
+    <li>
+     <div>
+      Travel up to 80-100% of the time (Monday – Thursday/Friday) (While 80-100% of travel is a requirement of the role, due to COVID-19, non-essential travel has been suspended until further notice.)
+     </div>
+    </li>
+   </ul>
+   <div>
+   </div>
+   <div>
+    <b>
+     Preferred:
+    </b>
+   </div>
+   <ul>
+    <li>
+     <div>
+      Bachelor's Degree in Engineering, Mathematics, Empirical Statistics
+     </div>
+    </li>
+    <li>
+     <div>
+      Certification or expertise on at least one of the following platforms: IPSoft Amelia, Kore.ai, Nuance Nina, Amazon Lex &amp; Alexa, Dialogflow, or IBM Watson
+     </div>
+    </li>
+    <li>
+     <div>
+      API development experience
+     </div>
+    </li>
+    <li>
+     <div>
+      Advanced skills in Java/C++, R, Python, etc.
+     </div>
+    </li>
+    <li>
+     <div>
+      Experienced programming knowledge in both SAS and SQL, Operating system experience with UNIX and relational database knowledge such as ORACLE/TERADATA. SAS/Base, SAS/Stat, SAS/Macro preferred
+     </div>
+    </li>
+    <li>
+     <div>
+      Strong knowledge of machine learning, deep learning, natural language processing, neural networks, dialog systems, dialog management, and natural language generation
+     </div>
+    </li>
+    <li>
+     <div>
+      Experience with quantitative modeling (design, development &amp; implementation) using 3+ types of algorithm (e.g., Decision Trees, Naive Bayes Classification, Ordinary Least Squares Regression, Logistic Regression, Support Vector Machines, Ensemble Methods, Clustering Algorithms, Principal Component Analysis, Singular Value Decomposition, Independent Component Analysis)
+     </div>
+    </li>
+    <li>
+     <div>
+      In-depth theoretical and practical knowledge applying categorical methods such as logistic and survival analysis
+     </div>
+    </li>
+    <li>
+     <div>
+      Expertise in at least one functional application preferred (e.g., Virtual Travel &amp; Hospitality Concierge, Virtual Product Specialists, Virtual Personal Shopper, Virtual Bank Teller &amp; Advisor, Virtual Account Representative, Virtual IT Helpdesk Support, Virtual HR Specialist, Virtual Onboarding Advisor, On-the-job Task and Process Guidance, Corporate Policy Guidance, etc.)
+     </div>
+    </li>
+    <li>
+     <div>
+      Expertise in 2+ domain preferred (e.g., Customer &amp; Marketing, Finance, M&amp;A, Operations, Pricing, Risk, Supply Chain, Workforce, etc.)
+     </div>
+    </li>
+    <li>
+     <div>
+      Experience in Technology, Media, Telecommunications, Consumer (especially transportation) and Financial Services&amp; Insurance a plus
+     </div>
+    </li>
+    <li>
+     <div>
+      Ability to work independently, manage small engagements or parts of large engagements.
+     </div>
+    </li>
+    <li>
+     <div>
+      Strong oral and written communication skills, including presentation skills (MS Visio, MS PowerPoint).
+     </div>
+    </li>
+    <li>
+     <div>
+      Strong problem solving and troubleshooting skills with ability to exercise mature judgment.
+     </div>
+    </li>
+    <li>
+     <div>
+      An advanced degree in the area of specialization is preferred.
+      <br/>
+     </div>
+    </li>
+   </ul>
+   <div>
+   </div>
+   <div>
+    <b>
+     How you’ll grow
+    </b>
+    <br/>
+    At Deloitte, our professional development plan focuses on helping people at every level of their career to identify and use their strengths to do their best work every day. From entry-level employees to senior leaders, we believe there’s always room to learn. We offer opportunities to help sharpen skills in addition to hands-on experience in the global, fast-changing business world. From on-the-job learning experiences to formal development programs at Deloitte University, our professionals have a variety of opportunities to continue to grow throughout their career. Explore Deloitte University, The Leadership Center.
+    <br/>
+    <b>
+    </b>
+    <br/>
+    <b>
+     Benefits
+    </b>
+    <br/>
+    At Deloitte, we know that great people make a great organization. We value our people and offer employees a broad range of benefits. Learn more about what working at Deloitte can mean for you.
+    <b>
+    </b>
+    <br/>
+    <br/>
+    <b>
+     Deloitte’s culture
+    </b>
+    <br/>
+    Our positive and supportive culture encourages our people to do their best work every day. We celebrate individuals by recognizing their uniqueness and offering them the flexibility to make daily choices that can help them to be healthy, centered, confident, and aware. We offer well-being programs and are continuously looking for new ways to maintain a culture where our people excel and lead healthy, happy lives. Learn more about Life at Deloitte.
+    <br/>
+    <br/>
+    <b>
+     Corporate citizenship
+    </b>
+    <br/>
+    Deloitte is led by a purpose: to make an impact that matters. This purpose defines who we are and extends to relationships with our clients, our people and our communities. We believe that business has the power to inspire and transform. We focus on education, giving, skill-based volunteerism, and leadership to help drive positive social impact in our communities. Learn more about Deloitte’s impact on the world.
+   </div>
+   <div>
+    <br/>
+    <b>
+     Recruiter tips
+    </b>
+    <br/>
+    We want job seekers exploring opportunities at Deloitte to feel prepared and confident. To help you with your interview, we suggest that you do your research: know some background about the organization and the business area you’re applying to. Check out recruiting tips from Deloitte professionals.
+   </div>
+  </div>
+  <div>
+  </div>
+ </div>
+ <div class="mosaic-zone" id="mosaic-zone-belowFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+</div>
+<div id="mapRoot">
+</div>
+<div id="welcomeToIndeedModal">
+</div>
+<div id="successfullySignedInModal">
+</div>
+<div class="jobsearch-JobTab-content">
+ <div class="mosaic-zone" id="mosaic-zone-belowJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-JobMetadataFooter">
+  <span class="icl-u-textColor--success">
+   Deloitte
+  </span>
+  - 3 days ago
+  <span class="icl-u-lg-inline icl-u-xs-hide" id="saveJobInlineCallout">
+   -
+   <a title="Save this job to my.indeed">
+    save job
+   </a>
+  </span>
+  <div class="mosaic mosaic-provider-reportcontent" id="mosaic-provider-reportcontent">
+   <span>
+    <span class="mosaic-reportcontent-link">
+     <a type="link">
+      report job
+     </a>
+    </span>
+    <div class="mosaic-reportcontent-content">
+    </div>
+   </span>
+  </div>
+  <span class="icl-u-lg-inline icl-us-xs-hide" id="originalJobLinkContainer">
+   -
+   <a href="https://www.indeed.com/rc/clk?jk=ee64debe59e50c84&amp;from=vj&amp;pos=top&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXiFM95kqkOfsmhAg_gm-WNNIv02HSGSZoWequxOEmCHqw" rel="noopener" target="_blank">
+    original job
+   </a>
+  </span>
+  <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-mt--md" id="saveJobInlineCalloutContainer">
+  </div>
+ </div>
+</div>
+<div class="icl-Grid icl-Grid--gutters">
+ <div class="jobsearch-ViewJobButtons-container icl-u-xs-my--md icl-Grid-col icl-u-xs-span12 icl-u-xs-textCenter icl-u-lg-textLeft" id="jobsearch-ViewJobButtons-container">
+  <div class="mosaic-zone" id="mosaic-zone-aboveViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+  <div class="icl-u-lg-inlineBlock" id="viewJobButtonLinkContainer">
+   <div class="" id="applyButtonLinkContainer">
+    <div class="icl-u-lg-hide">
+     <a class="icl-Button icl-Button--primary icl-Button--block" href="https://www.indeed.com/rc/clk?jk=ee64debe59e50c84&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXiFM95kqkOfsmhAg_gm-WNNIv02HSGSZoWequxOEmCHqw">
+      Apply Now
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-textCenter">
+     <a class="icl-Button icl-Button--primary icl-Button--md" href="https://www.indeed.com/rc/clk?jk=ee64debe59e50c84&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXiFM95kqkOfsmhAg_gm-WNNIv02HSGSZoWequxOEmCHqw">
+      Apply On Company Site
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="icl-u-lg-inlineBlock" data-loginurl="https://www.indeed.com/account/login?dest=%2Fviewjob%3Fjk%3Dee64debe59e50c84" id="saveJobButtonContainer">
+   <div class="icl-u-lg-hide">
+    <button class="icl-Button icl-Button--secondary icl-Button--block" disabled="true" type="button">
+     <span class="icl-ButtonIcon">
+      <svg aria-label="save-icon" class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--inheritColor favorite-border" focusable="false" role="img">
+       <g>
+        <path d="M12.38,2.25A4.49,4.49,0,0,0,9,3.82,4.49,4.49,0,0,0,5.63,2.25,4.08,4.08,0,0,0,1.5,6.38c0,2.83,2.55,5.15,6.41,8.66L9,16l1.09-1C14,11.52,16.5,9.21,16.5,6.38A4.08,4.08,0,0,0,12.38,2.25ZM9.08,13.91L9,14l-0.08-.08C5.35,10.68,3,8.54,3,6.38A2.56,2.56,0,0,1,5.63,3.75,2.93,2.93,0,0,1,8.3,5.52H9.7a2.91,2.91,0,0,1,2.67-1.77A2.56,2.56,0,0,1,15,6.38C15,8.54,12.65,10.68,9.08,13.91Z">
+        </path>
+       </g>
+      </svg>
+     </span>
+     Save this job
+    </button>
+   </div>
+   <div class="icl-u-xs-block icl-u-lg-hide">
+   </div>
+  </div>
+  <div class="icl-u-lg-hide" id="shareJobButton">
+   <button class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block" disabled="true" type="button">
+    Share this job
+   </button>
+  </div>
+  <div id="saveJobFailureModal">
+  </div>
+  <div class="mosaic-zone" id="mosaic-zone-belowViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+ </div>
+</div>

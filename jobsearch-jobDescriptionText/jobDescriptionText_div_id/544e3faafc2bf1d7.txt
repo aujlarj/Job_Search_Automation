@@ -1,0 +1,39 @@
+<div><div><div><b>Our Mission</b></div><div>
+We’re here to create a safer, happier and more mindful future for all with the help of data science, engineering, design, and mobile technology. We're starting by reinventing insurance, by rethinking the technologies that enable it, but our true goal is to build a platform that rewards people for driving well — creating safer roads with fewer accidents in the process.</div><div></div><br/>
+<div>
+Backed by impressive funding, we're poised to re-engineer a trillion-dollar category, and that’s just the beginning. We’re using rich customer insights, advanced technology and data science to build our cloud-native InsurTech solution, and other things we haven’t even dreamt up yet. We're out to change behavior and promote mindful living at a societal level. But the key to us being successful in our mission isn’t just about nailing the technology—it’s about hiring the talented people who can help us make a quantifiable impact in the world. We’re growing our world-class team. And that’s where you come in.<br/>
+</div><div></div><br/>
+<div>The data science team builds the data-driven features of the company.</div></div>
+<div><div><h3 class="jobSectionHeader"><b>Requirements for all data scientists</b></h3><div><ul><li>
+Demonstrable expertise building and supporting machine learning models deployed to production</li><li>
+Expert in Python and core libraries used by data scientists (Numpy, Scipy, Pandas, Scikit-learn, Matplotlib/Seaborn, etc.)</li><li>
+Experience using Jupyter notebooks
+</li><li>Experience working with large or fast moving data sets</li><li>
+Qualified for one of the the specializations below</li></ul></div></div></div>
+<div><div><h3 class="jobSectionHeader"><b>Specialization: Machine Learning</b></h3><div><ul><li><b>
+Scikit-learn expert:</b> This means you have rolled your own transformers and estimators, which you chained together in a pipeline and found optimal hyperparameters via a randomized grid search (or some other method).</li><li><b>
+Pandas and Numpy expert:</b> You have used pandas enough to run into its rough parts. Very likely you read Wes’ book. You are fluent with Numpy and array oriented programming in general.</li><li><b>
+Modern techniques:</b> You are deeply familiar with different validation pitfalls, understand how to effectively ensemble several models, and have experimented with different hyperparameter optimization methods.</li><li><b>
+Modern data: </b>You have built models using unstructured data such as text or images. You have built time series models using econometric approaches as well as machine learning approaches. Deep algorithmic understanding: You know all the nitty-gritty details of your favorite machine learning algorithms.
+</li></ul></div></div></div><div><div><h3 class="jobSectionHeader"><b>Specialization: Marketing</b></h3><div><ul><li><b>
+Statistical rigor: </b>You should have a solid foundation of the statistics behind standard statistical design methods such as A/B testing and multivariate testing. For example, you should know how to deal with clustering and should be able to determine the standard errors of different statistics through simulation.</li><li><b>
+Multi-armed bandit models:</b> You know how to implement the technique and how to write a good cost function.</li><li><b>
+Modern techniques:</b> You can build a model that powers an app that serves a unique arrangement of diverse components to each user such that the specific components served were chosen to maximize the specific user’s probability of selecting a call to action (i.e. using machine learning to identify complex heterogenous treatment effects).</li><li><b>
+War stories:</b> You must be able to talk about times you ran experiments in a complex environment and what you learned from the effort</li><li>
+Specific experience in marketing optimization is a plus.</li></ul></div></div></div>
+<div><div><h3 class="jobSectionHeader"><b>Specialization: Insurance</b></h3><div><ul><li><b>
+Industry experience</b>: You have solid P&amp;C experience and have had a significant role in building either pricing or underwriting models.</li><li><b>
+Insurance algorithms</b>: Regulators love GLMs. You must be an expert in GLMs.
+</li><li><b>Modern tools</b>: Maybe you used SAS in the past, but know you should be comfortable building models with Python.</li></ul></div></div></div>
+<div><div><h3 class="jobSectionHeader"><b>More details</b></h3><div><ul><li>
+Salary: We invest in first-rate people and pay top-of-market salaries for most positions, factoring in experience and talent. We do not offer equity.</li><li>
+Benefits: Medical, dental, vision, 401(k), wellness reimbursement, four weeks of vacation + six weeks of parental leave, and great work-life balance. Plus on-site shower and bike stalls, and panoramic views of San Francisco.
+</li><li>Location near Montgomery BART station in the financial district.</li><li>
+Location: San Francisco, CA
+</li></ul></div></div></div><div><div>To apply for this role, you must complete a simple tech challenge based on the specialization you choose. Each specialization has a unique coding exercise.<br/>
+</div><div></div><br/>
+<div>Machine Learning simple tech challenge</div><div>
+Marketing simple tech challenge</div><div>
+Insurance simple tech challenge</div><div></div><br/>
+<div><i>
+All are welcome at Blue Owl. We are an equal opportunity and affirmative action employer who values diversity and inclusion and looks for applicants who understand, embrace and thrive in a multicultural world. We do not discriminate on the basis of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.</i></div></div></div>

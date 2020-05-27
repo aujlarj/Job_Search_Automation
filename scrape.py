@@ -1,9 +1,10 @@
+import pandas as pd
 from pprint import pprint
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver import ActionChains
-#from webdriver_manager.chrome import ChromeDriverManager
+# from selenium.webdriver import ActionChains
+# from webdriver_manager.chrome import ChromeDriverManager
 import requests
 
 # Global Variables
@@ -19,6 +20,8 @@ def write_to_new_file(filename, fileinfo):
             for index, element in enumerate(fileinfo):
                 line = str(index+1) + '. ' + element + '\n'
                 text.write(line)
+    else:
+        print('DIFFRENT TYPE!')
 
 
 def write_to_existing_file(filename, fileinfo):
@@ -84,12 +87,15 @@ def get_main_url():
     return website
 
 
-def get_eachjob_url(job_site):
-    job_counter = 0
+def get_job_summary(job_site):
+    # job_counter = 0
+    # jobcard_div_ids = []
     next_url_counter = 0
-    jobs_urls_jks = []
-    # jobcard_div_ids = [] # undo comment on all the id variable to automate onpage jobcarb scraping
+    jobscard_jks = []
     url_flag = True
+
+    df = pd.DataFrame(columns=["Primary_Key", "Location",
+                               "Company", "Salary", "Ratings", "Remote_work", "Date_posted"])
 
     chrome_options = Options()
     chrome_options.add_experimental_option("detach", True)
@@ -106,31 +112,90 @@ def get_eachjob_url(job_site):
 
         driver.get(new_site)
         # can not have space in by_class_name. Must be one word
-        divs = driver.find_elements_by_class_name('jobsearch-SerpJobCard')
+        jobcards = driver.find_elements_by_class_name('jobsearch-SerpJobCard')
 
         job_check = 0
-        for div in divs:
-            job_jk = div.get_attribute('data-jk')
-            # div_id = div.get_attribute('id')
-            if job_jk not in jobs_urls_jks:
-                jobs_urls_jks.append(job_jk)
-                # jobcard_div_ids.append(div_id)
-                job_counter += 1
-                job_check += 1
-                # # Automate click on each Job carb(useful if it shows the onpage description)
-                # # not consistent tho
-                # element_to_click = driver.find_element_by_id(div_id)
+        driver.implicitly_wait(5)
+        for jobcard in jobcards:
+
+            jobcard_jk = jobcard.get_attribute('data-jk')
+            # jobcard_div_id = jobcard.get_attribute('id')
+            # jobcard_div_ids.append(jobcard_div_id)
+
+            if jobcard_jk not in jobscard_jks:
+
+                jobscard_jks.append(jobcard_jk)
+
+                jobcard_html = BeautifulSoup(jobcard.get_attribute(
+                    'innerHTML'), 'html.parser')
+
+                # print(jobcard_html.prettify())
+                # try:
+                #     title = jobcard_html.find("a", class_="jobtitle").text.replace(
+                #         "\n", "").strip()
+                # except:
+                #     title = 'None'
+
+                try:
+                    location = jobcard_html.find(class_="location").get_text("|", strip=True).replace(
+                        "\n", "").strip()
+                except:
+                    location = 'None'
+
+                try:
+                    company = jobcard_html.find(class_="company").text.replace(
+                        "\n", "").strip()
+                except:
+                    company = 'None'
+
+                try:
+                    salary = jobcard_html.find(class_="salary").text.replace(
+                        "\n", "").strip()
+                except:
+                    salary = 'None'
+
+                try:
+                    rating = jobcard_html.find(class_="ratingsContent").text.replace(
+                        "\n", "").strip()
+                except:
+                    rating = 'None'
+
+                try:
+                    remote_work = jobcard_html.find(class_="remote").text.replace(
+                        "\n", "").strip()
+                except:
+                    remote_work = 'None'
+
+                try:
+                    date_posted = jobcard_html.find(class_="date").text.replace(
+                        "\n", "").strip()
+                except:
+                    date_posted = 'None'
+
+                # # Automate click on each jobcard(useful if it shows the onpage description) not consistent tho
+                # element_to_click = driver.find_element_by_id(
+                #     jobcard_div_id)
                 # ActionChains(driver).click(element_to_click).perform()
+                # job_desc = driver.find_element_by_id(
+                #     'jobDescriptionText').text
 
-                # # Explaination
-                # # Create the object for Action Chains
-                # actions = ActionChains(driver)
-                # actions.click(element_to_click)
-                # # perform the operation on the element
-                # actions.perform()
-                # # Can also do this: element_to_click.click()
+                # print('Title:', title)
+                # print('location:', location)
+                # print('company:', company)
+                # print('salary:', salary)
+                # print('rating:', rating)
+                # print('remote_work:', remote_work)
+                # print('date_posted:', date_posted)
 
-                print('Job_counter:', job_counter)
+                df = df.append({"Primary_Key": jobcard_jk, 'Location': location, "Company": company, "Salary": salary,
+                                "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
+                                }, ignore_index=True)
+
+                # df = df.append({'Primary_Key': jobcard_jk, 'Title': title, 'Location': location, "Company": company,
+                #                 "Salary": salary}, ignore_index=True)
+                # job_counter += 1
+                job_check += 1
+                print("Got these many results:", df.shape)
 
         # Exit if no new jobs found
         if job_check == 0:
@@ -139,16 +204,59 @@ def get_eachjob_url(job_site):
         next_url_counter += 10
 
     driver.close()
-    return jobs_urls_jks
+    return jobscard_jks, df
 
 
-def scrape_each_job(url_jks):
+def get_job_description(url_jks):
     base_url = 'https://www.indeed.com/viewjob?jk='
+    df = pd.DataFrame(columns=["Primary_Key", "Title",
+                               "Full_Description"])
 
     for url_jk in url_jks:
         full_link = base_url + url_jk
+        print(full_link)
         source = requests.get(full_link).text
         job_page = BeautifulSoup(source, 'html.parser')
+
+        # print(job_page.prettify())
+
+        try:
+            description = job_page.find(
+                'div', id='jobDescriptionText').get_text("|", strip=True)
+        except:
+            description = 'None'
+
+        try:
+            title = job_page.find(
+                'h3', class_='jobsearch-JobInfoHeader-title').get_text("|", strip=True)
+            pass
+        except:
+            title = 'None'
+
+        # print('Div type:', type(div))
+        # pprint(div)
+
+        # for i in range(0, len(div.contents)):
+        #     write_to_existing_file(
+        #         url_jk + '.txt', str(div.contents[i]))
+
+        df = df.append({"Primary_Key": url_jk, 'Title': title,
+                        "Full_Description": description}, ignore_index=True)
+
+    return df
+
+
+def merge_dataframes(df1, df2):
+    df1_columns = list(df1.columns.values)
+    df2_columns = list(df2.columns.values)
+    common_columns = list(set(df1_columns) & set(df2_columns))
+    Key = common_columns[0]
+
+    df3 = df1.merge(df2, how='inner', on=Key)
+    df3 = df3[['Primary_Key', 'Title', 'Company',
+               'Location', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']]
+    df3.to_csv('file_name.csv', index=False)
+    print(Key)
 
 
 def get_total_num_jobs(job_site):
@@ -185,14 +293,16 @@ def open_browser(url):
 def main():
     main_url = get_main_url()
 
-    # testing('https://www.indeed.com/jobs?q=Data+Scientist+%24157%2C000&l=San+Francisco%2C+CA&radius=0')
+    # main_url = 'https://www.indeed.com/jobs?q=Data+Scientist+%24157%2C000&l=San+Francisco%2C+CA&radius=0'
 
     # number_of_jobs = get_total_num_jobs(main_url)
     # print('Number of Jobs:', number_of_jobs)
     # open_browser(main_url)  # for testing
 
-    job_url_jks = get_eachjob_url(main_url)
-    scrape_each_job(job_url_jks)
+    job_url_jks, job_summary_df = get_job_summary(main_url)
+    # job_summary_df.to_csv('file_name.csv', index=False)
+    job_description = get_job_description(job_url_jks)
+    merge_dataframes(job_summary_df, job_description)
 
     # click_eachjob(main_url)
 
@@ -210,3 +320,17 @@ if __name__ == "__main__":
 #     attribute_name = 'data-jk'
 #     job_counter = 0
 #     next_url_counter = 10
+
+
+# try:
+#     div = job_page.find(
+#         'h3', class_='jobsearch-JobInfoHeader-title').get_text("|", strip=True)
+# except:
+#     div = 'None'
+
+
+# try:
+#     div = job_page.find(
+#         'div', class_='icl-Ratings-count').get_text("|", strip=True)
+# except:
+#     div = 'None'

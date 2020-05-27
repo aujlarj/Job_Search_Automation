@@ -1,0 +1,43 @@
+<div><b>About AbbVie</b><br/>
+AbbVie (NYSE:ABBV) is a global, research-driven biopharmaceutical company committed to developing innovative advanced therapies for some of the world’s most complex and critical conditions. The company’s mission is to use its expertise, dedicated people and unique approach to innovation to markedly improve treatments across four primary therapeutic areas: immunology, oncology, virology and neuroscience. In more than 75 countries, AbbVie employees are working every day to advance health solutions for people around the world. For more information about AbbVie, please visit us at www.abbvie.com. Follow @abbvie on Twitter, Facebook or LinkedIn.<br/>
+<br/>
+<br/>
+<div>AbbVie is expanding its oncology hub on the West Coast, with three sites in the San Francisco Bay Area (Redwood City, South San Francisco, and Sunnyvale) focused on the discovery and development of novel oncology therapies. More than 1,000 AbbVie scientists, clinicians, and product developers with strong entrepreneurial roots work across these three sites. They combine their expertise in immuno-oncology and cell-signaling with their knowledge of bispecific antibodies, antibody-drug conjugates (ADCs), and covalent-inhibitor technologies to discover and develop novel cancer treatments. This position will be based at AbbVie's South San Francisco site with the potential to work out of the Sunnyvale location.</div><div></div><br/>
+<div>
+The Data Solution team within the Information Research (IR) Division is building the next generation of big biology data management and decision support tools and services to optimize the efficiency and efficacy of research and development at AbbVie. Examples of applications/topics supported include genomic data analysis, drug target and compound assessment/mining, custom data visualization projects and internal and external data integration, knowledge ecosystem design and implementation, etc.</div><div>
+We have an exciting opportunity available for a Senior Data Scientist I. The ideal candidate will have a strong background in computational biology/bioinformatics with both scripting and data manipulation/visualization skills.</div><div></div><br/>
+<div>
+Key Responsibilities:</div><div><ul><li><div><div>
+Collaborative Design – you should find it inspiring to work with a wide variety of colleagues (e.g., biology, bioinformatics, business); understand their needs and then propose and build solutions</div></div></li><li><div>
+Build – through your own efforts or in collaboration with other team members develop custom software solutions/processes that contribute to and help foster the growing AbbVie data integration environment. Understand coding and testing best practices paired with use of tools like Atlassian Suite for feature request/bug fixes, and documentation tracking.</div></li><li><div>
+Adaptability – given our diverse mission you should be able to move fluidly between different project responsibilities</div></li><li><div>
+Breadth – as a talented and motivated Data Scientist you can contribute to a wide variety of missions related to enhancing drug discovery</div></li></ul></div><br/>
+<b>
+Qualifications</b><br/>
+<div></div><div><ul><li><div><div>
+Bachelor’s Degree and typically 10 years of experience, Master’s Degree and typically 8 years of experience, or PhD and 0 years of experience. Degree should be in Computer Science, Bioinformatics, or related scientific/engineering field</div></div></li><li><div><div>
+Proficiency in Java or Python (R is a bonus)</div></div></li><li><div><div>
+Experience in database management including schema and SQL query development, preferably using MySQL, Oracle, or postgreSQL</div></div></li><li><div><div>
+Experience using contemporary data visualization methods like Spotfire or Tableau
+</div></div></li><li><div><div>Ability to perform high dimensional data mining, data integration and data extraction projects of internal and/or external public data
+</div></div></li><li><div><div>Experience with image capture, analysis, and storage is highly desirable</div></div></li><li><div><p>
+Trained expertise in machine learning or artificial intelligence
+</p></div></li><li><div><div>Comfortable in a Linux computing environment (Unix shell scripting)</div></div></li><li><div><div>
+Experience using some form of an agile development methodology</div></div></li><li><div><div>
+Enjoy working in a highly collaborative dynamic environment with a diverse team to tackle complex problems</div></div></li><li><div><div>
+Excellent verbal communication and interpersonal skills; comfortable working with colleagues located at different geographic locations</div></div></li></ul><br/>
+<div></div>
+<br/>
+</div><br/>
+<b>Significant Work Activities</b><br/>
+N/A<br/>
+<b>Travel</b><br/>
+Yes, 5 % of the Time<br/>
+<b>Job Type</b><br/>
+Experienced<br/>
+<b>Schedule</b><br/>
+Full-time<br/>
+<b>Job Level Code</b><br/>
+IC<br/>
+<b>Equal Employment Opportunity</b><br/>
+At AbbVie, we value bringing together individuals from diverse backgrounds to develop new and innovative solutions for patients. As an equal opportunity employer we do not discriminate on the basis of race, color, religion, national origin, age, sex (including pregnancy), physical or mental disability, medical condition, genetic information gender identity or expression, sexual orientation, marital status, protected veteran status, or any other legally protected characteristic.</div>

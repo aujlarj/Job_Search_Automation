@@ -1,0 +1,370 @@
+<div id="welcomeToIndeedCard">
+</div>
+<div class="jobsearch-DesktopStickyContainer">
+ <div class="jobsearch-JobInfoHeader-title-container">
+  <h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+   Sr. Data Science Manager - GTM Intelligence
+  </h3>
+ </div>
+ <div class="jobsearch-CompanyInfoWithoutHeaderImage jobsearch-CompanyInfoWithReview">
+  <div class="icl-u-xs-mt--xs icl-u-textColor--secondary jobsearch-JobInfoHeader-subtitle jobsearch-DesktopStickyContainer-subtitle">
+   <div class="jobsearch-InlineCompanyRating icl-u-xs-mt--xs jobsearch-DesktopStickyContainer-companyrating">
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     <a href="https://www.indeed.com/cmp/Docusign?campaignid=mobvjcmp&amp;from=mobviewjob&amp;tk=1e99ha305q50u800&amp;fromjk=28a85a4d8231f1aa" target="_blank">
+      DocuSign
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-lg-mr--sm icl-u-xs-hide">
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--sm" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="3.799999952316284" itemprop="ratingValue">
+       <meta content="58" itemprop="ratingCount">
+        <a aria-label="3.8 out of 5" class="icl-Ratings-starsCountWrapper icl-Ratings-link" href="https://www.indeed.com/cmp/Docusign/reviews?campaignid=viewjob&amp;cmpratingc=mobviewjob&amp;from=viewjob&amp;tk=1e99ha305q50u800&amp;fromjk=28a85a4d8231f1aa&amp;jt=Sr.+Data+Science+Manager+-+GTM+Intelligence">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 43.799999713897705px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          58 reviews
+         </div>
+        </a>
+       </meta>
+      </meta>
+     </div>
+    </div>
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     -
+    </div>
+    <div>
+     San Francisco, CA 94105
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="jobsearch-CompanyReview icl-u-lg-hide">
+  <a class="icl-NavigableContainer-linkWrapper" href="https://www.indeed.com/cmp/Docusign/reviews?campaignid=mobvjcmp&amp;cmpratingc=mobviewjob&amp;from=mobviewjob&amp;tk=1e99ha305q50u800&amp;fromjk=28a85a4d8231f1aa&amp;jt=Sr.+Data+Science+Manager+-+GTM+Intelligence">
+   <div class="icl-NavigableContainer icl-NavigableContainer--hasBorderBottom icl-NavigableContainer--hasBorderTop">
+    <div class="icl-NavigableContainer-innerContainer">
+     <h4 class="jobsearch-CompanyReview--heading">
+      DocuSign
+     </h4>
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--md" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="3.799999952316284" itemprop="ratingValue">
+       <meta content="58" itemprop="ratingCount">
+        <div aria-label="3.8 out of 5" class="icl-Ratings-starsCountWrapper" tabindex="0">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 66.59999942779541px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          58 reviews
+         </div>
+        </div>
+        <div aria-hidden="true" class="icl-Ratings-description">
+         Read what people are saying about working here.
+        </div>
+       </meta>
+      </meta>
+     </div>
+     <div class="icl-NavigableContainer-iconContainer">
+      <div class="icl-NavigableContainer-icon icl-NavigableContainer-icon--isRightArrow">
+       <svg class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--black chevron-right" focusable="false" role="img">
+        <g>
+         <path d="M7.5,4.5L6.44,5.56,9.88,9,6.44,12.44,7.5,13.5,12,9Z">
+         </path>
+        </g>
+       </svg>
+      </div>
+     </div>
+    </div>
+   </div>
+  </a>
+ </div>
+ <div class="icl-u-lg-block icl-u-xs-hide">
+ </div>
+ <div id="indeedApplyExplanationContainer">
+ </div>
+ <div class="jobsearch-StickyContainerDivider">
+  <div class="jobsearch-StickyContainerDivider-line">
+  </div>
+ </div>
+</div>
+<div class="mosaic-zone" id="mosaic-zone-aboveExtractedJobDescription">
+</div>
+<script type="text/javascript">
+ try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveExtractedJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+</script>
+<div class="jobsearch-JobComponent-description icl-u-xs-mt--md">
+ <div class="mosaic-zone" id="mosaic-zone-aboveFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-jobDescriptionText" id="jobDescriptionText">
+  Senior Data Science Manager – GTM Intelligence
+  <br/>
+  Marketing | San Francisco, CA
+  <br/>
+  <br/>
+  Our agreement with employees
+  <br/>
+  <br/>
+  DocuSign is committed to building trust and making the world more agreeable for our employees, customers and the communities in which we live and work. You can count on us to listen, be honest, and try our best to do what's right, every day. At DocuSign, everything is equal. We each have a responsibility to ensure every team member has an equal opportunity to succeed, to be heard, to exchange ideas openly, to build lasting relationships, and to do the work of their life. Best of all, you will be able to feel deep pride in the work you do, because your contribution helps us make the world better. And for that, you'll be loved by us, our customers, and the world in which we live.
+  <br/>
+  <br/>
+  The team
+  <br/>
+  Sitting in the strategy organization, the GTM Intelligence team blends strategy, data and analytics to drive growth for the Go-To-Market teams at DocuSign. We work across all GTM departments within the company, with a primary focus on supporting Marketing, Sales and Customer Success. Our key objectives are to accelerate demand generation, drive predictable and prescriptive focus within our prospect and install base, and deliver impactful insights for our front-line teams. We measure our success primarily through the success of our GTM partners and the accuracy of our insights.
+  <br/>
+  <br/>
+  This position
+  <br/>
+  The Senior Data Science Manager is a highly motivated self-starter who is responsible for designing, building and promoting models &amp; algorithms that power the next generation of actionable insights for the GTM organization at DocuSign. You will be solving difficult and non-routine problems by applying analytical methods in novel ways. This includes processing, analyzing and interpreting large and complex data sets, with an emphasis on interpretable results. You will also need to collaborate closely with Sales, Marketing, Engineering and other stakeholders to implement model-based solutions, measure the effectiveness of programs and drive growth and customer success.
+  <br/>
+  <br/>
+  The ideal candidate has a rich experience across the domains of Marketing, Sales and Product as a data scientist / decision scientist. You will leverage business data, big data, statistical analysis, machine learning and other advanced techniques to help DocuSign drive customer acquisition, upsell, cross-sell and retention. You will partner closely with other data scientists and analysts in marketing, sales, customer success, product engineering and finance.
+  <br/>
+  <br/>
+  This role will influence and shape the design, architecture and roadmap for predictive and prescriptive analytics for the GTM teams. You have a track record of driving successful data science initiatives while balancing the diagnosis and fixing of urgent problems with a thoughtful approach. You have experience creatively working with challenging data and systems.
+  <br/>
+  <br/>
+  This role requires the ability to deliver in a complex and fast moving organization at global scale. The candidate is deeply analytical with a keen understanding of business processes and programs and the ability to translate data and insights into operational readouts.
+  <br/>
+  <br/>
+  This position is an individual contributor position and reports to the Senior Director, GTM Intelligence.
+  <br/>
+  <br/>
+  Responsibilities
+  <br/>
+  <br/>
+  Design and build models to drive predictive &amp; prescriptive analytics to support growth initiatives
+  <br/>
+  Build and drive product recommendation systems that support the DocuSign Agreement Cloud
+  <br/>
+  Generate predictive metrics to support account based intelligence initiatives including opportunity strength, bookings potential, product offerings, and upsell/cross-sell opportunities
+  <br/>
+  Support data ingestion from multiple infrastructures
+  <br/>
+  Coordinate effective, quantitative strategies directly derived from communication with stakeholders
+  <br/>
+  Design experiments that evaluate the effectiveness of predictive solutions
+  <br/>
+  Lead development of data schemas that facilitates effective
+  <br/>
+  Develop data preparation processes to consolidate heterogeneous datasets and work around data quality issues
+  <br/>
+  Communicate and present strategic insights to non-technical audiences
+  <br/>
+  <br/>
+  Basic Qualifications
+  <br/>
+  <br/>
+  Bachelor's degree in Data Analytics, Applied Statistics, Mathematics, Computer Science, or a similar quantitative field
+  <br/>
+  8 years of relevant work experience
+  <br/>
+  Ability to draw conclusions from data and recommend action
+  <br/>
+  Solid SQL skills and Python fluency
+  <br/>
+  Experience in training, evaluating, and utilizing predictive models
+  <br/>
+  Ability to break down technical concepts into simple terms to present to diverse, technical and non-technical audiences
+  <br/>
+  <br/>
+  Preferred Qualifications
+  <br/>
+  <br/>
+  5 years working in SaaS or related technologies
+  <br/>
+  Experience in training and deploying machine learning models in production environments
+  <br/>
+  Effective written and verbal communication skills
+  <br/>
+  Understanding of working with International business units and respective nuances
+  <br/>
+  Exemplary business facing skills, understanding of marketing, sales and customer success business needs that drive systems requirements
+  <br/>
+  <br/>
+  About Us
+  <br/>
+  <br/>
+  DocuSign® helps organizations connect and automate how they prepare, sign, act on, and manage agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignature: the world's #1 way to sign electronically on practically any device, from almost anywhere, at any time. Today, hundreds of thousands of customers and hundreds of millions of users in over 180 countries use DocuSign to accelerate the process of doing business and simplify people's lives. Plus, we save more trees together! And that's a good thing.
+  <br/>
+  <br/>
+  DocuSign is an Equal Opportunity Employer. DocuSign is committed to building a diverse team of talented individuals who bring different perspectives to the business and who feel a sense of inclusion and belonging when they join our team. Individuals seeking employment at DocuSign are considered without regards to race, ethnicity, color, age, sex, religion, national origin, ancestry, pregnancy, sexual orientation, gender identity, gender expression, genetic information, physical or mental disability, registered domestic partner status, caregiver status, marital status, veteran or military status, citizenship status, or any other legally protected category.
+  <br/>
+  <br/>
+  #LI-DS1
+ </div>
+ <div class="mosaic-zone" id="mosaic-zone-belowFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+</div>
+<div id="mapRoot">
+</div>
+<div id="welcomeToIndeedModal">
+</div>
+<div id="successfullySignedInModal">
+</div>
+<div class="jobsearch-JobTab-content">
+ <div class="mosaic-zone" id="mosaic-zone-belowJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-JobMetadataFooter">
+  <span class="icl-u-textColor--success">
+   DocuSign
+  </span>
+  - 30+ days ago
+  <span class="icl-u-lg-inline icl-u-xs-hide" id="saveJobInlineCallout">
+   -
+   <a title="Save this job to my.indeed">
+    save job
+   </a>
+  </span>
+  <div class="mosaic mosaic-provider-reportcontent" id="mosaic-provider-reportcontent">
+   <span>
+    <span class="mosaic-reportcontent-link">
+     <a type="link">
+      report job
+     </a>
+    </span>
+    <div class="mosaic-reportcontent-content">
+    </div>
+   </span>
+  </div>
+  <span class="icl-u-lg-inline icl-us-xs-hide" id="originalJobLinkContainer">
+   -
+   <a href="https://www.indeed.com/rc/clk?jk=28a85a4d8231f1aa&amp;from=vj&amp;pos=top&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgaCcFvVoQP0BJDL9GP0tzG5Z_dA0xndw9ylAW4Hz2CAQ" rel="noopener" target="_blank">
+    original job
+   </a>
+  </span>
+  <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-mt--md" id="saveJobInlineCalloutContainer">
+  </div>
+ </div>
+</div>
+<div class="icl-Grid icl-Grid--gutters">
+ <div class="jobsearch-ViewJobButtons-container icl-u-xs-my--md icl-Grid-col icl-u-xs-span12 icl-u-xs-textCenter icl-u-lg-textLeft" id="jobsearch-ViewJobButtons-container">
+  <div class="mosaic-zone" id="mosaic-zone-aboveViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+  <div class="icl-u-lg-inlineBlock" id="viewJobButtonLinkContainer">
+   <div class="" id="applyButtonLinkContainer">
+    <div class="icl-u-lg-hide">
+     <a class="icl-Button icl-Button--primary icl-Button--block" href="https://www.indeed.com/rc/clk?jk=28a85a4d8231f1aa&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgaCcFvVoQP0BJDL9GP0tzG5Z_dA0xndw9ylAW4Hz2CAQ">
+      Apply Now
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-textCenter">
+     <a class="icl-Button icl-Button--primary icl-Button--md" href="https://www.indeed.com/rc/clk?jk=28a85a4d8231f1aa&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgaCcFvVoQP0BJDL9GP0tzG5Z_dA0xndw9ylAW4Hz2CAQ">
+      Apply On Company Site
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="icl-u-lg-inlineBlock" data-loginurl="https://www.indeed.com/account/login?dest=%2Fviewjob%3Fjk%3D28a85a4d8231f1aa" id="saveJobButtonContainer">
+   <div class="icl-u-lg-hide">
+    <button class="icl-Button icl-Button--secondary icl-Button--block" disabled="true" type="button">
+     <span class="icl-ButtonIcon">
+      <svg aria-label="save-icon" class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--inheritColor favorite-border" focusable="false" role="img">
+       <g>
+        <path d="M12.38,2.25A4.49,4.49,0,0,0,9,3.82,4.49,4.49,0,0,0,5.63,2.25,4.08,4.08,0,0,0,1.5,6.38c0,2.83,2.55,5.15,6.41,8.66L9,16l1.09-1C14,11.52,16.5,9.21,16.5,6.38A4.08,4.08,0,0,0,12.38,2.25ZM9.08,13.91L9,14l-0.08-.08C5.35,10.68,3,8.54,3,6.38A2.56,2.56,0,0,1,5.63,3.75,2.93,2.93,0,0,1,8.3,5.52H9.7a2.91,2.91,0,0,1,2.67-1.77A2.56,2.56,0,0,1,15,6.38C15,8.54,12.65,10.68,9.08,13.91Z">
+        </path>
+       </g>
+      </svg>
+     </span>
+     Save this job
+    </button>
+   </div>
+   <div class="icl-u-xs-block icl-u-lg-hide">
+   </div>
+  </div>
+  <div class="icl-u-lg-hide" id="shareJobButton">
+   <button class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block" disabled="true" type="button">
+    Share this job
+   </button>
+  </div>
+  <div id="saveJobFailureModal">
+  </div>
+  <div class="mosaic-zone" id="mosaic-zone-belowViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+ </div>
+</div>

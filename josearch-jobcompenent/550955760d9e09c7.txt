@@ -1,0 +1,359 @@
+<div id="welcomeToIndeedCard">
+</div>
+<div class="jobsearch-DesktopStickyContainer">
+ <div class="jobsearch-JobInfoHeader-title-container">
+  <h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+   Data Scientist
+  </h3>
+ </div>
+ <div class="jobsearch-CompanyInfoWithoutHeaderImage">
+  <div class="icl-u-xs-mt--xs icl-u-textColor--secondary jobsearch-JobInfoHeader-subtitle jobsearch-DesktopStickyContainer-subtitle">
+   <div class="jobsearch-InlineCompanyRating icl-u-xs-mt--xs jobsearch-DesktopStickyContainer-companyrating">
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     Rapid Value Solution's Client
+    </div>
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     -
+    </div>
+    <div>
+     San Francisco, CA
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="jobsearch-JobMetadataHeader-item">
+  <span class="icl-u-xs-mr--xs">
+   $90 - $115 an hour
+  </span>
+  <span class="jobsearch-JobMetadataHeader-item icl-u-xs-mt--xs">
+   -  Contract
+  </span>
+ </div>
+ <div class="icl-u-lg-block icl-u-xs-hide">
+ </div>
+ <div id="indeedApplyExplanationContainer">
+ </div>
+ <div class="jobsearch-StickyContainerDivider">
+  <div class="jobsearch-StickyContainerDivider-line">
+  </div>
+ </div>
+</div>
+<div class="mosaic-zone" id="mosaic-zone-aboveExtractedJobDescription">
+</div>
+<script type="text/javascript">
+ try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveExtractedJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+</script>
+<div class="jobsearch-JobComponent-description icl-u-xs-mt--md">
+ <div class="mosaic-zone" id="mosaic-zone-aboveFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-jobDescriptionText" id="jobDescriptionText">
+  <p>
+   <b>
+    Python
+   </b>
+   <br/>
+   <b>
+    AWS - Glue (ETL)
+   </b>
+   <br/>
+   <b>
+    AWS - redshift
+   </b>
+   <br/>
+   <b>
+    &amp; very strong SQL capabilities
+   </b>
+  </p>
+  <p>
+   <b>
+    Mandatory Skills
+   </b>
+  </p>
+  <ul>
+   <li>
+    Experience with the data science lifecycle, including data engineering, feature engineering, model building and evaluation, model deployment.
+   </li>
+   <li>
+    Knowledge of commonly used data science programming languages, packages, and tools,
+    <b>
+     especially Python.
+    </b>
+   </li>
+   <li>
+    Understanding of data science/machine learning models and algorithms, not limited to: deep learning (CNN, RNN etc), decision trees (e.g. xgboost, random forest), unsupervised techniques (e.g. clustering, anomaly detection), natural language processing and statistical methods.
+   </li>
+   <li>
+    Experience training models in a public cloud environment, using tools such as Jupyter, AWS Sagemaker.
+   </li>
+   <li>
+    Ability to synthesize complex information into clear insights and translate those insights into decisions and actions.
+   </li>
+   <li>
+    Ability to clearly communicate complex technical details and insights to colleagues and stakeholders.
+   </li>
+  </ul>
+  <p>
+   · Knowledge of the mathematical and statistical fields that underpin data science
+  </p>
+  <p>
+   · Knowledge of systems thinking and decomposition of complex problems.
+  </p>
+  <p>
+   · Humble – is open to being coached, has high EQ and is self-aware
+  </p>
+  <p>
+   · Hungry – desires to get things done while honoring people, and seeks better ways to do the job
+  </p>
+  <p>
+   · Collaborative – has strong interpersonal skills; cares about and works well with teammates
+  </p>
+  <p>
+   <b>
+    Position Responsibilities:
+   </b>
+  </p>
+  <p>
+   · Applies machine learning and other analytical modeling methods to develop robust and reliable analytical models, including visualizations, within software development environment.
+  </p>
+  <p>
+   · Gathers, cleans, transforms, and/or reduces data from dissimilar sources from across organization.
+  </p>
+  <p>
+   · Collaborates with team members and stakeholders to effectively manage the lifecycle of a model, retraining, replacing or sunsetting models when appropriate.
+  </p>
+  <p>
+   · Shares and collaborates with other data scientists.
+  </p>
+  <p>
+   · Delivers best-in-class software as part of a software delivery team.
+  </p>
+  <p>
+   <b>
+    Minimum Education/Skills:
+   </b>
+  </p>
+  <p>
+   · Bachelor’s Degree in Econometrics, Economics, Engineering, Mathematics, Applied Sciences, Statistics or job-related discipline or equivalent experience
+  </p>
+  <p>
+   · Job-related experience, 7 years, OR Master’s Degree and job-related experience, 5 years, OR Doctorate
+  </p>
+  <p>
+   Job Type: Contract
+  </p>
+  <p>
+   Salary: $90.00 to $115.00 /hour
+  </p>
+  <p>
+   Experience:
+  </p>
+  <ul>
+   <li>
+    AWS Redshift: 3 years (Required)
+   </li>
+   <li>
+    Data Scientist: 5 years (Required)
+   </li>
+   <li>
+    Glue: 1 year (Required)
+   </li>
+   <li>
+    Python: 3 years (Required)
+   </li>
+  </ul>
+  <p>
+   Benefits:
+  </p>
+  <ul>
+   <li>
+    None
+   </li>
+  </ul>
+  <p>
+   Schedule:
+  </p>
+  <ul>
+   <li>
+    Monday to Friday
+   </li>
+  </ul>
+  <p>
+   Work Remotely:
+  </p>
+  <ul>
+   <li>
+    Temporarily due to COVID-19
+   </li>
+  </ul>
+ </div>
+ <div class="mosaic-zone" id="mosaic-zone-belowFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+</div>
+<div id="mapRoot">
+</div>
+<div id="welcomeToIndeedModal">
+</div>
+<div id="successfullySignedInModal">
+</div>
+<div class="jobsearch-JobTab-content">
+ <div class="mosaic-zone" id="mosaic-zone-belowJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-JobMetadataFooter">
+  - 14 days ago
+  <span class="icl-u-lg-inline icl-u-xs-hide" id="saveJobInlineCallout">
+   -
+   <a title="Save this job to my.indeed">
+    save job
+   </a>
+  </span>
+  <div class="mosaic mosaic-provider-reportcontent" id="mosaic-provider-reportcontent">
+   <span>
+    <span class="mosaic-reportcontent-link">
+     <a type="link">
+      report job
+     </a>
+    </span>
+    <div class="mosaic-reportcontent-content">
+    </div>
+   </span>
+  </div>
+  <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-mt--md" id="saveJobInlineCalloutContainer">
+  </div>
+  <div class="icl-u-xs-mt--md" id="indeedApplyAdaNoticeContainer">
+   If you require alternative methods of application or screening, you must approach the employer directly to request this as Indeed is not responsible for the employer's application process.
+  </div>
+ </div>
+</div>
+<div class="icl-Grid icl-Grid--gutters">
+ <div class="jobsearch-ViewJobButtons-container icl-u-xs-my--md icl-Grid-col icl-u-xs-span12 icl-u-xs-textCenter icl-u-lg-textLeft" id="jobsearch-ViewJobButtons-container">
+  <div class="mosaic-zone" id="mosaic-zone-aboveViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+  <div class="jobsearch-ButtonContainer-inlineBlock icl-u-lg-inlineBlock jobsearch-indeedApplyButton-bottomMargin">
+   <div class="jobsearch-IndeedApplyButton jobSearch-u-is-hidden" id="indeedApplyButtonContainer">
+    <span class="indeed-apply-widget" data-indeed-apply-advnum="575563521415058" data-indeed-apply-apitoken="aa102235a5ccb18bd3668c0e14aa3ea7e2503cfac2a7a9bf3d6549899e125af4" data-indeed-apply-clickhandler="window.top.postMessage({eventType: 'click'}, '*')" data-indeed-apply-continueurl="http://www.indeed.com/viewjob?jk=550955760d9e09c7&amp;applied=1&amp;sita=1&amp;from=postapply" data-indeed-apply-coverletter="optional" data-indeed-apply-dismisshandler="window.top.postMessage({eventType: 'dismiss'}, '*')" data-indeed-apply-inpageapplyhandler="window.top.postMessage({eventType: 'inpageapply'}, '*')" data-indeed-apply-jk="550955760d9e09c7" data-indeed-apply-jobcompanyname="Rapid Value Solution's Client" data-indeed-apply-jobid="6a627526a4e93a4e94ee" data-indeed-apply-joblocation="San Francisco, CA" data-indeed-apply-jobtitle="Data Scientist" data-indeed-apply-joburl="https://www.indeed.com/viewjob?jk=550955760d9e09c7" data-indeed-apply-nobuttonui="true" data-indeed-apply-onappliedstatus="_updateIndeedApplyStatus" data-indeed-apply-onready="_onButtonReady" data-indeed-apply-pingbackurl="https://gdc.indeed.com/conv/orgIndApp?vjtk=1e99ha0bpppv4800&amp;jk=550955760d9e09c7&amp;co=US" data-indeed-apply-posturl="https://dradisindeedapply.sandbox.indeed.net/process-indeedapply" data-indeed-apply-questions="nigma://Wmh2b11dFV1WF0BcREtq?locale=en_US&amp;v=3" data-indeed-apply-recentapplies='{"all":94,"qualified":8}' data-indeed-apply-resume="required">
+     <div class="icl-u-lg-hide">
+      <button class="icl-Button icl-Button--branded icl-Button--block" type="button">
+       <div class="jobsearch-IndeedApplyButton-contentWrapper">
+        Apply Now
+       </div>
+      </button>
+     </div>
+     <div class="jobsearch-IndeedApplyButton-buttonWrapper icl-u-lg-block icl-u-xs-hide">
+      <button class="icl-Button icl-Button--branded icl-Button--md" type="button">
+       <div class="jobsearch-IndeedApplyButton-contentWrapper">
+        Apply Now
+       </div>
+      </button>
+     </div>
+    </span>
+   </div>
+  </div>
+  <div class="icl-u-lg-inlineBlock" data-loginurl="https://www.indeed.com/account/login?dest=%2Fviewjob%3Fjk%3D550955760d9e09c7" id="saveJobButtonContainer">
+   <div class="icl-u-lg-hide">
+    <button class="icl-Button icl-Button--secondary icl-Button--block" disabled="true" type="button">
+     <span class="icl-ButtonIcon">
+      <svg aria-label="save-icon" class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--inheritColor favorite-border" focusable="false" role="img">
+       <g>
+        <path d="M12.38,2.25A4.49,4.49,0,0,0,9,3.82,4.49,4.49,0,0,0,5.63,2.25,4.08,4.08,0,0,0,1.5,6.38c0,2.83,2.55,5.15,6.41,8.66L9,16l1.09-1C14,11.52,16.5,9.21,16.5,6.38A4.08,4.08,0,0,0,12.38,2.25ZM9.08,13.91L9,14l-0.08-.08C5.35,10.68,3,8.54,3,6.38A2.56,2.56,0,0,1,5.63,3.75,2.93,2.93,0,0,1,8.3,5.52H9.7a2.91,2.91,0,0,1,2.67-1.77A2.56,2.56,0,0,1,15,6.38C15,8.54,12.65,10.68,9.08,13.91Z">
+        </path>
+       </g>
+      </svg>
+     </span>
+     Save this job
+    </button>
+   </div>
+   <div class="icl-u-xs-block icl-u-lg-hide">
+   </div>
+  </div>
+  <div class="icl-u-lg-hide" id="shareJobButton">
+   <button class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block" disabled="true" type="button">
+    Share this job
+   </button>
+  </div>
+  <div id="saveJobFailureModal">
+  </div>
+  <div class="mosaic-zone" id="mosaic-zone-belowViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+ </div>
+</div>

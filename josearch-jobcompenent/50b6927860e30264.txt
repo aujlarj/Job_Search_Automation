@@ -1,0 +1,638 @@
+<div id="welcomeToIndeedCard">
+</div>
+<div class="jobsearch-DesktopStickyContainer">
+ <div class="jobsearch-JobInfoHeader-title-container">
+  <h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+   Senior Director, Commercial Data Strategy
+  </h3>
+ </div>
+ <div class="jobsearch-CompanyInfoWithoutHeaderImage jobsearch-CompanyInfoWithReview">
+  <div class="icl-u-xs-mt--xs icl-u-textColor--secondary jobsearch-JobInfoHeader-subtitle jobsearch-DesktopStickyContainer-subtitle">
+   <div class="jobsearch-InlineCompanyRating icl-u-xs-mt--xs jobsearch-DesktopStickyContainer-companyrating">
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     <a href="https://www.indeed.com/cmp/Gilead-Sciences?campaignid=mobvjcmp&amp;from=mobviewjob&amp;tk=1e99ha2m7ovt7800&amp;fromjk=50b6927860e30264" target="_blank">
+      Gilead Sciences
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-lg-mr--sm icl-u-xs-hide">
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--sm" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="3.5999999046325684" itemprop="ratingValue">
+       <meta content="421" itemprop="ratingCount">
+        <a aria-label="3.6 out of 5" class="icl-Ratings-starsCountWrapper icl-Ratings-link" href="https://www.indeed.com/cmp/Gilead-Sciences/reviews?campaignid=viewjob&amp;cmpratingc=mobviewjob&amp;from=viewjob&amp;tk=1e99ha2m7ovt7800&amp;fromjk=50b6927860e30264&amp;jt=Senior+Director%2C+Commercial+Data+Strategy">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 42.59999942779541px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          421 reviews
+         </div>
+        </a>
+       </meta>
+      </meta>
+     </div>
+    </div>
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     -
+    </div>
+    <div>
+     San Francisco, CA
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="jobsearch-CompanyReview icl-u-lg-hide">
+  <a class="icl-NavigableContainer-linkWrapper" href="https://www.indeed.com/cmp/Gilead-Sciences/reviews?campaignid=mobvjcmp&amp;cmpratingc=mobviewjob&amp;from=mobviewjob&amp;tk=1e99ha2m7ovt7800&amp;fromjk=50b6927860e30264&amp;jt=Senior+Director%2C+Commercial+Data+Strategy">
+   <div class="icl-NavigableContainer icl-NavigableContainer--hasBorderBottom icl-NavigableContainer--hasBorderTop">
+    <div class="icl-NavigableContainer-innerContainer">
+     <h4 class="jobsearch-CompanyReview--heading">
+      Gilead Sciences
+     </h4>
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--md" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="3.5999999046325684" itemprop="ratingValue">
+       <meta content="421" itemprop="ratingCount">
+        <div aria-label="3.6 out of 5" class="icl-Ratings-starsCountWrapper" tabindex="0">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 64.19999885559082px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          421 reviews
+         </div>
+        </div>
+        <div aria-hidden="true" class="icl-Ratings-description">
+         Read what people are saying about working here.
+        </div>
+       </meta>
+      </meta>
+     </div>
+     <div class="icl-NavigableContainer-iconContainer">
+      <div class="icl-NavigableContainer-icon icl-NavigableContainer-icon--isRightArrow">
+       <svg class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--black chevron-right" focusable="false" role="img">
+        <g>
+         <path d="M7.5,4.5L6.44,5.56,9.88,9,6.44,12.44,7.5,13.5,12,9Z">
+         </path>
+        </g>
+       </svg>
+      </div>
+     </div>
+    </div>
+   </div>
+  </a>
+ </div>
+ <div class="icl-u-lg-block icl-u-xs-hide">
+ </div>
+ <div id="indeedApplyExplanationContainer">
+ </div>
+ <div class="jobsearch-StickyContainerDivider">
+  <div class="jobsearch-StickyContainerDivider-line">
+  </div>
+ </div>
+</div>
+<div class="mosaic-zone" id="mosaic-zone-aboveExtractedJobDescription">
+</div>
+<script type="text/javascript">
+ try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveExtractedJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+</script>
+<div class="jobsearch-JobComponent-description icl-u-xs-mt--md">
+ <div class="mosaic-zone" id="mosaic-zone-aboveFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-jobDescriptionText" id="jobDescriptionText">
+  <div>
+   <h2 class="jobSectionHeader">
+    <b>
+     For Current Gilead Employees and Contractors:
+    </b>
+   </h2>
+   <p>
+    Please log onto your Internal Career Site to apply for this job.
+   </p>
+   <p>
+   </p>
+   <h2 class="jobSectionHeader">
+    <b>
+     Job Description
+    </b>
+   </h2>
+   <h2 class="jobSectionHeader">
+    <p>
+     <b>
+      Gilead Sciences, Inc. is a research-based biopharmaceutical company that discovers, develops, and commercializes innovative medicines in areas of unmet medical need. We strive to transform and simplify care for people with life-threatening illnesses around the world. Gilead's portfolio of products and pipeline of investigational drugs includes treatments for HIV/AIDS, liver diseases, cancer, inflammatory and respiratory diseases, and cardiovascular conditions.
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      Gilead was founded in 1987 in Foster City, California. Since then, we have grown to become one of the world’s largest biopharmaceutical companies, with over 10,000 employees across six continents, and business locations in 38 countries.
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      We have the following exciting opportunity in our Foster City, CA location:
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      Senior Director, Commercial Data Strategy
+     </b>
+    </p>
+    <p>
+     <b>
+      The Senior Director reports directly to the Global Vice President, Digital Commercial Innovation and is based in Foster City, CA. He/She has responsibility for coordinating all data needs across Global Commercial Operations, G9 core countries, and brands. This individual must also
+     </b>
+     <b>
+      work
+     </b>
+     <b>
+      in close collaboration with Marketing Sciences, the R&amp;D organization, Medical Affairs, Manufacturing, IT, and other functions at Gilead and is expected to operate with a “one Gilead” mindset. The ideal candidate will be instrumental in architecting commercial data strategy, data standards, stewardship and governance. He/she will deploy both strategy and operational considerations in scouting new sources of data, data generation, reporting, and annual data planning to advance actionable insights in support of our mission.
+      <br/>
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      Key Responsibilities
+     </b>
+    </p>
+    <p>
+     <b>
+      o
+     </b>
+     <b>
+      Establish Data Strategy and Implement Operating Model
+     </b>
+     <b>
+      :
+     </b>
+    </p>
+    <ul>
+     <li>
+      <b>
+       Outline key design principles for data governance, including philosophy around data stewardship, aligned with the commercial and corporate strategy.
+      </b>
+     </li>
+     <li>
+      <b>
+       Define operating model and change management considerations for data governance across commercial.
+      </b>
+     </li>
+     <li>
+      <b>
+       Democratize data access across commercial by fostering a mindset of data stewardship over data ownership, and effectively ingesting external data. Select and implement the best tools for data democratization.
+      </b>
+     </li>
+     <li>
+      <b>
+       Represent commercial interests in the internal Gilead cross functional data governance council.
+      </b>
+     </li>
+     <li>
+      <b>
+       Conduct high level mapping of available data sources, including data flow and pipeline requirements. Develop an understanding of architecture needs.
+      </b>
+     </li>
+    </ul>
+    <p>
+     <b>
+      o
+     </b>
+     <b>
+      Partner with the Business to Drive Commercial Value
+     </b>
+     <b>
+      :
+     </b>
+    </p>
+    <ul>
+     <li>
+      <b>
+       Anticipate data needs across commercial and develop and annual planning data process. Collaborate with other functional leads to develop
+      </b>
+      <b>
+       and implement a harmonized data acquisition process, data on-boarding, and utilization considerations.
+      </b>
+     </li>
+     <li>
+      <b>
+       In collaboration with Marketing Sciences and the brand teams, determine and execute the most impactful use cases to illuminate new data acquisitions or
+      </b>
+      <b>
+       new
+      </b>
+      <b>
+       uses of existing data sources and analyses. Evaluate the use of Big Data and Artificial Intelligence to drive commercial value.
+      </b>
+     </li>
+     <li>
+      <b>
+       Collaborate with Marketing Sciences as the data partner to deliver actional insights to the business.
+      </b>
+     </li>
+     <li>
+      <b>
+       Continuously gather data insights to build business efficiencies and address gaps in capabilities.
+      </b>
+     </li>
+    </ul>
+    <p>
+     <b>
+      o
+     </b>
+     <b>
+      Ensure Data Quality, Privacy and Protection
+     </b>
+     <b>
+      :
+     </b>
+    </p>
+    <ul>
+     <li>
+      <b>
+       Harmonize key policies (e.g. Data Quality, Data Definition, Data Creation policies) and processes necessary to carry out those policies, in collaboration with cross functional data governance council.
+      </b>
+     </li>
+     <li>
+      <b>
+       Partner with legal and compliance to account for and uphold diverse privacy and compliance requirements across geographies. Ensure appropriate protections for data integrity, privacy, and regulatory compliance, including assurances for analysis validity.
+      </b>
+     </li>
+    </ul>
+    <p>
+     <b>
+      o
+     </b>
+     <b>
+      Leadership
+     </b>
+     <b>
+      :
+     </b>
+    </p>
+    <ul>
+     <li>
+      <b>
+       Impeccable credibility as a
+      </b>
+      <b>
+       thought
+      </b>
+      <b>
+       leader and partner to the brand teams, country teams and other cross-functional partners.
+      </b>
+     </li>
+     <li>
+      <b>
+       Empower internal and external data scientists and marketing sciences colleagues to leverage data available by providing resources, tools, and trainings.
+      </b>
+     </li>
+     <li>
+      <b>
+       Negotiate “One Gilead” data contracts with third party providers.
+      </b>
+     </li>
+    </ul>
+    <p>
+    </p>
+    <p>
+     <b>
+      Qualifications:
+     </b>
+    </p>
+    <ul>
+     <li>
+      <b>
+       Bachelor's degree with 16+ years’ experience with extensive knowledge of technology led business strategy transformation; or 14+ years with MBA/MS with extensive knowledge of technology led business strategy transformation.
+      </b>
+     </li>
+     <li>
+      <b>
+       Proven leadership in the pharmaceutical and or/health tech industry. Knowledge of analytics approaches in biopharma including descriptive and predictive analytics as well as primary research approaches in competitive intelligence, quantitative and qualitative market research.
+      </b>
+     </li>
+     <li>
+      <b>
+       Understanding of emerging capabilities in natural language processing, unstructured data, etc. and potential application in pharma/health care.
+      </b>
+     </li>
+     <li>
+      <b>
+       Ability to translate complex data insights into actionable business recommendations
+      </b>
+     </li>
+     <li>
+      <b>
+       Recruited, developed, mentored and motivated executives as well as built teams of Data Analysts, Data Scientists and Data Designers that deliver results and achieve objectives to support business needs
+      </b>
+     </li>
+     <li>
+      <b>
+       Excellent influencing and networking skills paired with stakeholder management experience in a multi-layered global environment
+      </b>
+     </li>
+     <li>
+      <b>
+       Experience in Agile methodology and execution and design thinking
+      </b>
+     </li>
+     <li>
+      <b>
+       Availability to travel internationally as required
+      </b>
+     </li>
+    </ul>
+    <p>
+    </p>
+    <p>
+     <b>
+      Competencies:
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      <i>
+       Results orientation
+      </i>
+     </b>
+     <b>
+      <i>
+       .
+      </i>
+     </b>
+     <b>
+      The ideal candidate will thrive in a fast-paced, high-growth environment. He/She will have a strong drive to meet and exceed goals, even under adverse circumstances, and is willing to take ownership of problems and make decisions in order to move forward. The candidate will be adept at clearly defining objectives and priorities and establishing appropriate milestones through a strong understanding of the market and innovative approaches. He/She will assign accountability and incorporate disciplined processes to ensure success and nimbly handle ‘derailments’ with contingency plans and coordination.
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      <i>
+       Team leadership.
+      </i>
+     </b>
+     <b>
+      The successful candidate will have demonstrated the ability to build, develop, and motivate a team as evidenced by effective hiring, coaching, and mentoring of direct reports. Additionally, this individual will have a track record of successfully leveraging diversity of thought to achieve the highest level of results. The ideal candidate will develop an inclusive culture comfortable with challenging current market paradigms to achieve and exceed goals. He/She will also have constructed an appropriate succession plan and process.
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      <i>
+       Strategic Orientation
+      </i>
+     </b>
+     <b>
+      .
+     </b>
+     <b>
+      The successful candidate will be able to articulate evolving priorities for the business, identify market opportunities and adapt short-term plans. This includes the ability to strategically assess customer needs and build/execute specific, segmented strategies to win business across a diverse set of customers. The successful candidate will have passion for, and success in, developing commercial strategies that have measurable business impact.
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      <i>
+       Collaboration and Influence.
+      </i>
+     </b>
+     <b>
+      The qualified candidate must be able to influence without ownership, which they will do by demonstrating competence and confidence, being personally accessible and likable, being a good listener, use fact-based persuasion, passion, and persistence as appropriate to the audience and issue at stake. Gaining the support and involvement of key internal constituencies will be critical to success, as will influencing those important constituencies external to the company. The successful candidate must therefore have excellent skills at influencing outcomes, and shaping and catalyzing dialogue across and outside the organization. Credibility and integrity are critical attributes to effectively command the respect and trust of key individuals.
+     </b>
+    </p>
+    <p>
+    </p>
+    <p>
+     <b>
+      We’re an equal opportunity employer. Apply online today through the Workday “Career” worklet.
+      <br/>
+     </b>
+    </p>
+   </h2>
+   <h2 class="jobSectionHeader">
+    <br/>
+    <b>
+     For jobs in the United States:
+    </b>
+   </h2>
+   <p>
+    As an equal opportunity employer, Gilead Sciences Inc. is committed to a diverse workforce. Employment decisions regarding recruitment and selection will be made without discrimination based on race, color, religion, national origin, gender, age, sexual orientation, physical or mental disability, genetic information or characteristic, gender identity and expression, veteran status, or other non-job related characteristics or other prohibited grounds specified in applicable federal, state and local laws. In order to ensure reasonable accommodation for individuals protected by Section 503 of the Rehabilitation Act of 1973, the Vietnam Era Veterans' Readjustment Act of 1974, and Title I of the Americans with Disabilities Act of 1990, applicants who require accommodation in the job application process may contact careers@gilead.com for assistance.
+   </p>
+   <p>
+   </p>
+   <p>
+    For more information about equal employment opportunity protections, please view the ‘EEO is the Law’ poster.
+   </p>
+   <p>
+   </p>
+   <p>
+    NOTICE: EMPLOYEE POLYGRAPH PROTECTION ACT
+    <br/>
+    YOUR RIGHTS UNDER THE FAMILY AND MEDICAL LEAVE ACT
+   </p>
+   <p>
+    PAY TRANSPARENCY NONDISCRIMINATION PROVISION
+   </p>
+   <p>
+   </p>
+   <p>
+    Our environment respects individual differences and recognizes each employee as an integral member of our company. Our workforce reflects these values and celebrates the individuals who make up our growing team.
+   </p>
+   <p>
+    Gilead provides a work environment free of harassment and prohibited conduct. We promote and support individual differences and diversity of thoughts and opinion.
+    <br/>
+   </p>
+   <h2 class="jobSectionHeader">
+    <br/>
+    <b>
+     For Current Gilead Employees and Contractors:
+    </b>
+   </h2>
+   <p>
+    Please log onto your Internal Career Site to apply for this job.
+   </p>
+  </div>
+ </div>
+ <div class="mosaic-zone" id="mosaic-zone-belowFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+</div>
+<div id="mapRoot">
+</div>
+<div id="welcomeToIndeedModal">
+</div>
+<div id="successfullySignedInModal">
+</div>
+<div class="jobsearch-JobTab-content">
+ <div class="mosaic-zone" id="mosaic-zone-belowJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-JobMetadataFooter">
+  <span class="icl-u-textColor--success">
+   Gilead Sciences
+  </span>
+  - 30+ days ago
+  <span class="icl-u-lg-inline icl-u-xs-hide" id="saveJobInlineCallout">
+   -
+   <a title="Save this job to my.indeed">
+    save job
+   </a>
+  </span>
+  <div class="mosaic mosaic-provider-reportcontent" id="mosaic-provider-reportcontent">
+   <span>
+    <span class="mosaic-reportcontent-link">
+     <a type="link">
+      report job
+     </a>
+    </span>
+    <div class="mosaic-reportcontent-content">
+    </div>
+   </span>
+  </div>
+  <span class="icl-u-lg-inline icl-us-xs-hide" id="originalJobLinkContainer">
+   -
+   <a href="https://www.indeed.com/rc/clk?jk=50b6927860e30264&amp;from=vj&amp;pos=top&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXiW-m-K_7tTyOsUC6dUZrusIv02HSGSZoWequxOEmCHqw" rel="noopener" target="_blank">
+    original job
+   </a>
+  </span>
+  <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-mt--md" id="saveJobInlineCalloutContainer">
+  </div>
+ </div>
+</div>
+<div class="icl-Grid icl-Grid--gutters">
+ <div class="jobsearch-ViewJobButtons-container icl-u-xs-my--md icl-Grid-col icl-u-xs-span12 icl-u-xs-textCenter icl-u-lg-textLeft" id="jobsearch-ViewJobButtons-container">
+  <div class="mosaic-zone" id="mosaic-zone-aboveViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+  <div class="icl-u-lg-inlineBlock" id="viewJobButtonLinkContainer">
+   <div class="" id="applyButtonLinkContainer">
+    <div class="icl-u-lg-hide">
+     <a class="icl-Button icl-Button--primary icl-Button--block" href="https://www.indeed.com/rc/clk?jk=50b6927860e30264&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXiW-m-K_7tTyOsUC6dUZrusIv02HSGSZoWequxOEmCHqw">
+      Apply Now
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-textCenter">
+     <a class="icl-Button icl-Button--primary icl-Button--md" href="https://www.indeed.com/rc/clk?jk=50b6927860e30264&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXiW-m-K_7tTyOsUC6dUZrusIv02HSGSZoWequxOEmCHqw">
+      Apply On Company Site
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="icl-u-lg-inlineBlock" data-loginurl="https://www.indeed.com/account/login?dest=%2Fviewjob%3Fjk%3D50b6927860e30264" id="saveJobButtonContainer">
+   <div class="icl-u-lg-hide">
+    <button class="icl-Button icl-Button--secondary icl-Button--block" disabled="true" type="button">
+     <span class="icl-ButtonIcon">
+      <svg aria-label="save-icon" class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--inheritColor favorite-border" focusable="false" role="img">
+       <g>
+        <path d="M12.38,2.25A4.49,4.49,0,0,0,9,3.82,4.49,4.49,0,0,0,5.63,2.25,4.08,4.08,0,0,0,1.5,6.38c0,2.83,2.55,5.15,6.41,8.66L9,16l1.09-1C14,11.52,16.5,9.21,16.5,6.38A4.08,4.08,0,0,0,12.38,2.25ZM9.08,13.91L9,14l-0.08-.08C5.35,10.68,3,8.54,3,6.38A2.56,2.56,0,0,1,5.63,3.75,2.93,2.93,0,0,1,8.3,5.52H9.7a2.91,2.91,0,0,1,2.67-1.77A2.56,2.56,0,0,1,15,6.38C15,8.54,12.65,10.68,9.08,13.91Z">
+        </path>
+       </g>
+      </svg>
+     </span>
+     Save this job
+    </button>
+   </div>
+   <div class="icl-u-xs-block icl-u-lg-hide">
+   </div>
+  </div>
+  <div class="icl-u-lg-hide" id="shareJobButton">
+   <button class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block" disabled="true" type="button">
+    Share this job
+   </button>
+  </div>
+  <div id="saveJobFailureModal">
+  </div>
+  <div class="mosaic-zone" id="mosaic-zone-belowViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+ </div>
+</div>
