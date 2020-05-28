@@ -21,7 +21,7 @@ def write_to_new_file(filename, fileinfo):
                 line = str(index+1) + '. ' + element + '\n'
                 text.write(line)
     else:
-        print('DIFFRENT TYPE!')
+        print('ERROR: DIFFRENT TYPE!')
 
 
 def write_to_existing_file(filename, fileinfo):
@@ -33,6 +33,8 @@ def write_to_existing_file(filename, fileinfo):
             for index, element in enumerate(fileinfo):
                 line = str(index+1) + '. ' + element + '\n'
                 text.write(line)
+    else:
+        print('ERROR: DIFFRENT TYPE!')
 
 
 def create_html(url):
@@ -43,6 +45,7 @@ def create_html(url):
 
 
 def user_input():
+    list_ = []
     country_list = ['us', 'usa', 'america',
                     'united states', 'states', 'canada']
     search_keywords = input('Please enter search words:')
@@ -53,19 +56,24 @@ def user_input():
     while country.lower() not in country_list:
         country = input('Please enter a valid country (Canada or US only):')
 
-    return search_keywords, city, state, country
+    list_ = [search_keywords, city, state, country]
+
+    return list_
 
 
-def get_main_url():
+def get_main_url(url_list):
     usa_domain = 'https://www.indeed.com'
     canada_domain = 'https://ca.indeed.com'
 
-    # search_keywords, city, state, country = user_input()
+    search_keywords = url_list[0]
+    city = url_list[1]
+    state = url_list[2]
+    country = url_list[3]
 
-    country = 'US'
-    search_keywords = 'Data Scienctist'
-    city = 'San Francisco'
-    state = 'CA'
+    # search_keywords = 'Data Scienctist'
+    # city = 'San Francisco'
+    # state = 'CA'
+    # country = 'US'
 
     search_keywords = search_keywords.strip()
     city = city.strip()
@@ -246,7 +254,7 @@ def get_job_description(url_jks):
     return df
 
 
-def merge_dataframes(df1, df2):
+def merge_dataframes(df1, df2, file_names):
     df1_columns = list(df1.columns.values)
     df2_columns = list(df2.columns.values)
     common_columns = list(set(df1_columns) & set(df2_columns))
@@ -255,8 +263,17 @@ def merge_dataframes(df1, df2):
     df3 = df1.merge(df2, how='inner', on=Key)
     df3 = df3[['Primary_Key', 'Title', 'Company',
                'Location', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']]
-    df3.to_csv('file_name.csv', index=False)
-    print(Key)
+
+    # search_keywords = 'Data Scienctist'
+    # city = 'San Francisco'
+    # state = 'CA'
+    # country = 'US'
+
+    file_name = file_names[0] + ' ' + file_names[1] + \
+        ' ' + file_names[2] + ' ' + file_names[3] + '.csv'
+
+    df3.to_csv(file_name, index=False)
+    print('End!')
 
 
 def get_total_num_jobs(job_site):
@@ -291,7 +308,8 @@ def open_browser(url):
 
 
 def main():
-    main_url = get_main_url()
+    user_input_list = user_input()
+    main_url = get_main_url(user_input_list)
 
     # main_url = 'https://www.indeed.com/jobs?q=Data+Scientist+%24157%2C000&l=San+Francisco%2C+CA&radius=0'
 
@@ -301,8 +319,8 @@ def main():
 
     job_url_jks, job_summary_df = get_job_summary(main_url)
     # job_summary_df.to_csv('file_name.csv', index=False)
-    job_description = get_job_description(job_url_jks)
-    merge_dataframes(job_summary_df, job_description)
+    job_description_df = get_job_description(job_url_jks)
+    merge_dataframes(job_summary_df, job_description_df, user_input_list)
 
     # click_eachjob(main_url)
 
