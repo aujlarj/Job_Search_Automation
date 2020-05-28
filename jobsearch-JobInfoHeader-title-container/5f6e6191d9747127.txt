@@ -1,0 +1,3 @@
+<h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+ Artificial Intelligence Architect, Manager - Applied Artificial Intelligence
+</h3>

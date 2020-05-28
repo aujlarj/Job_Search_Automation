@@ -1,0 +1,413 @@
+<div id="welcomeToIndeedCard">
+</div>
+<div class="jobsearch-DesktopStickyContainer">
+ <div class="jobsearch-JobInfoHeader-title-container">
+  <h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+   Senior Data Engineer
+  </h3>
+ </div>
+ <div class="jobsearch-CompanyInfoWithoutHeaderImage jobsearch-CompanyInfoWithReview">
+  <div class="icl-u-xs-mt--xs icl-u-textColor--secondary jobsearch-JobInfoHeader-subtitle jobsearch-DesktopStickyContainer-subtitle">
+   <div class="jobsearch-InlineCompanyRating icl-u-xs-mt--xs jobsearch-DesktopStickyContainer-companyrating">
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     <a href="https://www.indeed.com/cmp/Zeta-Global?campaignid=mobvjcmp&amp;from=mobviewjob&amp;tk=1e99ha37pon74800&amp;fromjk=a1983a3321768472" target="_blank">
+      Zeta Global
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-lg-mr--sm icl-u-xs-hide">
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--sm" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="2.5999999046325684" itemprop="ratingValue">
+       <meta content="31" itemprop="ratingCount">
+        <a aria-label="2.6 out of 5" class="icl-Ratings-starsCountWrapper icl-Ratings-link" href="https://www.indeed.com/cmp/Zeta-Global/reviews?campaignid=viewjob&amp;cmpratingc=mobviewjob&amp;from=viewjob&amp;tk=1e99ha37pon74800&amp;fromjk=a1983a3321768472&amp;jt=Senior+Data+Engineer">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 30.59999942779541px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          31 reviews
+         </div>
+        </a>
+       </meta>
+      </meta>
+     </div>
+    </div>
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     -
+    </div>
+    <div>
+     San Francisco, CA
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="jobsearch-CompanyReview icl-u-lg-hide">
+  <a class="icl-NavigableContainer-linkWrapper" href="https://www.indeed.com/cmp/Zeta-Global/reviews?campaignid=mobvjcmp&amp;cmpratingc=mobviewjob&amp;from=mobviewjob&amp;tk=1e99ha37pon74800&amp;fromjk=a1983a3321768472&amp;jt=Senior+Data+Engineer">
+   <div class="icl-NavigableContainer icl-NavigableContainer--hasBorderBottom icl-NavigableContainer--hasBorderTop">
+    <div class="icl-NavigableContainer-innerContainer">
+     <h4 class="jobsearch-CompanyReview--heading">
+      Zeta Global
+     </h4>
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--md" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="2.5999999046325684" itemprop="ratingValue">
+       <meta content="31" itemprop="ratingCount">
+        <div aria-label="2.6 out of 5" class="icl-Ratings-starsCountWrapper" tabindex="0">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 46.19999885559082px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          31 reviews
+         </div>
+        </div>
+        <div aria-hidden="true" class="icl-Ratings-description">
+         Read what people are saying about working here.
+        </div>
+       </meta>
+      </meta>
+     </div>
+     <div class="icl-NavigableContainer-iconContainer">
+      <div class="icl-NavigableContainer-icon icl-NavigableContainer-icon--isRightArrow">
+       <svg class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--black chevron-right" focusable="false" role="img">
+        <g>
+         <path d="M7.5,4.5L6.44,5.56,9.88,9,6.44,12.44,7.5,13.5,12,9Z">
+         </path>
+        </g>
+       </svg>
+      </div>
+     </div>
+    </div>
+   </div>
+  </a>
+ </div>
+ <div class="icl-u-lg-block icl-u-xs-hide">
+ </div>
+ <div id="indeedApplyExplanationContainer">
+ </div>
+ <div class="jobsearch-StickyContainerDivider">
+  <div class="jobsearch-StickyContainerDivider-line">
+  </div>
+ </div>
+</div>
+<div class="mosaic-zone" id="mosaic-zone-aboveExtractedJobDescription">
+</div>
+<script type="text/javascript">
+ try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveExtractedJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+</script>
+<div class="jobsearch-JobComponent-description icl-u-xs-mt--md">
+ <div class="mosaic-zone" id="mosaic-zone-aboveFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-jobDescriptionText" id="jobDescriptionText">
+  <div>
+   <p>
+    Do you crunch data for breakfast? Hungry for a data challenge? If yes, we want to talk to you. Zeta is looking for data engineers with great talent and potential to join us! We are seeking experienced, energetic, and self-starting technologists to join the Data Cloud team. Our Data Cloud team is responsible for the Zeta Identity Graph platform, which captures billions of behavioral, demographic, environmental, and transactional signals, for people-based marketing. As part of this team, the data engineer will be designing and growing our existing data infrastructure to democratize data access, enable complex data analyses, and automate optimization workflows for business and marketing operations.
+   </p>
+   <p>
+   </p>
+   <br/>
+   <p>
+    <b>
+     RESPONSIBILITIES:
+    </b>
+   </p>
+   <p>
+    As a Senior Data Engineer, your responsibilities will include:
+   </p>
+   <ul>
+    <li>
+     Building, refining, tuning, and maintaining our real-time and batch data infrastructure
+    </li>
+   </ul>
+   <ul>
+    <li>
+     Maintaining data quality and accuracy across production data systems
+    </li>
+    <li>
+     Participating in 24/7 on-call rotation (be available by phone or email in case something goes wrong)
+    </li>
+    <li>
+     Working with Data Engineers to optimize data models and workflows
+    </li>
+    <li>
+     Working with Data Analysts to develop ETL processes for analysis and reporting
+    </li>
+    <li>
+     Working with Product Managers to design and build data products
+    </li>
+    <li>
+     Working with our DevOps team to scale our data infrastructure
+    </li>
+    <li>
+     Participating in architecting and building our systems for maximum productivity and scalability
+    </li>
+   </ul>
+   <p>
+   </p>
+   <p>
+    <b>
+     REQUIREMENTS:
+    </b>
+   </p>
+   <p>
+    We are looking for exceptional talent with superior academic credentials and a solid foundation in computer sciences and distributed systems design and development. The candidate will have had at least 5 years of experience developing scalable, robust software platforms using Python/Ruby/Java or an equivalent language. An undergraduate degree in Computer Science (or a related field) from a university where the primary language of instruction is English is strongly desired. Strong communication skills in a large distributed development team environment is essential.
+   </p>
+   <p>
+   </p>
+   <br/>
+   <p>
+    <b>
+     QUALIFICATIONS:
+    </b>
+   </p>
+   <ul>
+    <li>
+     5+ years of object-oriented Python software development
+    </li>
+    <li>
+     5+ years software engineering experience (or M.S. Computer Science with 3+ years of relevant experience)
+    </li>
+    <li>
+     S. or M.S. in Computer Science or related field
+    </li>
+    <li>
+     Proficient with relational databases and Advanced SQL
+    </li>
+    <li>
+     Proven ability to build large, reliable, scalable infrastructure - you've directly contributed to scaling a highly-trafficked website or web application
+    </li>
+    <li>
+     Experience with REST APIs and web services
+    </li>
+    <li>
+     Comfortable troubleshooting complex data and systems interaction problems
+    </li>
+    <li>
+     Comfortable creating and interpreting BPMN and UML design documentation
+    </li>
+    <li>
+     Ability to communicate technical concepts clearly and concisely in oral and written form
+    </li>
+    <li>
+     Independent contributor, motivated self-learner and team player
+    </li>
+    <li>
+     Experience with Kafka, Storm, Spark, Hive, Postgres, Redshift, Redis, Cassandra
+    </li>
+   </ul>
+   <ul>
+    <li>
+     Experience with Flask, Django, Airflow, Looker, and Docker is nice to have
+    </li>
+   </ul>
+   <br/>
+   <p>
+    #LI-MC1
+   </p>
+   <p>
+    <b>
+     About Zeta Global
+    </b>
+    <br/>
+    Zeta Global is a data-powered marketing technology company with a heritage of innovation and industry leadership. Founded in 2007 by entrepreneur David A. Steinberg and John Sculley, former CEO of Apple Inc and Pepsi-Cola, the Company combines the industry’s 3rd largest proprietary data set (2.4B+ identities) with Artificial Intelligence to unlock consumer intent, personalize experiences and help our clients drive business growth.
+   </p>
+   <p>
+    <br/>
+    Our technology runs on the Zeta Marketing Platform, which powers ‘end to end’ marketing programs for some of the world’s leading brands. With expertise encompassing all digital marketing channels – Email, Display, Social, Search and Mobile – Zeta orchestrates acquisition and engagement programs that deliver results that are scalable, repeatable and sustainable.
+   </p>
+   <p>
+   </p>
+   <br/>
+   <p>
+    <i>
+     Zeta Global is an Equal Opportunity/Affirmative Action employer and does not discriminate on the basis of race, gender, ancestry, color, religion, sex, age, marital status, sexual orientation, gender identity, national origin, medical condition, disability, veterans status, or any other basis protected by law.
+    </i>
+    <br/>
+   </p>
+   <p>
+    <i>
+     https://www.prnewswire.com/news-releases/zeta-global-opens-ai-data-labs-in-san-francisco-and-nyc-300945353.html
+    </i>
+    <br/>
+    <br/>
+    <i>
+     https://www.prnewswire.com/news-releases/zeta-global-recognized-in-enterprise-marketing-software-and-cross-channel-campaign-management-reports-by-independent-research-firm-300938241.html
+    </i>
+   </p>
+  </div>
+  <p>
+  </p>
+ </div>
+ <div class="mosaic-zone" id="mosaic-zone-belowFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+</div>
+<div id="mapRoot">
+</div>
+<div id="welcomeToIndeedModal">
+</div>
+<div id="successfullySignedInModal">
+</div>
+<div class="jobsearch-JobTab-content">
+ <div class="mosaic-zone" id="mosaic-zone-belowJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-JobMetadataFooter">
+  <span class="icl-u-textColor--success">
+   Zeta Global
+  </span>
+  - 30+ days ago
+  <span class="icl-u-lg-inline icl-u-xs-hide" id="saveJobInlineCallout">
+   -
+   <a title="Save this job to my.indeed">
+    save job
+   </a>
+  </span>
+  <div class="mosaic mosaic-provider-reportcontent" id="mosaic-provider-reportcontent">
+   <span>
+    <span class="mosaic-reportcontent-link">
+     <a type="link">
+      report job
+     </a>
+    </span>
+    <div class="mosaic-reportcontent-content">
+    </div>
+   </span>
+  </div>
+  <span class="icl-u-lg-inline icl-us-xs-hide" id="originalJobLinkContainer">
+   -
+   <a href="https://www.indeed.com/rc/clk?jk=a1983a3321768472&amp;from=vj&amp;pos=top&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXj1cMpNyciitfTG5E2ubaubMIfcMu539kP3i1FMxIq2rA" rel="noopener" target="_blank">
+    original job
+   </a>
+  </span>
+  <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-mt--md" id="saveJobInlineCalloutContainer">
+  </div>
+ </div>
+</div>
+<div class="icl-Grid icl-Grid--gutters">
+ <div class="jobsearch-ViewJobButtons-container icl-u-xs-my--md icl-Grid-col icl-u-xs-span12 icl-u-xs-textCenter icl-u-lg-textLeft" id="jobsearch-ViewJobButtons-container">
+  <div class="mosaic-zone" id="mosaic-zone-aboveViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+  <div class="icl-u-lg-inlineBlock" id="viewJobButtonLinkContainer">
+   <div class="" id="applyButtonLinkContainer">
+    <div class="icl-u-lg-hide">
+     <a class="icl-Button icl-Button--primary icl-Button--block" href="https://www.indeed.com/rc/clk?jk=a1983a3321768472&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXj1cMpNyciitfTG5E2ubaubMIfcMu539kP3i1FMxIq2rA">
+      Apply Now
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-textCenter">
+     <a class="icl-Button icl-Button--primary icl-Button--md" href="https://www.indeed.com/rc/clk?jk=a1983a3321768472&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXj1cMpNyciitfTG5E2ubaubMIfcMu539kP3i1FMxIq2rA">
+      Apply On Company Site
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="icl-u-lg-inlineBlock" data-loginurl="https://www.indeed.com/account/login?dest=%2Fviewjob%3Fjk%3Da1983a3321768472" id="saveJobButtonContainer">
+   <div class="icl-u-lg-hide">
+    <button class="icl-Button icl-Button--secondary icl-Button--block" disabled="true" type="button">
+     <span class="icl-ButtonIcon">
+      <svg aria-label="save-icon" class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--inheritColor favorite-border" focusable="false" role="img">
+       <g>
+        <path d="M12.38,2.25A4.49,4.49,0,0,0,9,3.82,4.49,4.49,0,0,0,5.63,2.25,4.08,4.08,0,0,0,1.5,6.38c0,2.83,2.55,5.15,6.41,8.66L9,16l1.09-1C14,11.52,16.5,9.21,16.5,6.38A4.08,4.08,0,0,0,12.38,2.25ZM9.08,13.91L9,14l-0.08-.08C5.35,10.68,3,8.54,3,6.38A2.56,2.56,0,0,1,5.63,3.75,2.93,2.93,0,0,1,8.3,5.52H9.7a2.91,2.91,0,0,1,2.67-1.77A2.56,2.56,0,0,1,15,6.38C15,8.54,12.65,10.68,9.08,13.91Z">
+        </path>
+       </g>
+      </svg>
+     </span>
+     Save this job
+    </button>
+   </div>
+   <div class="icl-u-xs-block icl-u-lg-hide">
+   </div>
+  </div>
+  <div class="icl-u-lg-hide" id="shareJobButton">
+   <button class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block" disabled="true" type="button">
+    Share this job
+   </button>
+  </div>
+  <div id="saveJobFailureModal">
+  </div>
+  <div class="mosaic-zone" id="mosaic-zone-belowViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+ </div>
+</div>

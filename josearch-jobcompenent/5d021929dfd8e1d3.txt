@@ -1,0 +1,457 @@
+<div id="welcomeToIndeedCard">
+</div>
+<div class="jobsearch-DesktopStickyContainer">
+ <div class="jobsearch-JobInfoHeader-title-container">
+  <h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+   Senior Data Scientist I
+  </h3>
+ </div>
+ <div class="jobsearch-CompanyInfoWithoutHeaderImage jobsearch-CompanyInfoWithReview">
+  <div class="icl-u-xs-mt--xs icl-u-textColor--secondary jobsearch-JobInfoHeader-subtitle jobsearch-DesktopStickyContainer-subtitle">
+   <div class="jobsearch-InlineCompanyRating icl-u-xs-mt--xs jobsearch-DesktopStickyContainer-companyrating">
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     <a href="https://www.indeed.com/cmp/Abbvie?campaignid=mobvjcmp&amp;from=mobviewjob&amp;tk=1e99ha0tbov6v800&amp;fromjk=5d021929dfd8e1d3" target="_blank">
+      AbbVie
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-lg-mr--sm icl-u-xs-hide">
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--sm" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="4.0" itemprop="ratingValue">
+       <meta content="1018" itemprop="ratingCount">
+        <a aria-label="4 out of 5" class="icl-Ratings-starsCountWrapper icl-Ratings-link" href="https://www.indeed.com/cmp/Abbvie/reviews?campaignid=viewjob&amp;cmpratingc=mobviewjob&amp;from=viewjob&amp;tk=1e99ha0tbov6v800&amp;fromjk=5d021929dfd8e1d3&amp;jt=Senior+Data+Scientist+I">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 51.0px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          1,018 reviews
+         </div>
+        </a>
+       </meta>
+      </meta>
+     </div>
+    </div>
+    <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+     -
+    </div>
+    <div>
+     San Francisco, CA
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="jobsearch-CompanyReview icl-u-lg-hide">
+  <a class="icl-NavigableContainer-linkWrapper" href="https://www.indeed.com/cmp/Abbvie/reviews?campaignid=mobvjcmp&amp;cmpratingc=mobviewjob&amp;from=mobviewjob&amp;tk=1e99ha0tbov6v800&amp;fromjk=5d021929dfd8e1d3&amp;jt=Senior+Data+Scientist+I">
+   <div class="icl-NavigableContainer icl-NavigableContainer--hasBorderBottom icl-NavigableContainer--hasBorderTop">
+    <div class="icl-NavigableContainer-innerContainer">
+     <h4 class="jobsearch-CompanyReview--heading">
+      AbbVie
+     </h4>
+     <div class="icl-Ratings icl-Ratings--gold icl-Ratings--md" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="4.0" itemprop="ratingValue">
+       <meta content="1018" itemprop="ratingCount">
+        <div aria-label="4 out of 5" class="icl-Ratings-starsCountWrapper" tabindex="0">
+         <div class="icl-Ratings-starsWrapper">
+          <div class="icl-Ratings-starsUnfilled">
+           <div class="icl-Ratings-starsFilled" style="width: 75.0px;">
+           </div>
+          </div>
+         </div>
+         <div aria-hidden="true" class="icl-Ratings-count">
+          1,018 reviews
+         </div>
+        </div>
+        <div aria-hidden="true" class="icl-Ratings-description">
+         Read what people are saying about working here.
+        </div>
+       </meta>
+      </meta>
+     </div>
+     <div class="icl-NavigableContainer-iconContainer">
+      <div class="icl-NavigableContainer-icon icl-NavigableContainer-icon--isRightArrow">
+       <svg class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--black chevron-right" focusable="false" role="img">
+        <g>
+         <path d="M7.5,4.5L6.44,5.56,9.88,9,6.44,12.44,7.5,13.5,12,9Z">
+         </path>
+        </g>
+       </svg>
+      </div>
+     </div>
+    </div>
+   </div>
+  </a>
+ </div>
+ <div class="icl-u-lg-block icl-u-xs-hide">
+ </div>
+ <div id="indeedApplyExplanationContainer">
+ </div>
+ <div class="jobsearch-StickyContainerDivider">
+  <div class="jobsearch-StickyContainerDivider-line">
+  </div>
+ </div>
+</div>
+<div class="mosaic-zone" id="mosaic-zone-aboveExtractedJobDescription">
+</div>
+<script type="text/javascript">
+ try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveExtractedJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+</script>
+<div class="jobsearch-JobComponent-description icl-u-xs-mt--md">
+ <div class="mosaic-zone" id="mosaic-zone-aboveFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-jobDescriptionText" id="jobDescriptionText">
+  <div>
+   <b>
+    About AbbVie
+   </b>
+   <br/>
+   AbbVie (NYSE:ABBV) is a global, research-driven biopharmaceutical company committed to developing innovative advanced therapies for some of the world’s most complex and critical conditions. The company’s mission is to use its expertise, dedicated people and unique approach to innovation to markedly improve treatments across four primary therapeutic areas: immunology, oncology, virology and neuroscience. In more than 75 countries, AbbVie employees are working every day to advance health solutions for people around the world. For more information about AbbVie, please visit us at www.abbvie.com. Follow @abbvie on Twitter, Facebook or LinkedIn.
+   <br/>
+   <br/>
+   <br/>
+   <div>
+    AbbVie is expanding its oncology hub on the West Coast, with three sites in the San Francisco Bay Area (Redwood City, South San Francisco, and Sunnyvale) focused on the discovery and development of novel oncology therapies. More than 1,000 AbbVie scientists, clinicians, and product developers with strong entrepreneurial roots work across these three sites. They combine their expertise in immuno-oncology and cell-signaling with their knowledge of bispecific antibodies, antibody-drug conjugates (ADCs), and covalent-inhibitor technologies to discover and develop novel cancer treatments. This position will be based at AbbVie's South San Francisco site with the potential to work out of the Sunnyvale location.
+   </div>
+   <div>
+   </div>
+   <br/>
+   <div>
+    The Data Solution team within the Information Research (IR) Division is building the next generation of big biology data management and decision support tools and services to optimize the efficiency and efficacy of research and development at AbbVie. Examples of applications/topics supported include genomic data analysis, drug target and compound assessment/mining, custom data visualization projects and internal and external data integration, knowledge ecosystem design and implementation, etc.
+   </div>
+   <div>
+    We have an exciting opportunity available for a Senior Data Scientist I. The ideal candidate will have a strong background in computational biology/bioinformatics with both scripting and data manipulation/visualization skills.
+   </div>
+   <div>
+   </div>
+   <br/>
+   <div>
+    Key Responsibilities:
+   </div>
+   <div>
+    <ul>
+     <li>
+      <div>
+       <div>
+        Collaborative Design – you should find it inspiring to work with a wide variety of colleagues (e.g., biology, bioinformatics, business); understand their needs and then propose and build solutions
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       Build – through your own efforts or in collaboration with other team members develop custom software solutions/processes that contribute to and help foster the growing AbbVie data integration environment. Understand coding and testing best practices paired with use of tools like Atlassian Suite for feature request/bug fixes, and documentation tracking.
+      </div>
+     </li>
+     <li>
+      <div>
+       Adaptability – given our diverse mission you should be able to move fluidly between different project responsibilities
+      </div>
+     </li>
+     <li>
+      <div>
+       Breadth – as a talented and motivated Data Scientist you can contribute to a wide variety of missions related to enhancing drug discovery
+      </div>
+     </li>
+    </ul>
+   </div>
+   <br/>
+   <b>
+    Qualifications
+   </b>
+   <br/>
+   <div>
+   </div>
+   <div>
+    <ul>
+     <li>
+      <div>
+       <div>
+        Bachelor’s Degree and typically 10 years of experience, Master’s Degree and typically 8 years of experience, or PhD and 0 years of experience. Degree should be in Computer Science, Bioinformatics, or related scientific/engineering field
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Proficiency in Java or Python (R is a bonus)
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Experience in database management including schema and SQL query development, preferably using MySQL, Oracle, or postgreSQL
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Experience using contemporary data visualization methods like Spotfire or Tableau
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Ability to perform high dimensional data mining, data integration and data extraction projects of internal and/or external public data
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Experience with image capture, analysis, and storage is highly desirable
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <p>
+        Trained expertise in machine learning or artificial intelligence
+       </p>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Comfortable in a Linux computing environment (Unix shell scripting)
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Experience using some form of an agile development methodology
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Enjoy working in a highly collaborative dynamic environment with a diverse team to tackle complex problems
+       </div>
+      </div>
+     </li>
+     <li>
+      <div>
+       <div>
+        Excellent verbal communication and interpersonal skills; comfortable working with colleagues located at different geographic locations
+       </div>
+      </div>
+     </li>
+    </ul>
+    <br/>
+    <div>
+    </div>
+    <br/>
+   </div>
+   <br/>
+   <b>
+    Significant Work Activities
+   </b>
+   <br/>
+   N/A
+   <br/>
+   <b>
+    Travel
+   </b>
+   <br/>
+   Yes, 5 % of the Time
+   <br/>
+   <b>
+    Job Type
+   </b>
+   <br/>
+   Experienced
+   <br/>
+   <b>
+    Schedule
+   </b>
+   <br/>
+   Full-time
+   <br/>
+   <b>
+    Job Level Code
+   </b>
+   <br/>
+   IC
+   <br/>
+   <b>
+    Equal Employment Opportunity
+   </b>
+   <br/>
+   At AbbVie, we value bringing together individuals from diverse backgrounds to develop new and innovative solutions for patients. As an equal opportunity employer we do not discriminate on the basis of race, color, religion, national origin, age, sex (including pregnancy), physical or mental disability, medical condition, genetic information gender identity or expression, sexual orientation, marital status, protected veteran status, or any other legally protected characteristic.
+  </div>
+ </div>
+ <div class="mosaic-zone" id="mosaic-zone-belowFullJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowFullJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+</div>
+<div id="mapRoot">
+</div>
+<div id="welcomeToIndeedModal">
+</div>
+<div id="successfullySignedInModal">
+</div>
+<div class="jobsearch-JobTab-content">
+ <div class="mosaic-zone" id="mosaic-zone-belowJobDescription">
+ </div>
+ <script type="text/javascript">
+  try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowJobDescription';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+ </script>
+ <div class="jobsearch-JobMetadataFooter">
+  <span class="icl-u-textColor--success">
+   AbbVie
+  </span>
+  - 13 days ago
+  <span class="icl-u-lg-inline icl-u-xs-hide" id="saveJobInlineCallout">
+   -
+   <a title="Save this job to my.indeed">
+    save job
+   </a>
+  </span>
+  <div class="mosaic mosaic-provider-reportcontent" id="mosaic-provider-reportcontent">
+   <span>
+    <span class="mosaic-reportcontent-link">
+     <a type="link">
+      report job
+     </a>
+    </span>
+    <div class="mosaic-reportcontent-content">
+    </div>
+   </span>
+  </div>
+  <span class="icl-u-lg-inline icl-us-xs-hide" id="originalJobLinkContainer">
+   -
+   <a href="https://www.indeed.com/rc/clk?jk=5d021929dfd8e1d3&amp;from=vj&amp;pos=top&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXive7TIUbZERDfmQ__2PeYWULY8luZ3vf8Ryj3D5QnPXg" rel="noopener" target="_blank">
+    original job
+   </a>
+  </span>
+  <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-mt--md" id="saveJobInlineCalloutContainer">
+  </div>
+ </div>
+</div>
+<div class="icl-Grid icl-Grid--gutters">
+ <div class="jobsearch-ViewJobButtons-container icl-u-xs-my--md icl-Grid-col icl-u-xs-span12 icl-u-xs-textCenter icl-u-lg-textLeft" id="jobsearch-ViewJobButtons-container">
+  <div class="mosaic-zone" id="mosaic-zone-aboveViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'aboveViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+  <div class="icl-u-lg-inlineBlock" id="viewJobButtonLinkContainer">
+   <div class="" id="applyButtonLinkContainer">
+    <div class="icl-u-lg-hide">
+     <a class="icl-Button icl-Button--primary icl-Button--block" href="https://www.indeed.com/rc/clk?jk=5d021929dfd8e1d3&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXive7TIUbZERDfmQ__2PeYWULY8luZ3vf8Ryj3D5QnPXg">
+      Apply Now
+     </a>
+    </div>
+    <div class="icl-u-lg-block icl-u-xs-hide icl-u-lg-textCenter">
+     <a class="icl-Button icl-Button--primary icl-Button--md" href="https://www.indeed.com/rc/clk?jk=5d021929dfd8e1d3&amp;from=vj&amp;pos=bottom&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXive7TIUbZERDfmQ__2PeYWULY8luZ3vf8Ryj3D5QnPXg">
+      Apply On Company Site
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="icl-u-lg-inlineBlock" data-loginurl="https://www.indeed.com/account/login?dest=%2Fviewjob%3Fjk%3D5d021929dfd8e1d3" id="saveJobButtonContainer">
+   <div class="icl-u-lg-hide">
+    <button class="icl-Button icl-Button--secondary icl-Button--block" disabled="true" type="button">
+     <span class="icl-ButtonIcon">
+      <svg aria-label="save-icon" class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--inheritColor favorite-border" focusable="false" role="img">
+       <g>
+        <path d="M12.38,2.25A4.49,4.49,0,0,0,9,3.82,4.49,4.49,0,0,0,5.63,2.25,4.08,4.08,0,0,0,1.5,6.38c0,2.83,2.55,5.15,6.41,8.66L9,16l1.09-1C14,11.52,16.5,9.21,16.5,6.38A4.08,4.08,0,0,0,12.38,2.25ZM9.08,13.91L9,14l-0.08-.08C5.35,10.68,3,8.54,3,6.38A2.56,2.56,0,0,1,5.63,3.75,2.93,2.93,0,0,1,8.3,5.52H9.7a2.91,2.91,0,0,1,2.67-1.77A2.56,2.56,0,0,1,15,6.38C15,8.54,12.65,10.68,9.08,13.91Z">
+        </path>
+       </g>
+      </svg>
+     </span>
+     Save this job
+    </button>
+   </div>
+   <div class="icl-u-xs-block icl-u-lg-hide">
+   </div>
+  </div>
+  <div class="icl-u-lg-hide" id="shareJobButton">
+   <button class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block" disabled="true" type="button">
+    Share this job
+   </button>
+  </div>
+  <div id="saveJobFailureModal">
+  </div>
+  <div class="mosaic-zone" id="mosaic-zone-belowViewjobButtons">
+  </div>
+  <script type="text/javascript">
+   try {
+                    window.mosaic.onMosaicApiReady(function() {
+                        var zoneId = 'belowViewjobButtons';
+                        var providers = window.mosaic.zonedProviders[zoneId];
+
+                        if (providers) {
+                            providers.filter(function(p) { return window.mosaic.lazyFns[p]; }).forEach(function(p) {
+                                return window.mosaic.api.loadProvider(p);
+                            });
+                        }
+                    });
+                 } catch (e) {};
+  </script>
+ </div>
+</div>

@@ -1,0 +1,90 @@
+<div class="jobsearch-JobInfoHeader-title-container">
+ <h3 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title">
+  Artificial Intelligence Architect, Manager - Applied Artificial Intelligence
+ </h3>
+</div>
+<div class="jobsearch-CompanyInfoWithoutHeaderImage jobsearch-CompanyInfoWithReview">
+ <div class="icl-u-xs-mt--xs icl-u-textColor--secondary jobsearch-JobInfoHeader-subtitle jobsearch-DesktopStickyContainer-subtitle">
+  <div class="jobsearch-InlineCompanyRating icl-u-xs-mt--xs jobsearch-DesktopStickyContainer-companyrating">
+   <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+    <a href="https://www.indeed.com/cmp/Deloitte?campaignid=mobvjcmp&amp;from=mobviewjob&amp;tk=1e99hdkajqbrg800&amp;fromjk=5f6e6191d9747127" target="_blank">
+     Deloitte
+    </a>
+   </div>
+   <div class="icl-u-lg-block icl-u-lg-mr--sm icl-u-xs-hide">
+    <div class="icl-Ratings icl-Ratings--gold icl-Ratings--sm" itemscope="" itemtype="http://schema.org/AggregateRating">
+     <meta content="4.0" itemprop="ratingValue">
+      <meta content="9541" itemprop="ratingCount">
+       <a aria-label="4 out of 5" class="icl-Ratings-starsCountWrapper icl-Ratings-link" href="https://www.indeed.com/cmp/Deloitte/reviews?campaignid=viewjob&amp;cmpratingc=mobviewjob&amp;from=viewjob&amp;tk=1e99hdkajqbrg800&amp;fromjk=5f6e6191d9747127&amp;jt=Artificial+Intelligence+Architect%2C+Manager+-+Applied+Artificial+Intelligence">
+        <div class="icl-Ratings-starsWrapper">
+         <div class="icl-Ratings-starsUnfilled">
+          <div class="icl-Ratings-starsFilled" style="width: 51.0px;">
+          </div>
+         </div>
+        </div>
+        <div aria-hidden="true" class="icl-Ratings-count">
+         9,541 reviews
+        </div>
+       </a>
+      </meta>
+     </meta>
+    </div>
+   </div>
+   <div class="icl-u-lg-mr--sm icl-u-xs-mr--xs">
+    -
+   </div>
+   <div>
+    San Francisco, CA
+   </div>
+  </div>
+ </div>
+</div>
+<div class="jobsearch-CompanyReview icl-u-lg-hide">
+ <a class="icl-NavigableContainer-linkWrapper" href="https://www.indeed.com/cmp/Deloitte/reviews?campaignid=mobvjcmp&amp;cmpratingc=mobviewjob&amp;from=mobviewjob&amp;tk=1e99hdkajqbrg800&amp;fromjk=5f6e6191d9747127&amp;jt=Artificial+Intelligence+Architect%2C+Manager+-+Applied+Artificial+Intelligence">
+  <div class="icl-NavigableContainer icl-NavigableContainer--hasBorderBottom icl-NavigableContainer--hasBorderTop">
+   <div class="icl-NavigableContainer-innerContainer">
+    <h4 class="jobsearch-CompanyReview--heading">
+     Deloitte
+    </h4>
+    <div class="icl-Ratings icl-Ratings--gold icl-Ratings--md" itemscope="" itemtype="http://schema.org/AggregateRating">
+     <meta content="4.0" itemprop="ratingValue">
+      <meta content="9541" itemprop="ratingCount">
+       <div aria-label="4 out of 5" class="icl-Ratings-starsCountWrapper" tabindex="0">
+        <div class="icl-Ratings-starsWrapper">
+         <div class="icl-Ratings-starsUnfilled">
+          <div class="icl-Ratings-starsFilled" style="width: 75.0px;">
+          </div>
+         </div>
+        </div>
+        <div aria-hidden="true" class="icl-Ratings-count">
+         9,541 reviews
+        </div>
+       </div>
+       <div aria-hidden="true" class="icl-Ratings-description">
+        Read what people are saying about working here.
+       </div>
+      </meta>
+     </meta>
+    </div>
+    <div class="icl-NavigableContainer-iconContainer">
+     <div class="icl-NavigableContainer-icon icl-NavigableContainer-icon--isRightArrow">
+      <svg class="icl-Icon icl-Icon--sm icl-Icon--left icl-Icon--black chevron-right" focusable="false" role="img">
+       <g>
+        <path d="M7.5,4.5L6.44,5.56,9.88,9,6.44,12.44,7.5,13.5,12,9Z">
+        </path>
+       </g>
+      </svg>
+     </div>
+    </div>
+   </div>
+  </div>
+ </a>
+</div>
+<div class="icl-u-lg-block icl-u-xs-hide">
+</div>
+<div id="indeedApplyExplanationContainer">
+</div>
+<div class="jobsearch-StickyContainerDivider">
+ <div class="jobsearch-StickyContainerDivider-line">
+ </div>
+</div>

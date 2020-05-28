@@ -1,0 +1,32 @@
+<div><p>Join us as we pursue our disruptive new vision to make machine data accessible, usable and valuable to everyone. We are a company filled with people who are passionate about our product and seek to deliver the best experience for our customers. At Splunk, we’re committed to our work, customers, having fun and most importantly to each other’s success. Learn more about Splunk careers and how you can become a part of our journey!</p><h2 class="jobSectionHeader"><b>
+Role:</b></h2><p>
+Splunk’s Machine Learning team is looking for a Sr. Principal Engineer with strong Machine Learning architecture experience who can design, build, test, and support our batch and streaming machine learning services. These services will be used in solutions for both on-premise and cloud deployments. You will have significant experience in architecting, designing, developing and deploying machine learning runtimes at scale. You will communicate effectively on the merits and value of our machine learning-based solutions to direct stakeholders, senior leaders at Splunk, and our customers.</p><h2 class="jobSectionHeader"><b>
+Responsibilities:</b></h2><p>
+Splunk architects are passionate about continuously improving both what we deliver, and how we deliver our product to customers. As the machine learning architect, you will:</p><ul><li>
+You will drive system architecture and design decisions for Splunk’s machine learning infrastructure for both cloud and on-premise environments.</li><li>
+You will plan, design, develop, test, and maintain key software improvements, primarily related to machine learning capabilities at Splunk.</li><li>
+Lead a high performing team to drive scalability and innovation to ensure the long term effectiveness and interoperability between all components of the machine learning framework.</li><li>
+You will work closely with product management to define product strategy and roadmap.</li><li>
+Communicate to our internal and external stakeholders on machine learning topics in general, and the merits of our system in particular.</li><li>
+You will lead software system architecture and design to appropriately incorporate machine learning into product features and effectively communicate this solution to software engineers, architects, and business leaders.</li><li>
+Be a standout colleague who enjoys collaborating with, learning from, mentoring, and teaching other team members to create a positive work environment.</li></ul><h2 class="jobSectionHeader"><b>
+Requirements:</b></h2><ul><li>
+10+ years of software and product development experience, preferably in cloud computing or distributed systems and Big Data technologies such as Spark, Hadoop.</li><li>
+5+ years of experience in a similar role that displays strong leadership competencies and ability to foster technical strategy</li><li>
+3+ years of professional experience using machine learning frameworks such as scikit-learn, SparkML, or Tensorflow, and tools such as notebooks (Jupyter, Zepellin).</li><li>
+10+ years of experience deploying enterprise production systems in one of the following languages (Python, Java, Scala or C++ or GO).</li><li>
+Strong Plus with experience with containers and orchestration technologies, such as Docker and Kubernetes.</li><li>
+Bachelors in Computer Science or related fields.</li></ul><p><b>
+About Us</b><br/>
+<br/>
+Splunk - The Data-to-Everything Platform<br/>
+Bring data to every question, decision and action.</p><p>
+Splunk.com</p><ul><li>
+Named one of the “Best Places to Work” 10 years running</li><li>
+Named in LinkedIn’s “Top Companies 2019: Where the U.S. wants to work now”</li><li>
+Named in Deloitte Technology Fast 500 - 2018</li><li>
+Named in Forbes 2018 World’s Best Employers</li><li>
+Splunk Recognized Globally for Empowering Employee Success</li><li>
+90% of the Fortune 100 run on Splunk</li></ul><p>
+We value diversity at our company. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, or any other applicable legally protected characteristics in the location in which the candidate is applying.</p><p>
+For job positions in San Francisco, CA, and other locations where required, we will consider for employment qualified applicants with arrest and conviction records</p></div>

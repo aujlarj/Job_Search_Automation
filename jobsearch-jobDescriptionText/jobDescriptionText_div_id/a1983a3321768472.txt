@@ -1,0 +1,39 @@
+<div><p>Do you crunch data for breakfast? Hungry for a data challenge? If yes, we want to talk to you. Zeta is looking for data engineers with great talent and potential to join us! We are seeking experienced, energetic, and self-starting technologists to join the Data Cloud team. Our Data Cloud team is responsible for the Zeta Identity Graph platform, which captures billions of behavioral, demographic, environmental, and transactional signals, for people-based marketing. As part of this team, the data engineer will be designing and growing our existing data infrastructure to democratize data access, enable complex data analyses, and automate optimization workflows for business and marketing operations.</p><p></p><br/>
+<p><b>
+RESPONSIBILITIES:</b></p><p>
+As a Senior Data Engineer, your responsibilities will include:</p><ul><li>
+Building, refining, tuning, and maintaining our real-time and batch data infrastructure</li></ul><ul><li>
+Maintaining data quality and accuracy across production data systems</li><li>
+Participating in 24/7 on-call rotation (be available by phone or email in case something goes wrong)</li><li>
+Working with Data Engineers to optimize data models and workflows</li><li>
+Working with Data Analysts to develop ETL processes for analysis and reporting</li><li>
+Working with Product Managers to design and build data products</li><li>
+Working with our DevOps team to scale our data infrastructure</li><li>
+Participating in architecting and building our systems for maximum productivity and scalability</li></ul><p></p><p><b>
+REQUIREMENTS:</b></p><p>
+We are looking for exceptional talent with superior academic credentials and a solid foundation in computer sciences and distributed systems design and development. The candidate will have had at least 5 years of experience developing scalable, robust software platforms using Python/Ruby/Java or an equivalent language. An undergraduate degree in Computer Science (or a related field) from a university where the primary language of instruction is English is strongly desired. Strong communication skills in a large distributed development team environment is essential.</p><p></p><br/>
+<p><b>
+QUALIFICATIONS:</b></p><ul><li>
+5+ years of object-oriented Python software development</li><li>
+5+ years software engineering experience (or M.S. Computer Science with 3+ years of relevant experience)</li><li>
+S. or M.S. in Computer Science or related field</li><li>
+Proficient with relational databases and Advanced SQL</li><li>
+Proven ability to build large, reliable, scalable infrastructure - you've directly contributed to scaling a highly-trafficked website or web application</li><li>
+Experience with REST APIs and web services</li><li>
+Comfortable troubleshooting complex data and systems interaction problems</li><li>
+Comfortable creating and interpreting BPMN and UML design documentation</li><li>
+Ability to communicate technical concepts clearly and concisely in oral and written form</li><li>
+Independent contributor, motivated self-learner and team player</li><li>
+Experience with Kafka, Storm, Spark, Hive, Postgres, Redshift, Redis, Cassandra</li></ul><ul><li>
+Experience with Flask, Django, Airflow, Looker, and Docker is nice to have</li></ul><br/>
+<p>
+#LI-MC1</p><p><b>
+About Zeta Global</b><br/>
+Zeta Global is a data-powered marketing technology company with a heritage of innovation and industry leadership. Founded in 2007 by entrepreneur David A. Steinberg and John Sculley, former CEO of Apple Inc and Pepsi-Cola, the Company combines the industry’s 3rd largest proprietary data set (2.4B+ identities) with Artificial Intelligence to unlock consumer intent, personalize experiences and help our clients drive business growth.</p><p><br/>
+Our technology runs on the Zeta Marketing Platform, which powers ‘end to end’ marketing programs for some of the world’s leading brands. With expertise encompassing all digital marketing channels – Email, Display, Social, Search and Mobile – Zeta orchestrates acquisition and engagement programs that deliver results that are scalable, repeatable and sustainable.</p><p></p><br/>
+<p><i>
+Zeta Global is an Equal Opportunity/Affirmative Action employer and does not discriminate on the basis of race, gender, ancestry, color, religion, sex, age, marital status, sexual orientation, gender identity, national origin, medical condition, disability, veterans status, or any other basis protected by law.</i><br/>
+</p><p><i>
+https://www.prnewswire.com/news-releases/zeta-global-opens-ai-data-labs-in-san-francisco-and-nyc-300945353.html</i><br/>
+<br/>
+<i>https://www.prnewswire.com/news-releases/zeta-global-recognized-in-enterprise-marketing-software-and-cross-channel-campaign-management-reports-by-independent-research-firm-300938241.html</i></p></div><p></p>
