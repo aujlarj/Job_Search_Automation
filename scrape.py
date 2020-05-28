@@ -3,8 +3,6 @@ from pprint import pprint
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-# from selenium.webdriver import ActionChains
-# from webdriver_manager.chrome import ChromeDriverManager
 import requests
 
 # Global Variables
@@ -96,8 +94,6 @@ def get_main_url(url_list):
 
 
 def get_job_summary(job_site):
-    # job_counter = 0
-    # jobcard_div_ids = []
     next_url_counter = 0
     jobscard_jks = []
     url_flag = True
@@ -109,8 +105,6 @@ def get_job_summary(job_site):
     chrome_options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(
         chrome_options=chrome_options, executable_path=CHROME_PATH)
-
-    # driver.delete_all_cookies()
 
     driver.implicitly_wait(30)
 
@@ -127,8 +121,6 @@ def get_job_summary(job_site):
         for jobcard in jobcards:
 
             jobcard_jk = jobcard.get_attribute('data-jk')
-            # jobcard_div_id = jobcard.get_attribute('id')
-            # jobcard_div_ids.append(jobcard_div_id)
 
             if jobcard_jk not in jobscard_jks:
 
@@ -136,13 +128,6 @@ def get_job_summary(job_site):
 
                 jobcard_html = BeautifulSoup(jobcard.get_attribute(
                     'innerHTML'), 'html.parser')
-
-                # print(jobcard_html.prettify())
-                # try:
-                #     title = jobcard_html.find("a", class_="jobtitle").text.replace(
-                #         "\n", "").strip()
-                # except:
-                #     title = 'None'
 
                 try:
                     location = jobcard_html.find(class_="location").get_text("|", strip=True).replace(
@@ -180,28 +165,10 @@ def get_job_summary(job_site):
                 except:
                     date_posted = 'None'
 
-                # # Automate click on each jobcard(useful if it shows the onpage description) not consistent tho
-                # element_to_click = driver.find_element_by_id(
-                #     jobcard_div_id)
-                # ActionChains(driver).click(element_to_click).perform()
-                # job_desc = driver.find_element_by_id(
-                #     'jobDescriptionText').text
-
-                # print('Title:', title)
-                # print('location:', location)
-                # print('company:', company)
-                # print('salary:', salary)
-                # print('rating:', rating)
-                # print('remote_work:', remote_work)
-                # print('date_posted:', date_posted)
-
                 df = df.append({"Primary_Key": jobcard_jk, 'Location': location, "Company": company, "Salary": salary,
                                 "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
                                 }, ignore_index=True)
 
-                # df = df.append({'Primary_Key': jobcard_jk, 'Title': title, 'Location': location, "Company": company,
-                #                 "Salary": salary}, ignore_index=True)
-                # job_counter += 1
                 job_check += 1
                 print("Got these many results:", df.shape)
 
@@ -241,13 +208,6 @@ def get_job_description(url_jks):
         except:
             title = 'None'
 
-        # print('Div type:', type(div))
-        # pprint(div)
-
-        # for i in range(0, len(div.contents)):
-        #     write_to_existing_file(
-        #         url_jk + '.txt', str(div.contents[i]))
-
         df = df.append({"Primary_Key": url_jk, 'Title': title,
                         "Full_Description": description}, ignore_index=True)
 
@@ -263,11 +223,6 @@ def merge_dataframes(df1, df2, file_names):
     df3 = df1.merge(df2, how='inner', on=Key)
     df3 = df3[['Primary_Key', 'Title', 'Company',
                'Location', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']]
-
-    # search_keywords = 'Data Scienctist'
-    # city = 'San Francisco'
-    # state = 'CA'
-    # country = 'US'
 
     file_name = file_names[0] + ' ' + file_names[1] + \
         ' ' + file_names[2] + ' ' + file_names[3] + '.csv'
@@ -313,42 +268,15 @@ def main():
 
     # main_url = 'https://www.indeed.com/jobs?q=Data+Scientist+%24157%2C000&l=San+Francisco%2C+CA&radius=0'
 
+    # for testing
     # number_of_jobs = get_total_num_jobs(main_url)
     # print('Number of Jobs:', number_of_jobs)
-    # open_browser(main_url)  # for testing
+    # open_browser(main_url)
 
     job_url_jks, job_summary_df = get_job_summary(main_url)
-    # job_summary_df.to_csv('file_name.csv', index=False)
     job_description_df = get_job_description(job_url_jks)
     merge_dataframes(job_summary_df, job_description_df, user_input_list)
-
-    # click_eachjob(main_url)
-
-    # pprint(urls)
-    # print(len(urls))
 
 
 if __name__ == "__main__":
     main()
-
-# def get_eachjob_url(job_site, all_urls):
-#     source = requests.get(job_site).text
-#     firstpage = BeautifulSoup(source, 'html.parser')
-#     base_url = 'https://www.indeed.com/viewjob?jk='
-#     attribute_name = 'data-jk'
-#     job_counter = 0
-#     next_url_counter = 10
-
-
-# try:
-#     div = job_page.find(
-#         'h3', class_='jobsearch-JobInfoHeader-title').get_text("|", strip=True)
-# except:
-#     div = 'None'
-
-
-# try:
-#     div = job_page.find(
-#         'div', class_='icl-Ratings-count').get_text("|", strip=True)
-# except:
-#     div = 'None'
