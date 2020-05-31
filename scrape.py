@@ -3,6 +3,7 @@ from pprint import pprint
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from datetime import date
 import requests
 
 # Global Variables
@@ -83,10 +84,10 @@ def get_main_url(url_list):
 
     if country.lower() == 'canada':
         website = canada_domain + '/jobs?q=' + \
-            search_keywords + '&l=' + city + '%2C+' + state
+            search_keywords + '&l=' + city + '%2C+' + state + '&radius=100'
     else:
         website = usa_domain + '/jobs?q=' + \
-            search_keywords + '&l=' + city + '%2C+' + state
+            search_keywords + '&l=' + city + '%2C+' + state + '&radius=100'
 
     print(website)
 
@@ -263,19 +264,203 @@ def open_browser(url):
 
 
 def main():
-    user_input_list = user_input()
-    main_url = get_main_url(user_input_list)
+    job_summary_df = pd.DataFrame(columns=["Primary_Key", "Location",
+                                           "Company", "Salary", "Ratings", "Remote_work", "Date_posted"])
+    summary_to_csv = pd.DataFrame(columns=["Primary_Key", "Location",
+                                           "Company", "Salary", "Ratings", "Remote_work", "Date_posted"])
+    job_description_df = pd.DataFrame(columns=["Primary_Key", "Title",
+                                               "Full_Description"])
+    description_to_csv = pd.DataFrame(columns=["Primary_Key", "Title",
+                                               "Full_Description"])
+    usa_domain = 'https://www.indeed.com'
+    canada_domain = 'https://ca.indeed.com'
+    base_url = 'https://www.indeed.com/viewjob?jk='
+    job_title = ''
+    firstpage_urls = []
+    jobcard_jks = []
+    next_url_counter = 0
+    first_row = True
+    file_name = str(date.today()) + '.csv'
 
-    # main_url = 'https://www.indeed.com/jobs?q=Data+Scientist+%24157%2C000&l=San+Francisco%2C+CA&radius=0'
+    # canadian_list = [('Fernie', 'BC'), ('Banff', 'AB')]
+    # american_list = [('Sidney', 'MT'), ('Marfa', 'TX')]
 
+    canadian_list = [('Toronto', 'Ontario'), ('Montreal', 'Quebec'), ('Vancouver', 'British Columbia'),
+                     ('Calgary', 'Alberta'), ('Edmonton', 'Alberta'), ('Ottawa',
+                                                                       'Ontario'), ('Quebec City', 'Quebec'),
+                     ('Hamilton', 'Ontario'), ('Winnipeg', 'Manitoba'), ('Kitchener', 'Ontario')]
+
+    american_list = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Chicago', 'IL'),
+                     ('Houston', 'TX'), ('Phoenix', 'AZ'), ('Philadelphia',
+                                                            'PA'), ('San Antonio', 'TX'),
+                     ('San Diego', 'CA'), ('Dallas', 'TX'), ('San Jose', 'CA')]
+
+    for item in canadian_list:
+        website = canada_domain + '/jobs?q=' + \
+            job_title + '&l=' + item[0] + \
+            '%2C+' + item[1] + '&sort=date'
+        firstpage_urls.append(website)
+
+    for item in american_list:
+        website = usa_domain + '/jobs?q=' + \
+            job_title + '&l=' + item[0] + \
+            '%2C+' + item[1] + '&sort=date'
+        firstpage_urls.append(website)
+
+    pprint(firstpage_urls)
+
+    chrome_options = Options()
+    chrome_options.add_experimental_option("detach", True)
+    driver = webdriver.Chrome(
+        chrome_options=chrome_options, executable_path=CHROME_PATH)
+
+    driver.implicitly_wait(30)
+
+    for url in firstpage_urls:
+        _flag = True
+        next_url_counter = 0
+        while(_flag):
+            new_site = url + '&start=' + str(next_url_counter)
+            print(new_site)
+
+            driver.get(new_site)
+            # can not have space in by_class_name. Must be one word
+            jobcards = driver.find_elements_by_class_name(
+                'jobsearch-SerpJobCard')
+
+            job_check = 0
+            driver.implicitly_wait(5)
+            for jobcard in jobcards:
+                summary_to_csv = summary_to_csv.head(0)
+                jobcard_jk = jobcard.get_attribute('data-jk')
+
+                if jobcard_jk not in jobcard_jks:
+
+                    jobcard_jks.append(jobcard_jk)
+
+                    jobcard_html = BeautifulSoup(jobcard.get_attribute(
+                        'innerHTML'), 'html.parser')
+
+                    try:
+                        location = jobcard_html.find(class_="location").get_text("|", strip=True).replace(
+                            "\n", "").strip()
+                    except:
+                        location = 'None'
+
+                    try:
+                        company = jobcard_html.find(class_="company").text.replace(
+                            "\n", "").strip()
+                    except:
+                        company = 'None'
+
+                    try:
+                        salary = jobcard_html.find(class_="salary").text.replace(
+                            "\n", "").strip()
+                    except:
+                        salary = 'None'
+
+                    try:
+                        rating = jobcard_html.find(class_="ratingsContent").text.replace(
+                            "\n", "").strip()
+                    except:
+                        rating = 'None'
+
+                    try:
+                        remote_work = jobcard_html.find(class_="remote").text.replace(
+                            "\n", "").strip()
+                    except:
+                        remote_work = 'None'
+
+                    try:
+                        date_posted = jobcard_html.find(class_="date").text.replace(
+                            "\n", "").strip()
+                    except:
+                        date_posted = 'None'
+
+                    job_summary_df = job_summary_df.append({"Primary_Key": jobcard_jk, 'Location': location, "Company": company, "Salary": salary,
+                                                            "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
+                                                            }, ignore_index=True)
+
+                    summary_to_csv = summary_to_csv.append({"Primary_Key": jobcard_jk, 'Location': location, "Company": company, "Salary": salary,
+                                                            "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
+                                                            }, ignore_index=True)
+
+                    if first_row:
+                        summary_to_csv.to_csv('summary-'+file_name, mode='a',
+                                              index=False)
+                        first_row = False
+                    else:
+                        summary_to_csv.to_csv('summary-'+file_name, mode='a',
+                                              header=False, index=False)
+
+                    job_check += 1
+                    print("Got these many results:", job_summary_df.shape)
+
+            # Exit if no new jobs found
+            if job_check == 0:
+                _flag = False
+
+            next_url_counter += 10
+
+    first_row = True
+    driver.close()
+
+    for jk in jobcard_jks:
+        description_to_csv = description_to_csv.head(0)
+        full_link = base_url + jk
+        print(full_link)
+        source = requests.get(full_link).text
+        job_page = BeautifulSoup(source, 'html.parser')
+
+        # print(job_page.prettify())
+
+        try:
+            description = job_page.find(
+                'div', id='jobDescriptionText').get_text("|", strip=True)
+        except:
+            description = 'None'
+
+        try:
+            title = job_page.find(
+                'h3', class_='jobsearch-JobInfoHeader-title').get_text("|", strip=True)
+            pass
+        except:
+            title = 'None'
+
+        job_description_df = job_description_df.append({"Primary_Key": jk, 'Title': title,
+                                                        "Full_Description": description}, ignore_index=True)
+
+        description_to_csv = description_to_csv.append({"Primary_Key": jk, 'Title': title,
+                                                        "Full_Description": description}, ignore_index=True)
+
+        if first_row:
+            description_to_csv.to_csv('description-'+file_name, mode='a',
+                                      index=False)
+            first_row = False
+        else:
+            description_to_csv.to_csv('description-'+file_name, mode='a',
+                                      header=False, index=False)
+
+    df1_columns = list(job_summary_df.columns.values)
+    df2_columns = list(job_description_df.columns.values)
+    common_columns = list(set(df1_columns) & set(df2_columns))
+    Key = common_columns[0]
+
+    df3 = job_summary_df.merge(job_description_df, how='inner', on=Key)
+    df3 = df3[['Primary_Key', 'Title', 'Company',
+               'Location', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']]
+
+    df3.to_csv(file_name, mode='a', header=False, index=False)
+
+    print('End!')
     # for testing
     # number_of_jobs = get_total_num_jobs(main_url)
     # print('Number of Jobs:', number_of_jobs)
     # open_browser(main_url)
 
-    job_url_jks, job_summary_df = get_job_summary(main_url)
-    job_description_df = get_job_description(job_url_jks)
-    merge_dataframes(job_summary_df, job_description_df, user_input_list)
+    # job_url_jks, job_summary_df = get_job_summary(main_url)
+    # job_description_df = get_job_description(job_url_jks)
+    # merge_dataframes(job_summary_df, job_description_df, user_input_list)
 
 
 if __name__ == "__main__":
