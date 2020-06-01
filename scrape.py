@@ -264,7 +264,7 @@ def open_browser(url):
 
 
 def main():
-    job_summary_df = pd.DataFrame(columns=["Primary_Key", "Location",
+    job_summary_df = pd.DataFrame(columns=["Primary_Key", "Location", 'Country',
                                            "Company", "Salary", "Ratings", "Remote_work", "Date_posted"])
     summary_to_csv = pd.DataFrame(columns=["Primary_Key", "Location",
                                            "Company", "Salary", "Ratings", "Remote_work", "Date_posted"])
@@ -275,7 +275,7 @@ def main():
     usa_domain = 'https://www.indeed.com'
     canada_domain = 'https://ca.indeed.com'
     base_url = 'https://www.indeed.com/viewjob?jk='
-    job_title = ''
+    job_title = 'Machine learning'
     firstpage_urls = []
     jobcard_jks = []
     next_url_counter = 0
@@ -287,13 +287,10 @@ def main():
 
     canadian_list = [('Toronto', 'Ontario'), ('Montreal', 'Quebec'), ('Vancouver', 'British Columbia'),
                      ('Calgary', 'Alberta'), ('Edmonton', 'Alberta'), ('Ottawa',
-                                                                       'Ontario'), ('Quebec City', 'Quebec'),
-                     ('Hamilton', 'Ontario'), ('Winnipeg', 'Manitoba'), ('Kitchener', 'Ontario')]
+                                                                       'Ontario'), ('Quebec City', 'Quebec')]
 
-    american_list = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Chicago', 'IL'),
-                     ('Houston', 'TX'), ('Phoenix', 'AZ'), ('Philadelphia',
-                                                            'PA'), ('San Antonio', 'TX'),
-                     ('San Diego', 'CA'), ('Dallas', 'TX'), ('San Jose', 'CA')]
+    american_list = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Portland', 'OR'),
+                     ('Austin', 'TX'), ('Washington', 'DC'), ('San Francisco', 'CA'), ('Seattle', 'WA')]
 
     for item in canadian_list:
         website = canada_domain + '/jobs?q=' + \
@@ -342,8 +339,8 @@ def main():
                         'innerHTML'), 'html.parser')
 
                     try:
-                        location = jobcard_html.find(class_="location").get_text("|", strip=True).replace(
-                            "\n", "").strip()
+                        location = jobcard_html.find(
+                            class_="location").get_text()
                     except:
                         location = 'None'
 
@@ -377,7 +374,12 @@ def main():
                     except:
                         date_posted = 'None'
 
-                    job_summary_df = job_summary_df.append({"Primary_Key": jobcard_jk, 'Location': location, "Company": company, "Salary": salary,
+                    if canada_domain in new_site:
+                        country = 'Canada'
+                    else:
+                        country = 'USA'
+
+                    job_summary_df = job_summary_df.append({"Primary_Key": jobcard_jk, 'Location': location, 'Country': country, "Company": company, "Salary": salary,
                                                             "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
                                                             }, ignore_index=True)
 
@@ -448,9 +450,9 @@ def main():
 
     df3 = job_summary_df.merge(job_description_df, how='inner', on=Key)
     df3 = df3[['Primary_Key', 'Title', 'Company',
-               'Location', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']]
+               'Location', 'Country', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']]
 
-    df3.to_csv(file_name, mode='a', header=False, index=False)
+    df3.to_csv(file_name, mode='a', index=False)
 
     print('End!')
     # for testing
