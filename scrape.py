@@ -275,7 +275,7 @@ def main():
     usa_domain = 'https://www.indeed.com'
     canada_domain = 'https://ca.indeed.com'
     base_url = 'https://www.indeed.com/viewjob?jk='
-    job_title = 'Machine learning'
+    job_title = 'Data Scientist'
     firstpage_urls = []
     jobcard_jks = []
     next_url_counter = 0
@@ -452,7 +452,7 @@ def main():
     df3 = df3[['Primary_Key', 'Title', 'Company',
                'Location', 'Country', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']]
 
-    df3.to_csv(file_name, mode='a', index=False)
+    df3.to_csv(file_name, mode='a', index=False, encoding='utf_8')
 
     print('End!')
     # for testing
