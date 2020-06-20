@@ -27,6 +27,7 @@ AMERICAN_LIST = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Portland', 'O
 FILE_NAME_END = str(date.today()) + '.csv'
 JOB_TITLE = 'Data Scientist'
 FILE_NAME = JOB_TITLE + '-' + FILE_NAME_END
+DATA_FOLDER = './Scraped_Data/'
 
 
 def write_to_new_file(filename, fileinfo):
@@ -112,16 +113,17 @@ def get_main_url(url_list):
 
 def get_job_summary(urls):
     job_summary_df = pd.DataFrame(columns=SUMMARY_COLUMNS)
+    # summary_to_csv write to the file simultaneously
     # summary_to_csv = pd.DataFrame(columns=SUMMARY_COLUMNS)
     # first_row = True
     jobcard_jks = []
 
     print('get_job_summary started...')
 
-    chrome_options = Options()
-    chrome_options.add_experimental_option("detach", True)
+    options = Options()
+    options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(
-        chrome_options=chrome_options, executable_path=CHROME_PATH)
+        options=options, executable_path=CHROME_PATH)
 
     driver.implicitly_wait(2)
 
@@ -225,6 +227,7 @@ def get_job_summary(urls):
 
 def get_job_description(url_jks):
     job_description_df = pd.DataFrame(columns=DESCRIPTION_COLUMNS)
+    # description_to_csv write to the file simultaneously
     # description_to_csv = pd.DataFrame(columns=DESCRIPTION_COLUMNS)
     # first_row = True
     print('get_job_description started...')
@@ -345,7 +348,10 @@ def main():
     df3 = job_summary_df.merge(job_description_df, how='inner', on=KEY)
     df3 = df3[ALL_COLUMNS]
 
-    df3.to_csv(FILE_NAME, mode='a', index=False, encoding='utf_8')
+    # TODO:
+    # check if file exist and only add the new rows
+    df3.to_csv(DATA_FOLDER + FILE_NAME, mode='a',
+               index=False, encoding='utf_8')
 
     print('End!')
     # for testing
