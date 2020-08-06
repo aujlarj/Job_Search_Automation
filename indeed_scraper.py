@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from datetime import date
+import time
 import requests
 
 # Global Variables
@@ -19,11 +20,24 @@ CANADA_DOMAIN = 'https://ca.indeed.com'
 BASE_JOB_URL = 'https://www.indeed.com/viewjob?jk='
 # CANADIAN_LIST = [('Fernie', 'BC'), ('Banff', 'AB')]
 # AMERICAN_LIST = [('Sidney', 'MT'), ('Marfa', 'TX')]
-CANADIAN_LIST = [('Toronto', 'Ontario'), ('Montreal', 'Quebec'), ('Vancouver', 'British Columbia'),
-                 ('Calgary', 'Alberta'), ('Edmonton', 'Alberta'), ('Ottawa',
-                                                                   'Ontario'), ('Quebec City', 'Quebec')]
-AMERICAN_LIST = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Portland', 'OR'),
-                 ('Austin', 'TX'), ('Washington', 'DC'), ('San Francisco', 'CA'), ('Seattle', 'WA')]
+CANADIAN_LIST = [('Toronto', 'Ontario'),
+                 ('Montreal', 'Quebec'),
+                 ('Vancouver', 'British Columbia'),
+                 ('Calgary', 'Alberta'),
+                 ('Edmonton', 'Alberta'),
+                 ('Ottawa', 'Ontario'),
+                 ('Quebec City', 'Quebec'),
+                 ('Winnipeg', 'Manitoba'),
+                 ('Victoria', 'British Columbia'),
+                 ('Regina', 'Saskatchewan')]
+
+AMERICAN_LIST = [('New York City', 'NY'),
+                 ('Los Angeles', 'CA'),
+                 ('Portland', 'OR'),
+                 ('Austin', 'TX'),
+                 ('Washington', 'DC'),
+                 ('San Francisco', 'CA'),
+                 ('Seattle', 'WA')]
 FILE_NAME_END = str(date.today()) + '.csv'
 JOB_TITLE = 'Data Scientist'
 FILE_NAME = JOB_TITLE + '-' + FILE_NAME_END
@@ -122,14 +136,16 @@ def get_job_summary(urls):
 
     options = Options()
     options.add_experimental_option("detach", True)
+    options.add_argument("--incognito")
     driver = webdriver.Chrome(
         options=options, executable_path=CHROME_PATH)
 
-    driver.implicitly_wait(2)
+    driver.implicitly_wait(1)
 
     for url in urls:
         _flag = True
         next_url_counter = 0
+        driver.implicitly_wait(1)
         while(_flag):
             new_site = url + '&start=' + str(next_url_counter)
             # print(new_site)
@@ -226,6 +242,7 @@ def get_job_summary(urls):
 
 
 def get_job_description(url_jks):
+    counter = 0
     job_description_df = pd.DataFrame(columns=DESCRIPTION_COLUMNS)
     # description_to_csv write to the file simultaneously
     # description_to_csv = pd.DataFrame(columns=DESCRIPTION_COLUMNS)
@@ -256,6 +273,11 @@ def get_job_description(url_jks):
 
         job_description_df = job_description_df.append({"Primary_Key": jk, 'Title': title,
                                                         "Full_Description": description}, ignore_index=True)
+
+        counter += 1
+
+        if (counter % 50 == 0):
+            print("At job:", counter)
 
         # description_to_csv = description_to_csv.append({"Primary_Key": jk, 'Title': title,
         #                                                 "Full_Description": description}, ignore_index=True)
@@ -339,11 +361,18 @@ def create_urls():
 
 
 def main():
+    start_time_main = time.time()
     firstpage_urls = create_urls()
     pprint(firstpage_urls)
 
     jobcard_jks, job_summary_df = get_job_summary(firstpage_urls)
+    print("get_job_summary time: %s minutes" %
+          ((time.time() - start_time_main)/60))
+
+    middle_time_main = time.time()
     job_description_df = get_job_description(jobcard_jks)
+    print("get_job_description time: %s minutes" %
+          ((time.time() - middle_time_main)/60))
 
     df3 = job_summary_df.merge(job_description_df, how='inner', on=KEY)
     df3 = df3[ALL_COLUMNS]
@@ -365,4 +394,6 @@ def main():
 
 
 if __name__ == "__main__":
+    start_time = time.time()
     main()
+    print("Total time: %s minutes" % ((time.time() - start_time)/60))
