@@ -20,24 +20,11 @@ CANADA_DOMAIN = 'https://ca.indeed.com'
 BASE_JOB_URL = 'https://www.indeed.com/viewjob?jk='
 # CANADIAN_LIST = [('Fernie', 'BC'), ('Banff', 'AB')]
 # AMERICAN_LIST = [('Sidney', 'MT'), ('Marfa', 'TX')]
-CANADIAN_LIST = [('Toronto', 'Ontario'),
-                 ('Montreal', 'Quebec'),
-                 ('Vancouver', 'British Columbia'),
-                 ('Calgary', 'Alberta'),
-                 ('Edmonton', 'Alberta'),
-                 ('Ottawa', 'Ontario'),
-                 ('Quebec City', 'Quebec'),
-                 ('Winnipeg', 'Manitoba'),
-                 ('Victoria', 'British Columbia'),
-                 ('Regina', 'Saskatchewan')]
-
-AMERICAN_LIST = [('New York City', 'NY'),
-                 ('Los Angeles', 'CA'),
-                 ('Portland', 'OR'),
-                 ('Austin', 'TX'),
-                 ('Washington', 'DC'),
-                 ('San Francisco', 'CA'),
-                 ('Seattle', 'WA')]
+CANADIAN_LIST = [('Toronto', 'Ontario'), ('Montreal', 'Quebec'), ('Vancouver', 'British Columbia'),
+                 ('Calgary', 'Alberta'), ('Edmonton', 'Alberta'), ('Ottawa',
+                                                                   'Ontario'), ('Quebec City', 'Quebec')]
+AMERICAN_LIST = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Portland', 'OR'),
+                 ('Austin', 'TX'), ('Washington', 'DC'), ('San Francisco', 'CA'), ('Seattle', 'WA')]
 FILE_NAME_END = str(date.today()) + '.csv'
 JOB_TITLE = 'Data Scientist'
 FILE_NAME = JOB_TITLE + '-' + FILE_NAME_END
@@ -127,6 +114,9 @@ def get_main_url(url_list):
 
 def get_job_summary(urls):
     job_summary_df = pd.DataFrame(columns=SUMMARY_COLUMNS)
+    # summary_to_csv write to the file simultaneously
+    # summary_to_csv = pd.DataFrame(columns=SUMMARY_COLUMNS)
+    # first_row = True
     jobcard_jks = []
 
     print('get_job_summary started...')
@@ -159,7 +149,71 @@ def get_job_summary(urls):
                 jobcard_jk = jobcard.get_attribute('data-jk')
 
                 if jobcard_jk not in jobcard_jks:
+
                     jobcard_jks.append(jobcard_jk)
+
+                    jobcard_html = BeautifulSoup(jobcard.get_attribute(
+                        'innerHTML'), 'html.parser')
+
+                    try:
+                        location = jobcard_html.find(
+                            class_="location").get_text()
+                    except:
+                        location = 'None'
+
+                    try:
+                        company = jobcard_html.find(class_="company").text.replace(
+                            "\n", "").strip()
+                    except:
+                        company = 'None'
+
+                    try:
+                        salary = jobcard_html.find(class_="salary").text.replace(
+                            "\n", "").strip()
+                    except:
+                        salary = 'None'
+
+                    try:
+                        rating = jobcard_html.find(class_="ratingsContent").text.replace(
+                            "\n", "").strip()
+                    except:
+                        rating = 'None'
+
+                    try:
+                        remote_work = jobcard_html.find(class_="remote").text.replace(
+                            "\n", "").strip()
+                    except:
+                        remote_work = 'None'
+
+                    try:
+                        date_posted = jobcard_html.find(class_="date").text.replace(
+                            "\n", "").strip()
+                    except:
+                        date_posted = 'None'
+
+                    if CANADA_DOMAIN in new_site:
+                        country = 'Canada'
+                    elif USA_DOMAIN in new_site:
+                        country = 'USA'
+                    else:
+                        country = 'None'
+
+                    job_summary_df = job_summary_df.append({"Primary_Key": jobcard_jk, 'Location': location, 'Country': country, "Company": company, "Salary": salary,
+                                                            "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
+                                                            }, ignore_index=True)
+
+                    # summary_to_csv = summary_to_csv.append({"Primary_Key": jobcard_jk, 'Location': location, 'Country': country, "Company": company, "Salary": salary,
+                    #                                         "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
+                    #                                         }, ignore_index=True)
+
+                    # if first_row:
+                    #     summary_to_csv.to_csv('summary-'+FILE_NAME_END, mode='a',
+                    #                           index=False)
+                    #     first_row = False
+                    # else:
+                    #     summary_to_csv.to_csv('summary-'+FILE_NAME_END, mode='a',
+                    #                           header=False, index=False)
+
                     job_check += 1
                     # print("Got these many results:", job_summary_df.shape)
 
