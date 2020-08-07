@@ -142,7 +142,7 @@ def get_actual_num_jobs(urls):
     return expected_num_jobs
 
 
-def merge(list1, list2):
+def merge(list1, list2, country):
     df1 = pd.DataFrame(list1, columns=['Expected_jobs', 'City', 'State'])
     df2 = pd.DataFrame(list2, columns=['Actual_jobs', 'City', 'State'])
 
@@ -151,8 +151,9 @@ def merge(list1, list2):
 
     df3 = df1.merge(df2, how='inner', on=Key)
     df3 = df3[Final_columns]
+    file_name = country + '_jobs_per_city_' + str(date.today()) +'.csv"
 
-    df3.to_csv('file_name.csv', index=False)
+    df3.to_csv(file_name, index=False)
 
 
 def main():
@@ -168,7 +169,7 @@ def main():
     actual_canadian_jobs = get_actual_num_jobs(candian_urls)
     # actual_US_jobs = get_actual_num_jobs(us_urls)
 
-    merge(expected_canadian_jobs, actual_canadian_jobs)
+    merge(expected_canadian_jobs, actual_canadian_jobs, 'Canada')
 
 
 if __name__ == "__main__":
