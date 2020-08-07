@@ -11,13 +11,14 @@ import requests
 CHROME_PATH = './browser_dependency/chromedriver_v83.exe'
 USA_DOMAIN = 'https://www.indeed.com'
 CANADA_DOMAIN = 'https://ca.indeed.com'
+DATA_FOLDER = './Scraped_Data/'
 
 
 def get_cities(country):
     if country.lower() == 'canada':
         df = pd.read_excel('./List_of_cites/Canada.xlsx')
     elif country.lower() == "us":
-        df = pd.read_excel('./List_of_cites/UnitedStates.xlsx')
+        df = pd.read_excel('./List_of_cites/temp.xlsx')
     else:
         print('ERROR! Country can be Canada or US only')
         return 0
@@ -151,25 +152,27 @@ def merge(list1, list2, country):
 
     df3 = df1.merge(df2, how='inner', on=Key)
     df3 = df3[Final_columns]
-    file_name = country + '_jobs_per_city_' + str(date.today()) +'.csv"
+    file_name = country + '_jobs_per_city_' + str(date.today()) + '.csv'
 
-    df3.to_csv(file_name, index=False)
+    df3.to_csv(DATA_FOLDER + file_name, index=False)
 
 
 def main():
-    canadian_cites = get_cities('Canada')
-    # us_cities = get_cities('US')
+    # canadian_cites = get_cities('Canada')
+    # candian_urls = create_urls('Canada', canadian_cites)
+    # expected_canadian_jobs = get_expected_num_jobs(candian_urls)
+    # actual_canadian_jobs = get_actual_num_jobs(candian_urls)
+    # merge(expected_canadian_jobs, actual_canadian_jobs, 'Canada')
 
-    candian_urls = create_urls('Canada', canadian_cites)
-    # us_urls = create_urls('US', us_cities)
-
-    expected_canadian_jobs = get_expected_num_jobs(candian_urls)
-    # expected_us_jobs = get_expected_num_jobs(us_urls)
-
-    actual_canadian_jobs = get_actual_num_jobs(candian_urls)
-    # actual_US_jobs = get_actual_num_jobs(us_urls)
-
-    merge(expected_canadian_jobs, actual_canadian_jobs, 'Canada')
+    us_cities = get_cities('US')
+    us_urls = create_urls('US', us_cities)
+    expected_us_jobs = get_expected_num_jobs(us_urls)
+    df = pd.DataFrame(expected_us_jobs, columns=[
+                      'Expected_jobs', 'City', 'State'])
+    # df.to_csv(DATA_FOLDER + 'expected_jobs_per_city ' +
+    #           str(date.today()) + '.csv', index=False)
+    actual_us_jobs = get_actual_num_jobs(us_urls)
+    merge(expected_us_jobs, actual_us_jobs, 'US')
 
 
 if __name__ == "__main__":
