@@ -74,27 +74,101 @@ def get_expected_num_jobs(job_sites):
 
         jobs_per_city = [num_jobs, job_site[1], job_site[2]]
         expected_num_jobs.append(jobs_per_city)
-        pprint(job_site)
+        pprint(jobs_per_city)
 
     return expected_num_jobs
 
 
-def temp(job_sites):
-    for job_site in job_sites:
-        print(job_site[0])
+def get_actual_num_jobs(urls):
+    jobcard_jks = []
+    expected_num_jobs = []
+    jobs_per_city = []
+
+    print('get_actual_num_jobs started...')
+
+    options = Options()
+    options.add_experimental_option("detach", True)
+    options.add_argument("--incognito")
+    driver = webdriver.Chrome(
+        options=options, executable_path=CHROME_PATH)
+
+    driver.implicitly_wait(10)
+
+    for url in urls:
+        _flag = True
+        num_jobs = 0
+        next_url_counter = 0
+        try_times = 3
+        driver.implicitly_wait(10)
+        while(_flag):
+            new_site = url[0] + '&start=' + str(next_url_counter)
+            driver.get(new_site)
+            jobcards = driver.find_elements_by_class_name(
+                'jobsearch-SerpJobCard')
+
+            new_job_check = 0
+
+            for jobcard in jobcards:
+                # summary_to_csv = summary_to_csv.head(0)  # Reset
+                jobcard_jk = jobcard.get_attribute('data-jk')
+
+                if jobcard_jk not in jobcard_jks:
+
+                    jobcard_jks.append(jobcard_jk)
+
+                    new_job_check += 1
+                    num_jobs += 1
+                    # print("Got these many results:", job_summary_df.shape)
+
+            # print('URLcounter:', next_url_counter, 'Num_jobs:', num_jobs)
+
+            if new_job_check == 0:
+                try_times -= 1
+                # print(try_times)
+
+            # Exit if no new jobs found for 3 times in a row
+            if new_job_check == 0 and try_times == 0:
+                try_times = 3
+                _flag = False
+
+            next_url_counter += 10
+
+        jobs_per_city = [num_jobs, url[1], url[2]]
+        expected_num_jobs.append(jobs_per_city)
+        pprint(jobs_per_city)
+
+    driver.close()
+    print('get_actual_num_jobs ended...')
+    return expected_num_jobs
+
+
+def merge(list1, list2):
+    df1 = pd.DataFrame(list1, columns=['Expected_jobs', 'City', 'State'])
+    df2 = pd.DataFrame(list2, columns=['Actual_jobs', 'City', 'State'])
+
+    Key = ['City', 'State']
+    Final_columns = ['Expected_jobs', 'Actual_jobs', 'City', 'State']
+
+    df3 = df1.merge(df2, how='inner', on=Key)
+    df3 = df3[Final_columns]
+
+    df3.to_csv('file_name.csv', index=False)
 
 
 def main():
     canadian_cites = get_cities('Canada')
     # us_cities = get_cities('US')
 
-    candian_url = create_urls('Canada', canadian_cites)
+    candian_urls = create_urls('Canada', canadian_cites)
     # us_urls = create_urls('US', us_cities)
 
-    canadian_jobs = get_expected_num_jobs(candian_url)
-    # temp(candian_url)
+    expected_canadian_jobs = get_expected_num_jobs(candian_urls)
+    # expected_us_jobs = get_expected_num_jobs(us_urls)
 
-    pprint(canadian_jobs)
+    actual_canadian_jobs = get_actual_num_jobs(candian_urls)
+    # actual_US_jobs = get_actual_num_jobs(us_urls)
+
+    merge(expected_canadian_jobs, actual_canadian_jobs)
 
 
 if __name__ == "__main__":
