@@ -1,0 +1,1212 @@
+Expected_jobs,Actual_jobs,City,State
+5,57,Alberton,Prince Edward Island
+389,385,Charlottetown,Prince Edward Island
+16,17,Cornwall,Prince Edward Island
+1,1,Georgetown,Prince Edward Island
+25,24,Kensington,Prince Edward Island
+22,24,Montague,Prince Edward Island
+8,9,Souris,Prince Edward Island
+313,6,Stratford,Prince Edward Island
+81,78,Summerside,Prince Edward Island
+89,98,Amherst,Nova Scotia
+10,13,Annapolis Royal,Nova Scotia
+81,69,Antigonish,Nova Scotia
+18,19,Berwick,Nova Scotia
+13,11,Bridgetown,Nova Scotia
+129,130,Bridgewater,Nova Scotia
+3,2,Canso,Nova Scotia
+4,4,Clark's Harbour,Nova Scotia
+25,27,Digby,Nova Scotia
+3,4,Hantsport,Nova Scotia
+151,129,Kentville,Nova Scotia
+2,2,Lockeport,Nova Scotia
+0,0,Louisburg,Nova Scotia
+34,34,Lunenburg,Nova Scotia
+2,3,Mahone Bay,Nova Scotia
+7,8,Middleton,Nova Scotia
+50,49,Mulgrave,Nova Scotia
+103,100,New Glasgow,Nova Scotia
+0,0,Old Bridgeport,Nova Scotia
+5,6,Oxford,Nova Scotia
+3,3,Parrsboro,Nova Scotia
+9,8,Pictou,Nova Scotia
+48,0,Port Hawkesbury,Nova Scotia
+14,14,Shelburne,Nova Scotia
+4,5,Springhill,Nova Scotia
+106,1,Stellarton,Nova Scotia
+2,2,Stewiacke,Nova Scotia
+77,0,Trenton,Nova Scotia
+179,157,Truro,Nova Scotia
+49,7,Westville,Nova Scotia
+33,32,Windsor,Nova Scotia
+33,32,Wolfville,Nova Scotia
+105,99,Yarmouth,Nova Scotia
+112,110,Bathurst,New Brunswick
+1,3,Beresford,New Brunswick
+33,30,Bouctouche,New Brunswick
+89,84,Campbellton,New Brunswick
+17,18,Caraquet,New Brunswick
+0,2,Carleton,New Brunswick
+0,0,Coverdale,New Brunswick
+9,8,Dalhousie,New Brunswick
+172,158,Dieppe,New Brunswick
+96,89,Edmundston,New Brunswick
+594,533,Fredericton,New Brunswick
+1,1,Grand Bay-Westfield,New Brunswick
+47,45,Grand Falls,New Brunswick
+45,1,Grand-Sault,New Brunswick
+4,4,Hampton,New Brunswick
+9,8,Hartland,New Brunswick
+1,1,Lamèque,New Brunswick
+0,0,Lancaster,New Brunswick
+117,82,Miramichi,New Brunswick
+849,731,Moncton,New Brunswick
+10,10,Nackawic,New Brunswick
+60,54,Oromocto,New Brunswick
+0,0,Parrtown,New Brunswick
+0,0,Portland,New Brunswick
+66,59,Quispamsis,New Brunswick
+26,21,Richibucto,New Brunswick
+713,18,Riverview,New Brunswick
+68,4,Rothesay,New Brunswick
+39,39,Sackville,New Brunswick
+20,21,Saint Andrews,New Brunswick
+446,442,Saint John,New Brunswick
+6,6,Saint-Léonard,New Brunswick
+5,5,Saint-Quentin,New Brunswick
+45,45,Shediac,New Brunswick
+8,8,Shippagan,New Brunswick
+0,0,Shippegan,New Brunswick
+8,9,St. George,New Brunswick
+0,0,St. Leonard,New Brunswick
+23,20,St. Stephen,New Brunswick
+61,54,Sussex,New Brunswick
+23,20,Tracadie-Sheila,New Brunswick
+33,31,Woodstock,New Brunswick
+0,26,Abercorn,Quebec
+46,45,Acton Vale,Quebec
+4,4,Adamsville,Quebec
+0,0,Ahuntsic-Cartierville,Quebec
+0,0,Albanel,Quebec
+100,92,Alma,Quebec
+93,74,Amos,Quebec
+18,17,Amqui,Quebec
+0,0,Andréville,Quebec
+55,49,Ange-Gardien,Quebec
+0,0,Angliers,Quebec
+1123,974,Anjou,Quebec
+1123,0,Anjou,Quebec
+1123,974,Anjou,Quebec
+1123,0,Anjou,Quebec
+0,0,Annaville,Quebec
+0,5,Armagh,Quebec
+366,255,Arthabaska,Quebec
+27,27,Asbestos,Quebec
+0,0,Aston-Jonction,Quebec
+508,400,Auteuil,Quebec
+0,0,Ayer's Cliff,Quebec
+0,0,Ayersville,Quebec
+247,214,Aylmer,Quebec
+84,81,Baie-Comeau,Quebec
+360,363,Baie-D'Urfé,Quebec
+74,93,Baie-Saint-Paul,Quebec
+3,3,Baie-Trinité,Quebec
+202,171,Baie-de-Shawinigan,Quebec
+0,0,Baieville,Quebec
+0,4,Barkmere,Quebec
+0,0,Barraute,Quebec
+0,0,Barville,Quebec
+745,428,Beaconsfield,Quebec
+37,37,Beauceville,Quebec
+0,0,Beauceville-Est,Quebec
+38,33,Beauharnois,Quebec
+0,0,Beaulac,Quebec
+0,0,Beaulieu,Quebec
+332,292,Beauport,Quebec
+332,0,Beauport,Quebec
+332,292,Beauport,Quebec
+332,0,Beauport,Quebec
+26,22,Beaupré,Quebec
+22,21,Bedford,Quebec
+0,0,Beebe Plain,Quebec
+0,0,Belle-Plage,Quebec
+2,2,Bellefeuille,Quebec
+0,0,Belleterre,Quebec
+374,306,Beloeil,Quebec
+0,0,Bernierville,Quebec
+76,59,Berthierville,Quebec
+1,1,Bishopton,Quebec
+0,0,Black Lake,Quebec
+483,430,Blainville,Quebec
+150,65,Bois-des-Filion,Quebec
+743,294,Boisbriand,Quebec
+20,17,Bonaventure,Quebec
+57,53,Brome,Quebec
+111,106,Bromont,Quebec
+9,9,Brompton,Quebec
+83,79,Bromptonville,Quebec
+1305,1036,Brossard,Quebec
+7,7,Brownsburg,Quebec
+7,0,Brownsburg-Chatham,Quebec
+5,4,Bryson,Quebec
+21,20,Buckingham,Quebec
+27,36,Bécancour,Quebec
+6,6,Cabano,Quebec
+0,0,Cadillac,Quebec
+0,0,Calumet,Quebec
+0,0,Calumet,Quebec
+0,0,Calumet,Quebec
+0,0,Calumet,Quebec
+3,3,Campbell's Bay,Quebec
+580,362,Candiac,Quebec
+0,0,Cap-Chat,Quebec
+670,538,Cap-Rouge,Quebec
+26,33,Cap-Santé,Quebec
+6,5,Cap-aux-Meules,Quebec
+609,540,Cap-de-la-Madeleine,Quebec
+0,0,Cap-à-l'Aigle,Quebec
+279,185,Carignan,Quebec
+3,4,Carillon,Quebec
+1,1,Carleton,Quebec
+0,0,Carleton--Saint-Omer,Quebec
+0,0,Cascades-Point,Quebec
+2,2,Causapscal,Quebec
+281,2,Chambly,Quebec
+11,11,Chandler,Quebec
+7,11,Chapais,Quebec
+0,0,Chapeau,Quebec
+398,331,Charlemagne,Quebec
+385,215,Charlesbourg,Quebec
+385,0,Charlesbourg,Quebec
+385,215,Charlesbourg,Quebec
+385,0,Charlesbourg,Quebec
+1121,615,Charny,Quebec
+50,42,Chibougamau,Quebec
+403,322,Chicoutimi,Quebec
+403,0,Chicoutimi,Quebec
+403,322,Chicoutimi,Quebec
+403,0,Chicoutimi,Quebec
+3,3,Chomedey,Quebec
+0,1,Chute-aux-Outardes,Quebec
+14,14,Château-Richer,Quebec
+232,204,Châteauguay,Quebec
+271,51,Châteauguay-Centre,Quebec
+0,0,Châteauguay-Heights,Quebec
+2,2,Chénéville,Quebec
+5,5,Clarenceville,Quebec
+1,1,Clermont,Quebec
+49,41,Coaticook,Quebec
+4,4,Compton,Quebec
+21,16,Contrecoeur,Quebec
+10,10,Cookshire,Quebec
+10,0,Cookshire-Eaton,Quebec
+33,30,Coteau-Landing,Quebec
+77,37,Coteau-Station,Quebec
+112,86,Cowansville,Quebec
+2060,1092,Côte-Saint-Luc,Quebec
+0,0,Côte-des-Neiges--Notre-Dame-de-Grâce,Quebec
+7,7,Danville,Quebec
+10,10,Daveluyville,Quebec
+552,117,Delson,Quebec
+1,1,Desbiens,Quebec
+0,0,Deschaillons,Quebec
+0,0,Deschaillons-sur-Saint-Laurent,Quebec
+5,5,Desjardins,Quebec
+468,371,Deux-Montagnes,Quebec
+13,9,Disraeli,Quebec
+0,0,Dixville,Quebec
+37,34,Dolbeau,Quebec
+37,0,Dolbeau-Mistassini,Quebec
+613,454,Dollard-Des Ormeaux,Quebec
+26,0,Donnacona,Quebec
+1,1,Dorion,Quebec
+911,521,Dorval,Quebec
+776,630,Drummondville,Quebec
+11,12,Dunham,Quebec
+0,0,Duparquet,Quebec
+2626,1080,Duvernay,Quebec
+14,11,Dégelis,Quebec
+35,35,East Angus,Quebec
+14,13,East Broughton Station,Quebec
+116,1,East Farnham,Quebec
+0,0,East Hatley,Quebec
+3,2,Eastman,Quebec
+471,99,Fabreville,Quebec
+38,39,Farnham,Quebec
+4,4,Ferme-Neuve,Quebec
+13,13,Fermont,Quebec
+806,710,Fleurimont,Quebec
+806,1,Fleurimont,Quebec
+806,710,Fleurimont,Quebec
+806,1,Fleurimont,Quebec
+8,8,Forestville,Quebec
+0,0,Fort-Chambly,Quebec
+3,3,Fort-Coulonge,Quebec
+2,2,Fortierville,Quebec
+0,0,Fossambault-sur-le-Lac,Quebec
+0,0,Foster,Quebec
+0,0,Francoeur,Quebec
+53,54,Gaspé,Quebec
+1165,887,Gatineau,Quebec
+2,2,Godbout,Quebec
+1,1,Gracefield,Quebec
+1,0,Gracefield,Quebec
+1,1,Gracefield,Quebec
+1,0,Gracefield,Quebec
+569,504,Granby,Quebec
+36,32,Grand-Mère,Quebec
+4,3,Grande-Rivière,Quebec
+1,1,Grandes-Bergeronnes,Quebec
+0,0,Grandes-Piles,Quebec
+1820,730,Greenfield Park,Quebec
+1820,1,Greenfield Park,Quebec
+1821,730,Greenfield Park,Quebec
+1821,1,Greenfield Park,Quebec
+89,69,Grenville,Quebec
+89,0,Grenville,Quebec
+89,69,Grenville,Quebec
+89,0,Grenville,Quebec
+1952,351,Hampstead,Quebec
+49,49,Hatley,Quebec
+0,0,Hauterive,Quebec
+3,3,Hemmingford,Quebec
+4,3,Henryville,Quebec
+5,4,Howick,Quebec
+21,19,Hudson,Quebec
+4556,1094,Hull,Quebec
+17,15,Huntingdon,Quebec
+0,0,Hébertville-Station,Quebec
+579,505,Iberville,Quebec
+1,1,Inverness,Quebec
+30,4,Jacques-Cartier,Quebec
+371,326,Joliette,Quebec
+150,108,Jonquière,Quebec
+150,0,Jonquière,Quebec
+150,108,Jonquière,Quebec
+150,0,Jonquière,Quebec
+1,1,Kamouraska,Quebec
+8,10,Kingsbury,Quebec
+27,24,Kingsey Falls,Quebec
+27,1,Kingsey Falls,Quebec
+27,24,Kingsey Falls,Quebec
+27,1,Kingsey Falls,Quebec
+915,1,Kirkland,Quebec
+0,0,Knob-Lake,Quebec
+442,107,L'Ancienne-Lorette,Quebec
+15,16,L'Ange-Gardien,Quebec
+16,15,L'Annonciation,Quebec
+77,67,L'Assomption,Quebec
+1,1,L'Isle-Verte,Quebec
+20,17,L'Islet,Quebec
+70,6,L'Épiphanie,Quebec
+171,0,L'Île-Bizard,Quebec
+572,0,L'Île-Bizard--Sainte-Geneviève,Quebec
+484,394,L'Île-Cadieux,Quebec
+544,3,L'Île-Dorval,Quebec
+295,76,L'Île-Perrot,Quebec
+13,12,L'Île-d'Entrée,Quebec
+28,28,La Baie,Quebec
+28,0,La Baie,Quebec
+28,28,La Baie,Quebec
+28,0,La Baie,Quebec
+0,0,La Cité,Quebec
+20,19,La Guadeloupe,Quebec
+0,0,La Haute-Saint-Charles,Quebec
+30,31,La Malbaie,Quebec
+0,0,La Malbaie--Pointe-au-Pic,Quebec
+0,0,La Patrie,Quebec
+42,40,La Plaine,Quebec
+38,35,La Pocatière,Quebec
+960,4,La Prairie,Quebec
+0,0,La Pérade,Quebec
+82,68,La Sarre,Quebec
+33,34,La Tuque,Quebec
+839,7,LaSalle,Quebec
+839,0,LaSalle,Quebec
+840,7,LaSalle,Quebec
+840,0,LaSalle,Quebec
+57,1,Lac-Brome,Quebec
+4,4,Lac-Carré,Quebec
+0,0,Lac-Delage,Quebec
+19,5,Lac-Etchemin,Quebec
+68,66,Lac-Mégantic,Quebec
+0,0,Lac-Poulin,Quebec
+0,0,Lac-Saguay,Quebec
+57,41,Lac-Saint-Charles,Quebec
+9,8,Lac-Saint-Joseph,Quebec
+0,0,Lac-Sergent,Quebec
+2,2,Lac-au-Saumon,Quebec
+2,2,Lac-des-Écorces,Quebec
+213,159,Lachenaie,Quebec
+833,1,Lachine,Quebec
+833,0,Lachine,Quebec
+834,1,Lachine,Quebec
+834,0,Lachine,Quebec
+70,57,Lachute,Quebec
+16,13,Lacolle,Quebec
+0,0,Lafontaine,Quebec
+6,6,Larochelle,Quebec
+5,6,Laterrière,Quebec
+1,1,Laurentides,Quebec
+0,0,Laurentien,Quebec
+27,26,Laurier-Station,Quebec
+0,0,Laurierville,Quebec
+2726,86,Laval,Quebec
+2726,0,Laval,Quebec
+2726,86,Laval,Quebec
+2726,0,Laval,Quebec
+474,0,Laval-Ouest,Quebec
+2763,13,Laval-des-Rapides,Quebec
+442,0,Laval-sur-le-Lac,Quebec
+33,31,Lavaltrie,Quebec
+33,0,Lavaltrie,Quebec
+33,31,Lavaltrie,Quebec
+33,0,Lavaltrie,Quebec
+1,1,Lawrenceville,Quebec
+4,5,Le Gardeur,Quebec
+0,0,Le Mont-Bellevue,Quebec
+0,0,Le Plateau-Mont-Royal,Quebec
+0,0,Le Sud-Ouest,Quebec
+0,0,Le Vieux-Longueuil,Quebec
+1683,347,LeMoyne,Quebec
+14,13,Lebel-sur-Quévillon,Quebec
+0,0,Leclercville,Quebec
+750,5,Lennoxville,Quebec
+750,0,Lennoxville,Quebec
+750,5,Lennoxville,Quebec
+750,0,Lennoxville,Quebec
+0,0,Les Becquets,Quebec
+0,0,Les Chutes-de-la-Chaudière-Est,Quebec
+0,0,Les Chutes-de-la-Chaudière-Ouest,Quebec
+684,37,Les Rivières,Quebec
+0,0,Limoilou,Quebec
+0,0,Linière,Quebec
+1999,1,Longueuil,Quebec
+1999,0,Longueuil,Quebec
+1999,1,Longueuil,Quebec
+1999,0,Longueuil,Quebec
+190,61,Loretteville,Quebec
+166,3,Lorraine,Quebec
+0,0,Lorrainville,Quebec
+85,53,Louiseville,Quebec
+0,0,Luceville,Quebec
+208,0,Léry,Quebec
+1284,32,Lévis,Quebec
+0,0,MacNider,Quebec
+5,5,Macamic,Quebec
+216,181,Magog,Quebec
+21,21,Malartic,Quebec
+46,46,Maniwaki,Quebec
+0,1,Manseau,Quebec
+38,0,Maple Grove,Quebec
+1,0,Marbleton,Quebec
+29,28,Marieville,Quebec
+0,0,Marsoui,Quebec
+267,161,Mascouche,Quebec
+2,2,Maskinongé,Quebec
+24,6,Masson-Angers,Quebec
+6,5,Massueville,Quebec
+3,3,Matagami,Quebec
+90,70,Matane,Quebec
+397,69,McMasterville,Quebec
+8,0,Melbourne,Quebec
+2,1,Melocheville,Quebec
+65,0,Mercier,Quebec
+0,0,Mercier--Hochelaga-Maisonneuve,Quebec
+254,241,Mirabel,Quebec
+36,0,Mistassini,Quebec
+0,0,Moisie,Quebec
+185,151,Mont-Gabriel,Quebec
+25,23,Mont-Joli,Quebec
+79,79,Mont-Laurier,Quebec
+79,12,Mont-Rolland,Quebec
+12858,1007,Mont-Royal,Quebec
+15,8,Mont-Saint-Grégoire,Quebec
+374,0,Mont-Saint-Hilaire,Quebec
+0,0,Mont-Saint-Pierre,Quebec
+96,95,Mont-Tremblant,Quebec
+0,0,Montauban,Quebec
+3,3,Montebello,Quebec
+98,93,Montmagny,Quebec
+12273,18,Montréal,Quebec
+563,324,Montréal-Est,Quebec
+686,0,Montréal-Nord,Quebec
+686,0,Montréal-Nord,Quebec
+686,0,Montréal-Nord,Quebec
+686,0,Montréal-Nord,Quebec
+1139,0,Montréal-Ouest,Quebec
+0,0,Murdochville,Quebec
+0,0,Mégantic,Quebec
+0,0,Métabetchouan,Quebec
+2,2,Métabetchouan--Lac-à-la-Croix,Quebec
+0,0,Métis-sur-Mer,Quebec
+0,0,Métis-sur-Mer,Quebec
+0,0,Métis-sur-Mer,Quebec
+0,0,Métis-sur-Mer,Quebec
+32,32,Napierville,Quebec
+7,8,Neuville,Quebec
+7,2,Neuville,Quebec
+7,8,Neuville,Quebec
+7,2,Neuville,Quebec
+27,22,New Glasgow,Quebec
+55,50,New Richmond,Quebec
+55,45,Nicolet,Quebec
+0,0,Norbertville,Quebec
+13,13,Normandin,Quebec
+20,0,North Hatley,Quebec
+0,0,Notre-Dame-d'Hébertville,Quebec
+299,0,Notre-Dame-de-l'Île-Perrot,Quebec
+367,45,Notre-Dame-des-Prairies,Quebec
+15,14,Notre-Dame-du-Bon-Conseil,Quebec
+0,0,Notre-Dame-du-Lac,Quebec
+216,2,Omerville,Quebec
+7,6,Ormstown,Quebec
+323,1,Otterburn Park,Quebec
+12834,2,Outremont,Quebec
+12834,1,Outremont,Quebec
+12834,2,Outremont,Quebec
+12834,1,Outremont,Quebec
+8,8,Papineauville,Quebec
+1,1,Parent,Quebec
+5,5,Paspébiac,Quebec
+3,3,Percé,Quebec
+4,4,Philipsburg,Quebec
+628,3,Pierrefonds,Quebec
+0,0,Pierrefonds-Roxboro,Quebec
+6,9,Pierreville,Quebec
+604,12,Pincourt,Quebec
+84,77,Plessisville,Quebec
+2,2,Pohénégamook,Quebec
+22,16,Pointe-Calumet,Quebec
+1106,0,Pointe-Claire,Quebec
+3,0,Pointe-Fortune,Quebec
+3,3,Pointe-Lebel,Quebec
+0,0,Pointe-au-Pic,Quebec
+8,8,Pointe-au-Père,Quebec
+1,1,Pointe-aux-Outardes,Quebec
+74,4,Pointe-des-Cascades,Quebec
+28,23,Pont-Rouge,Quebec
+28,0,Pont-Rouge,Quebec
+28,23,Pont-Rouge,Quebec
+28,0,Pont-Rouge,Quebec
+2698,0,Pont-Viau,Quebec
+17,18,Port-Cartier,Quebec
+3,3,Portage-du-Fort,Quebec
+32,37,Portneuf,Quebec
+0,0,Price,Quebec
+0,0,Priceville,Quebec
+21,22,Princeville,Quebec
+53,44,Prévost,Quebec
+3,0,Quyon,Quebec
+4119,1195,Québec,Quebec
+27,27,Rawdon,Quebec
+375,64,Repentigny,Quebec
+268,2,Richelieu,Quebec
+16,16,Richmond,Quebec
+41,38,Rigaud,Quebec
+213,185,Rimouski,Quebec
+0,0,Rimouski-Est,Quebec
+0,0,Ripon,Quebec
+10,7,Rivière-Beaudette,Quebec
+16,0,Rivière-Rouge,Quebec
+451,1,Rivière-des-Prairies--Pointe-aux-Trembles,Quebec
+246,222,Rivière-du-Loup,Quebec
+1,1,Rivière-à-Pierre,Quebec
+0,0,Robertsonville,Quebec
+51,47,Roberval,Quebec
+96,91,Rock Forest,Quebec
+2,2,Rock Island,Quebec
+0,0,Rosemont--La Petite-Patrie,Quebec
+705,0,Rosemère,Quebec
+53,46,Rougemont,Quebec
+181,152,Rouyn-Noranda,Quebec
+453,0,Roxboro,Quebec
+4,4,Roxton Falls,Quebec
+13,11,Roxton Pond,Quebec
+181,4,Sacré-Coeur-de-Jésus,Quebec
+409,1,Saguenay,Quebec
+0,0,Saint-Agapitville,Quebec
+3,4,Saint-Alban,Quebec
+3,3,Saint-Alexandre,Quebec
+16,17,Saint-Alexis,Quebec
+1,1,Saint-André,Quebec
+18,14,Saint-André-Avellin,Quebec
+3,0,Saint-André-Est,Quebec
+0,0,Saint-André-d'Acton-Vale,Quebec
+0,0,Saint-André-du-Lac-Saint-Jean,Quebec
+38,25,Saint-Anselme,Quebec
+33,0,Saint-Antoine,Quebec
+39,38,Saint-Augustin,Quebec
+330,1,Saint-Augustin-de-Desmaures,Quebec
+1,0,Saint-Basile,Quebec
+0,0,Saint-Basile-Sud,Quebec
+154,58,Saint-Basile-le-Grand,Quebec
+1,3,Saint-Benoît,Quebec
+8,10,Saint-Bernard,Quebec
+2,2,Saint-Boniface-de-Shawinigan,Quebec
+0,0,Saint-Casimir-Est,Quebec
+148,3,Saint-Charles,Quebec
+0,1,Saint-Charles-sur-Richelieu,Quebec
+16,14,Saint-Chrysostome,Quebec
+537,1,Saint-Constant,Quebec
+13,0,Saint-Cyrille,Quebec
+13,0,Saint-Cyrille,Quebec
+13,0,Saint-Cyrille,Quebec
+13,0,Saint-Cyrille,Quebec
+0,0,Saint-Cyrille-de-Normandin,Quebec
+6,5,Saint-Célestin,Quebec
+48,1,Saint-Césaire,Quebec
+13,14,Saint-Damase,Quebec
+2,2,Saint-Denis,Quebec
+0,0,Saint-Denis-de-Richelieu,Quebec
+5,5,Saint-Elzéar,Quebec
+497,3,Saint-Eustache,Quebec
+31,4,Saint-Flavien,Quebec
+667,477,Saint-François,Quebec
+6,0,Saint-François-du-Lac,Quebec
+22,19,Saint-Félicien,Quebec
+22,24,Saint-Félix-de-Valois,Quebec
+21,19,Saint-Gabriel,Quebec
+306,248,Saint-Georges,Quebec
+306,0,Saint-Georges,Quebec
+306,248,Saint-Georges,Quebec
+306,0,Saint-Georges,Quebec
+0,0,Saint-Georges-de-Cacouna,Quebec
+0,0,Saint-Georges-de-Windsor,Quebec
+24,26,Saint-Germain-de-Grantham,Quebec
+0,0,Saint-Grégoire-de-Greenlay,Quebec
+17,17,Saint-Guillaume,Quebec
+4,4,Saint-Gérard,Quebec
+0,0,Saint-Hilaire-sur-Richelieu,Quebec
+1592,2,Saint-Hubert,Quebec
+1592,0,Saint-Hubert,Quebec
+1592,2,Saint-Hubert,Quebec
+1592,0,Saint-Hubert,Quebec
+577,487,Saint-Hyacinthe,Quebec
+7,8,Saint-Isidore,Quebec
+14,0,Saint-Jacques,Quebec
+24,19,Saint-Jean-Chrysostome,Quebec
+0,0,Saint-Jean-de-Boischatel,Quebec
+641,36,Saint-Jean-sur-Richelieu,Quebec
+37,35,Saint-Joseph-de-Beauce,Quebec
+210,172,Saint-Joseph-de-Sorel,Quebec
+1,1,Saint-Joseph-de-la-Rive,Quebec
+56,43,Saint-Jovite,Quebec
+629,537,Saint-Jérôme,Quebec
+1968,0,Saint-Lambert,Quebec
+1996,3,Saint-Laurent,Quebec
+1996,0,Saint-Laurent,Quebec
+1996,3,Saint-Laurent,Quebec
+1996,0,Saint-Laurent,Quebec
+33,28,Saint-Lazare,Quebec
+1,1,Saint-Liboire,Quebec
+58,51,Saint-Lin--Laurentides,Quebec
+35,0,Saint-Louis-de-France,Quebec
+6,6,Saint-Luc,Quebec
+3,3,Saint-Ludger,Quebec
+1139,11,Saint-Léonard,Quebec
+1139,0,Saint-Léonard,Quebec
+1139,11,Saint-Léonard,Quebec
+1139,0,Saint-Léonard,Quebec
+16,17,Saint-Léonard-d'Aston,Quebec
+3,1,Saint-Marc-des-Carrières,Quebec
+10,7,Saint-Maurice,Quebec
+100,77,Saint-Nicolas,Quebec
+24,14,Saint-Nicéphore,Quebec
+0,0,Saint-Noël,Quebec
+2,2,Saint-Ours,Quebec
+12,11,Saint-Pamphile,Quebec
+5,5,Saint-Pascal,Quebec
+16,15,Saint-Paulin,Quebec
+13,13,Saint-Pie,Quebec
+372,0,Saint-Pierre,Quebec
+372,0,Saint-Pierre,Quebec
+372,0,Saint-Pierre,Quebec
+372,0,Saint-Pierre,Quebec
+3,3,Saint-Placide,Quebec
+5,4,Saint-Polycarpe,Quebec
+0,1,Saint-Raphaël,Quebec
+16,19,Saint-Raymond,Quebec
+1271,4,Saint-Romuald,Quebec
+110,0,Saint-Rédempteur,Quebec
+40,36,Saint-Rémi,Quebec
+134,1,Saint-Sauveur,Quebec
+134,0,Saint-Sauveur-des-Monts,Quebec
+2,2,Saint-Siméon,Quebec
+0,0,Saint-Sylvestre,Quebec
+308,270,Saint-Timothée,Quebec
+10,14,Saint-Tite,Quebec
+0,0,Saint-Ulric,Quebec
+0,0,Saint-Vallier,Quebec
+921,3,Saint-Victor,Quebec
+540,1,Saint-Vincent-de-Paul,Quebec
+2,2,Saint-Wenceslas,Quebec
+7,7,Saint-Zacharie,Quebec
+40,0,Saint-Zotique,Quebec
+134,4,Saint-Émile,Quebec
+0,0,Saint-Éphrem-de-Tring,Quebec
+77,0,Sainte-Adèle,Quebec
+89,85,Sainte-Agathe,Quebec
+0,0,Sainte-Agathe-Sud,Quebec
+89,0,Sainte-Agathe-des-Monts,Quebec
+0,0,Sainte-Angèle-de-Mérici,Quebec
+0,0,Sainte-Angèle-de-Rimouski,Quebec
+26,0,Sainte-Anne-de-Beaupré,Quebec
+299,1,Sainte-Anne-de-Bellevue,Quebec
+13,0,Sainte-Anne-des-Monts,Quebec
+0,0,Sainte-Anne-des-Monts--Tourelle,Quebec
+38,4,Sainte-Anne-des-Plaines,Quebec
+0,1,Sainte-Anne-du-Lac,Quebec
+340,1,Sainte-Catherine,Quebec
+14,15,Sainte-Catherine-de-la-Jacques-Cartier,Quebec
+0,0,Sainte-Clothilde-de-Horton,Quebec
+1,1,Sainte-Clotilde-de-Horton,Quebec
+4,0,Sainte-Croix,Quebec
+330,62,Sainte-Dorothée,Quebec
+1446,1,Sainte-Foy,Quebec
+0,0,Sainte-Foy--Sillery,Quebec
+0,0,Sainte-Félicité,Quebec
+572,0,Sainte-Geneviève,Quebec
+0,0,Sainte-Jeanne-d'Arc,Quebec
+222,167,Sainte-Julie,Quebec
+7,7,Sainte-Madeleine,Quebec
+4,4,Sainte-Marguerite--Estérel,Quebec
+4,0,Sainte-Marguerite-du-Lac-Masson,Quebec
+203,139,Sainte-Marie,Quebec
+203,0,Sainte-Marie,Quebec
+203,139,Sainte-Marie,Quebec
+203,0,Sainte-Marie,Quebec
+78,12,Sainte-Marthe-du-Cap,Quebec
+438,2,Sainte-Marthe-sur-le-Lac,Quebec
+2,2,Sainte-Monique,Quebec
+2,0,Sainte-Philomène,Quebec
+13,0,Sainte-Pudentienne,Quebec
+166,34,Sainte-Pétronille,Quebec
+73,19,Sainte-Rosalie,Quebec
+813,5,Sainte-Rose,Quebec
+254,0,Sainte-Scholastique,Quebec
+1,1,Sainte-Thècle,Quebec
+720,1,Sainte-Thérèse,Quebec
+79,0,Sainte-Véronique,Quebec
+284,3,Salaberry-de-Valleyfield,Quebec
+0,0,Sault-au-Mouton,Quebec
+2,2,Sawyerville,Quebec
+5,5,Schefferville,Quebec
+0,0,Scotstown,Quebec
+1,1,Scott,Quebec
+3,3,Senneterre,Quebec
+295,0,Senneville,Quebec
+136,124,Sept-Îles,Quebec
+219,3,Shawinigan,Quebec
+209,0,Shawinigan-Sud,Quebec
+4,3,Shawville,Quebec
+111,0,Shefford-Ouest,Quebec
+882,1,Sherbrooke,Quebec
+4203,0,Sillery,Quebec
+208,2,Sorel,Quebec
+210,0,Sorel-Tracy,Quebec
+5,4,Stanstead,Quebec
+2,0,Stanstead Plain,Quebec
+0,0,Stukely-Sud,Quebec
+14,13,Sutton,Quebec
+12,12,Tadoussac,Quebec
+4,2,Taschereau,Quebec
+640,8,Terrebonne,Quebec
+148,127,Thetford Mines,Quebec
+5,5,Thurso,Quebec
+1,1,Tracy,Quebec
+6,6,Tring-Jonction,Quebec
+9,8,Trois-Pistoles,Quebec
+722,0,Trois-Rivières,Quebec
+189,104,Trois-Rivières-Ouest,Quebec
+5,4,Témiscaming,Quebec
+8,8,Upton,Quebec
+0,0,Val-Barrette,Quebec
+0,0,Val-Brillant,Quebec
+76,5,Val-Bélair,Quebec
+27,14,Val-David,Quebec
+0,0,Val-Jalbert,Quebec
+257,217,Val-d'Or,Quebec
+32,31,Valcourt,Quebec
+20,16,Vallée-Jonction,Quebec
+18,20,Vanier,Quebec
+250,189,Varennes,Quebec
+531,4,Vaudreuil,Quebec
+531,0,Vaudreuil-Dorion,Quebec
+561,0,Vaudreuil-sur-le-Lac,Quebec
+680,435,Verdun,Quebec
+680,0,Verdun,Quebec
+679,435,Verdun,Quebec
+679,0,Verdun,Quebec
+396,0,Victoriaville,Quebec
+20,19,Ville-Marie,Quebec
+20,0,Ville-Marie,Quebec
+20,19,Ville-Marie,Quebec
+20,0,Ville-Marie,Quebec
+0,0,Villeray--Saint-Michel--Parc-Extension,Quebec
+3,3,Vimont,Quebec
+8,6,Wakefield,Quebec
+15,15,Warden,Quebec
+21,16,Warwick,Quebec
+18,3,Waterloo,Quebec
+42,2,Waterville,Quebec
+0,0,Weedon Centre,Quebec
+12161,1,Westmount,Quebec
+0,0,Wickham West,Quebec
+0,0,Wickham-Ouest,Quebec
+13,15,Windsor,Quebec
+0,0,Wottonville,Quebec
+1,0,Wright-Gracefield-Northfield,Quebec
+39,35,Yamachiche,Quebec
+3,3,Yamaska,Quebec
+3,0,Yamaska-Est,Quebec
+0,0,Île-Cadieux,Quebec
+295,0,Île-Perrot,Quebec
+0,0,Îles-Laval,Quebec
+430,421,Ajax,Ontario
+10,28,Albion,Ontario
+0,0,"Alliston, Beeton, Tecumseth and Tottenham",Ontario
+36,28,Amherstburg,Ontario
+58,49,Arnprior,Ontario
+422,384,Aurora,Ontario
+422,20,Aurora,Ontario
+422,384,Aurora,Ontario
+422,20,Aurora,Ontario
+32,32,Aylmer,Ontario
+28,29,Bancroft,Ontario
+988,956,Barrie,Ontario
+414,366,Belleville,Ontario
+0,0,Berlin,Ontario
+7,7,Blind River,Ontario
+57,62,Blue Mountains,Ontario
+3,3,Bluewater,Ontario
+11,12,Bosanquet,Ontario
+126,113,Bracebridge,Ontario
+146,141,Bradford West Gwillimbury,Ontario
+1643,1134,Brampton,Ontario
+46,44,Brant,Ontario
+0,0,Brant-on-the-Grand,Ontario
+584,550,Brantford,Ontario
+0,0,Bridgeburg,Ontario
+23,23,Brighton,Ontario
+179,159,Brockville,Ontario
+4,4,Bruce Mines,Ontario
+1025,955,Burlington,Ontario
+0,0,Bytown,Ontario
+96,98,Caledon,Ontario
+681,618,Cambridge,Ontario
+34,33,Campbellford/Seymour,Ontario
+0,0,"Campbellford/Seymour, Percy, Hastings",Ontario
+70,59,Carleton Place,Ontario
+0,0,Central Halton,Ontario
+283,250,Chatham-Kent,Ontario
+43,36,Clarence-Rockland,Ontario
+9,11,Clarington,Ontario
+0,0,Clearwater,Ontario
+402,380,Clifton,Ontario
+1,1,Cobalt,Ontario
+122,125,Cobourg,Ontario
+18,18,Cochrane,Ontario
+206,176,Collingwood,Ontario
+306,240,Cornwall,Ontario
+16,16,Deep River,Ontario
+13,12,Deseronto,Ontario
+2,2,Dowling,Ontario
+65,61,Dryden,Ontario
+39,39,Dunnville,Ontario
+32,31,East Gwillimbury,Ontario
+11,9,Eastview,Ontario
+24,25,Elliot Lake,Ontario
+7,7,Englehart,Ontario
+54,46,Erin,Ontario
+27,28,Espanola,Ontario
+26,32,Essex,Ontario
+0,0,Ford City,Ontario
+80,70,Fort Erie,Ontario
+62,54,Fort Frances,Ontario
+0,0,Fort William,Ontario
+3,4,French River,Ontario
+33,30,Gananoque,Ontario
+0,0,Georgian Highlands,Ontario
+52,54,Georgina,Ontario
+67,60,Goderich,Ontario
+4,4,Gore Bay,Ontario
+791,739,Grand Sudbury,Ontario
+162,152,Gravenhurst,Ontario
+90,82,Greater Napanee,Ontario
+791,14,Greater Sudbury,Ontario
+4,4,Greenstone,Ontario
+151,142,Grimsby,Ontario
+915,855,Guelph,Ontario
+4,4,Haldimand,Ontario
+4,0,Haldimand,Ontario
+4,4,Haldimand,Ontario
+4,0,Haldimand,Ontario
+16,15,Haldimand County,Ontario
+270,226,Halton Hills,Ontario
+1680,1110,Hamilton,Ontario
+85,73,Hanover,Ontario
+86,10,Hawkesbury,Ontario
+0,0,Hazeldean-March,Ontario
+15,16,Hearst,Ontario
+163,146,Huntsville,Ontario
+1,1,Huron East,Ontario
+55,54,Ingersoll,Ontario
+140,125,Innisfil,Ontario
+9,12,Iroquois Falls,Ontario
+0,0,Jaffray Melick,Ontario
+0,0,Jaffray and Melick,Ontario
+55,48,Kapuskasing,Ontario
+35,37,Kawartha Lakes,Ontario
+5,5,Kearney,Ontario
+100,86,Kenora,Ontario
+1,1,Killarney,Ontario
+725,636,Kingston,Ontario
+77,80,Kingsville,Ontario
+41,42,Kirkland Lake,Ontario
+1815,1122,Kitchener,Ontario
+53,51,LaSalle,Ontario
+9,11,Lakeshore,Ontario
+8,0,Lambton Shores,Ontario
+0,0,Latchford,Ontario
+0,0,Laurentian Hills,Ontario
+246,221,Leamington,Ontario
+56,58,Lincoln,Ontario
+1669,1063,London,Ontario
+17,17,Marathon,Ontario
+1181,1042,Markham,Ontario
+4,4,Markstay-Warren,Ontario
+16,17,Mattawa,Ontario
+15,16,Meaford,Ontario
+191,176,Midland,Ontario
+583,547,Milton,Ontario
+19,21,Minto,Ontario
+3868,1240,Mississauga,Ontario
+34,34,Mississippi Mills,Ontario
+11,14,Mono,Ontario
+5,4,Moosonee,Ontario
+7,6,Nanticoke,Ontario
+7,0,Nanticoke,Ontario
+7,6,Nanticoke,Ontario
+7,0,Nanticoke,Ontario
+0,0,Neebing,Ontario
+31,53,New Tecumseth,Ontario
+145,132,Newcastle,Ontario
+993,699,Newmarket,Ontario
+194,181,Niagara,Ontario
+410,9,Niagara Falls,Ontario
+99,92,Niagara-on-the-Lake,Ontario
+2,1,Nipissing Ouest,Ontario
+4,2,Norfolk,Ontario
+16,19,Norfolk County,Ontario
+367,324,North Bay,Ontario
+0,0,North Halton,Ontario
+79,71,North Perth,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+0,0,Northeastern Manitoulin and the Islands,Ontario
+1194,1039,Oakville,Ontario
+219,193,Orangeville,Ontario
+296,272,Orillia,Ontario
+551,487,Oshawa,Ontario
+4572,21,Ottawa,Ontario
+244,225,Owen Sound,Ontario
+108,95,Parry Sound,Ontario
+13,15,Pelham,Ontario
+150,135,Pembroke,Ontario
+183,0,Penetanguishene,Ontario
+74,68,Perth,Ontario
+30,29,Petawawa,Ontario
+485,437,Peterborough,Ontario
+21,21,Petrolia,Ontario
+208,197,Pickering,Ontario
+3,4,Plympton-Wyoming,Ontario
+0,0,Port Arthur,Ontario
+38,39,Port Colborne,Ontario
+55,53,Port Hope,Ontario
+0,0,Port Hope and Hope,Ontario
+3,6,Powassan,Ontario
+16,18,Prescott,Ontario
+21,28,Prince Edward,Ontario
+27,34,Quinte West,Ontario
+27,0,Quinte West,Ontario
+27,34,Quinte West,Ontario
+27,0,Quinte West,Ontario
+12,12,Rainy River,Ontario
+0,0,Rat Portage,Ontario
+22,22,Red Lake,Ontario
+41,31,Renfrew,Ontario
+1052,979,Richmond Hill,Ontario
+3,0,Rivière des Français,Ontario
+318,284,Sarnia,Ontario
+0,0,Sarnia-Clearwater,Ontario
+38,34,Saugeen Shores,Ontario
+242,221,Sault Ste. Marie,Ontario
+58,61,Shelburne,Ontario
+85,77,Sioux Lookout,Ontario
+0,0,Smith's Falls,Ontario
+85,79,Smiths Falls,Ontario
+5,5,Smooth Rock Falls,Ontario
+0,0,South Bruce Peninsula,Ontario
+42,43,South Huron,Ontario
+607,563,St. Catharines,Ontario
+0,0,St. Mary's,Ontario
+46,48,St. Marys,Ontario
+185,166,St. Thomas,Ontario
+2,2,St.-Charles,Ontario
+290,275,Stratford,Ontario
+101,106,Tecumseh,Ontario
+2,2,Temagami,Ontario
+45,35,Temiskaming Shores,Ontario
+0,0,The Lakehead,Ontario
+0,0,Thessalon,Ontario
+62,34,Thorold,Ontario
+495,448,Thunder Bay,Ontario
+106,101,Tillsonburg,Ontario
+0,0,Tilsonburg,Ontario
+254,229,Timmins,Ontario
+5,5,Timmins-Porcupine,Ontario
+10058,1375,Toronto,Ontario
+0,0,Toronto Junction,Ontario
+1,1,Trent Hills,Ontario
+1347,1125,Vaughan,Ontario
+62,55,Wasaga Beach,Ontario
+1863,120,Waterloo,Ontario
+47,49,Waters,Ontario
+178,169,Welland,Ontario
+2,0,West Nipissing,Ontario
+0,0,West Toronto Junction,Ontario
+187,144,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+187,144,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+187,144,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+187,144,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+187,0,Westminster,Ontario
+503,349,Whitby,Ontario
+18,16,Whitchurch-Stouffville,Ontario
+774,665,Windsor,Ontario
+309,298,Woodstock,Ontario
+158,186,Airdrie,Alberta
+36,37,Athabasca,Alberta
+0,0,Athabaska,Alberta
+190,186,Banff,Alberta
+25,22,Barrhead,Alberta
+3,3,Bashaw,Alberta
+1,1,Bassano,Alberta
+28,29,Beaumont,Alberta
+21,20,Beaverlodge,Alberta
+7,7,Black Diamond,Alberta
+21,20,Blackfalds,Alberta
+0,0,Bon Accord,Alberta
+90,86,Bonnyville,Alberta
+17,11,Bow Island,Alberta
+4,4,Bowden,Alberta
+82,80,Brooks,Alberta
+10,10,Bruderheim,Alberta
+5119,1205,Calgary,Alberta
+7,8,Calmar,Alberta
+99,80,Camrose,Alberta
+194,189,Canmore,Alberta
+13,12,Cardston,Alberta
+4,4,Carstairs,Alberta
+3,3,Castor,Alberta
+35,69,Chestermere,Alberta
+29,30,Claresholm,Alberta
+23,24,Coaldale,Alberta
+1,1,Coalhurst,Alberta
+135,149,Cochrane,Alberta
+106,92,Cold Lake,Alberta
+7,6,Coronation,Alberta
+21,59,Crossfield,Alberta
+7,8,Crowsnest Pass,Alberta
+8,8,Daysland,Alberta
+19,19,Devon,Alberta
+15,10,Didsbury,Alberta
+63,56,Drayton Valley,Alberta
+42,36,Drumheller,Alberta
+5,5,Eckville,Alberta
+3998,1193,Edmonton,Alberta
+83,73,Edson,Alberta
+2,2,Elk Point,Alberta
+29,29,Fairview,Alberta
+7,6,Falher,Alberta
+18,29,Fort Macleod,Alberta
+151,140,Fort Saskatchewan,Alberta
+12,14,Fox Creek,Alberta
+3,3,Gibbons,Alberta
+0,0,Grand Centre,Alberta
+24,23,Grande Cache,Alberta
+516,460,Grande Prairie,Alberta
+1,1,Granum,Alberta
+7,7,Grimshaw,Alberta
+7,7,Hanna,Alberta
+4,4,Hardisty,Alberta
+52,47,High Level,Alberta
+17,16,High Prairie,Alberta
+70,65,High River,Alberta
+111,97,Hinton,Alberta
+44,43,Innisfail,Alberta
+0,0,Irricana,Alberta
+6,4,Killam,Alberta
+48,49,Lac La Biche,Alberta
+37,40,Lacombe,Alberta
+5,5,Lamont,Alberta
+157,142,Leduc,Alberta
+7,7,Legal,Alberta
+482,396,Lethbridge,Alberta
+229,197,Lloydminster,Alberta
+1,1,Magrath,Alberta
+3,4,Manning,Alberta
+9,10,Mayerthorpe,Alberta
+3,3,McLennan,Alberta
+527,464,McMurray,Alberta
+291,270,Medicine Hat,Alberta
+10,11,Milk River,Alberta
+6,6,Millet,Alberta
+33,32,Morinville,Alberta
+2,2,Mundare,Alberta
+14,15,Nanton,Alberta
+119,98,Okotoks,Alberta
+69,50,Olds,Alberta
+2,2,Oyen,Alberta
+63,52,Peace River,Alberta
+6,6,Penhold,Alberta
+10,12,Picture Butte,Alberta
+63,52,Pincher Creek,Alberta
+37,37,Ponoka,Alberta
+3,4,Provost,Alberta
+2,2,Rainbow Lake,Alberta
+6,5,Raymond,Alberta
+606,517,Red Deer,Alberta
+11,8,Redcliff,Alberta
+9,8,Redwater,Alberta
+7,6,Rimbey,Alberta
+51,49,Rocky Mountain House,Alberta
+2,2,Sedgewick,Alberta
+15,15,Sexsmith,Alberta
+119,104,Slave Lake,Alberta
+4,4,Smoky Lake,Alberta
+13,13,Spirit River,Alberta
+172,151,Spruce Grove,Alberta
+310,266,St. Albert,Alberta
+48,44,St. Paul,Alberta
+0,0,St. Paul des Métis,Alberta
+3,3,Stavely,Alberta
+33,28,Stettler,Alberta
+80,42,Stony Plain,Alberta
+61,52,Strathmore,Alberta
+10,10,Sundre,Alberta
+6,6,Swan Hills,Alberta
+52,44,Sylvan Lake,Alberta
+78,66,Taber,Alberta
+5,6,Three Hills,Alberta
+2,2,Tofield,Alberta
+6,6,Trochu,Alberta
+8,1,Turner Valley,Alberta
+5,5,Two Hills,Alberta
+14,14,Valleyview,Alberta
+2,2,Vauxhall,Alberta
+61,47,Vegreville,Alberta
+38,37,Vermilion,Alberta
+2,1,Viking,Alberta
+7,7,Vulcan,Alberta
+62,51,Wainwright,Alberta
+2,2,Wembley,Alberta
+59,55,Westlock,Alberta
+77,67,Wetaskiwin,Alberta
+93,85,Whitecourt,Alberta
+891,835,Abbotsford,British Columbia
+40,39,Armstrong,British Columbia
+1677,1143,Burnaby,British Columbia
+304,266,Campbell River,British Columbia
+71,64,Castlegar,British Columbia
+569,518,Chilliwack,British Columbia
+188,161,Colwood,British Columbia
+361,300,Comox,British Columbia
+967,914,Coquitlam,British Columbia
+356,7,Courtenay,British Columbia
+215,182,Cranbrook,British Columbia
+44,41,Creston,British Columbia
+134,115,Dawson Creek,British Columbia
+334,278,Duncan,British Columbia
+26,25,Enderby,British Columbia
+94,94,Fernie,British Columbia
+32,29,Fort Nelson,British Columbia
+358,310,Fort St. John,British Columbia
+66,55,Gibsons,British Columbia
+81,72,Golden,British Columbia
+32,24,Grand Forks,British Columbia
+0,0,Greenwood,British Columbia
+788,666,Kamloops,British Columbia
+1473,1049,Kelowna,British Columbia
+20,19,Kimberley,British Columbia
+47,51,Ladysmith,British Columbia
+10,10,Lake Cowichan,British Columbia
+181,4,Langford,British Columbia
+1051,1011,Langley,British Columbia
+113,99,Merritt,British Columbia
+0,0,Mission City,British Columbia
+581,538,Nanaimo,British Columbia
+114,100,Nelson,British Columbia
+1152,984,New Westminster,British Columbia
+1333,960,North Vancouver,British Columbia
+79,72,Oliver,British Columbia
+78,76,Osoyoos,British Columbia
+143,132,Parksville,British Columbia
+414,392,Penticton,British Columbia
+285,262,Pitt Meadows,British Columbia
+120,101,Port Alberni,British Columbia
+1006,12,Port Coquitlam,British Columbia
+11,10,Port McNeill,British Columbia
+237,168,Port Moody,British Columbia
+87,76,Powell River,British Columbia
+708,646,Prince George,British Columbia
+132,116,Prince Rupert,British Columbia
+27,27,Princeton,British Columbia
+51,60,Qualicum Beach,British Columbia
+116,95,Quesnel,British Columbia
+103,99,Revelstoke,British Columbia
+1417,1050,Richmond,British Columbia
+6,7,Rossland,British Columbia
+175,160,Salmon Arm,British Columbia
+116,126,Sidney,British Columbia
+82,81,Smithers,British Columbia
+0,0,Steele,British Columbia
+2486,1149,Surrey,British Columbia
+255,232,Terrace,British Columbia
+86,66,Trail,British Columbia
+7264,1172,Vancouver,British Columbia
+515,446,Vernon,British Columbia
+2372,1122,Victoria,British Columbia
+213,11,View Royal,British Columbia
+329,348,White Rock,British Columbia
+203,168,Williams Lake,British Columbia
+15,16,Dawson,Yukon
+6,6,Faro,Yukon
+0,0,Fortymile,Yukon
+23,23,Watson Lake,Yukon
+0,0,Watson Lake Wye,Yukon
+219,199,Whitehorse,Yukon
+14,13,Fort Smith,Northwest Territories
+18,17,Hay River,Northwest Territories
+15,15,Inuvik,Northwest Territories
+7,7,Norman Wells,Northwest Territories
+171,158,Yellowknife,Northwest Territories
+0,0,Frobisher Bay,Nunavut
+81,78,Iqaluit,Nunavut

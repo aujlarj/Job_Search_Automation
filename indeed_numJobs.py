@@ -18,7 +18,7 @@ def get_cities(country):
     if country.lower() == 'canada':
         df = pd.read_excel('./List_of_cites/Canada.xlsx')
     elif country.lower() == "us":
-        df = pd.read_excel('./List_of_cites/temp.xlsx')
+        df = pd.read_excel('./List_of_cites/UnitedStates.xlsx')
     else:
         print('ERROR! Country can be Canada or US only')
         return 0
@@ -41,7 +41,9 @@ def create_urls(country, city_list):
         return 0
 
     for location in city_list:
-        website = domain + '/jobs?q=&l=' + location[0] + '%2C+' + location[1]
+        website = domain + '/jobs?q=&l=' + \
+            location[0] + '%2C+' + location[1] + \
+            '&radius=15'  # radius=0 for exact loaction
         urls_with_city_state = [website, location[0], location[1]]
         # print(urls_with_city_state)
         url.append(urls_with_city_state)
@@ -93,14 +95,14 @@ def get_actual_num_jobs(urls):
     driver = webdriver.Chrome(
         options=options, executable_path=CHROME_PATH)
 
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(5)
 
     for url in urls:
         _flag = True
         num_jobs = 0
         next_url_counter = 0
-        try_times = 3
-        driver.implicitly_wait(10)
+        try_times = 2
+        driver.implicitly_wait(2)
         while(_flag):
             new_site = url[0] + '&start=' + str(next_url_counter)
             driver.get(new_site)
@@ -152,27 +154,39 @@ def merge(list1, list2, country):
 
     df3 = df1.merge(df2, how='inner', on=Key)
     df3 = df3[Final_columns]
-    file_name = country + '_jobs_per_city_' + str(date.today()) + '.csv'
+    file_name = country + '_jobs_city_15k' + str(date.today()) + '.csv'
 
     df3.to_csv(DATA_FOLDER + file_name, index=False)
 
 
 def main():
-    # canadian_cites = get_cities('Canada')
-    # candian_urls = create_urls('Canada', canadian_cites)
-    # expected_canadian_jobs = get_expected_num_jobs(candian_urls)
-    # actual_canadian_jobs = get_actual_num_jobs(candian_urls)
-    # merge(expected_canadian_jobs, actual_canadian_jobs, 'Canada')
+    canadian_cites = get_cities('Canada')
+    candian_urls = create_urls('Canada', canadian_cites)
+    expected_canadian_jobs = get_expected_num_jobs(candian_urls)
+    # df = pd.DataFrame(expected_canadian_jobs, columns=[
+    #                   'Expected_jobs', 'City', 'State'])
+    # df.to_csv(DATA_FOLDER + 'Canada_expected_jobs_per_city ' +
+    #           str(date.today()) + '.csv', index=False)
+    actual_canadian_jobs = get_actual_num_jobs(candian_urls)
+    # df = pd.DataFrame(actual_canadian_jobs, columns=[
+    #                   'Actual_jobs', 'City', 'State'])
+    # df.to_csv(DATA_FOLDER + 'Canada_Actual_jobs_per_city ' +
+    #           str(date.today()) + '.csv', index=False)
+    merge(expected_canadian_jobs, actual_canadian_jobs, 'Canada')
 
-    us_cities = get_cities('US')
-    us_urls = create_urls('US', us_cities)
-    expected_us_jobs = get_expected_num_jobs(us_urls)
-    df = pd.DataFrame(expected_us_jobs, columns=[
-                      'Expected_jobs', 'City', 'State'])
+    # us_cities = get_cities('US')
+    # us_urls = create_urls('US', us_cities)
+    # expected_us_jobs = get_expected_num_jobs(us_urls)
+    # df = pd.DataFrame(expected_us_jobs, columns=[
+    #                   'Expected_jobs', 'City', 'State'])
     # df.to_csv(DATA_FOLDER + 'expected_jobs_per_city ' +
     #           str(date.today()) + '.csv', index=False)
-    actual_us_jobs = get_actual_num_jobs(us_urls)
-    merge(expected_us_jobs, actual_us_jobs, 'US')
+    # actual_us_jobs = get_actual_num_jobs(us_urls)
+    # df = pd.DataFrame(actual_us_jobs, columns=[
+    #                   'Actual_jobs', 'City', 'State'])
+    # df.to_csv(DATA_FOLDER + 'US_Actual_jobs_per_city ' +
+    #           str(date.today()) + '.csv', index=False)
+    # merge(expected_us_jobs, actual_us_jobs, 'US')
 
 
 if __name__ == "__main__":
