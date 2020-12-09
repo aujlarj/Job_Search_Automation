@@ -1,14 +1,21 @@
-import pandas as pd
-from pprint import pprint
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from datetime import date
-import time
-import requests
+try:
+    import sys
+    import pandas as pd
+    from pprint import pprint
+    from bs4 import BeautifulSoup
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from datetime import datetime
+    import time
+    import requests
+    import io
+    from io import BytesIO
+    from google.cloud import storage
+except Exception as e:
+    print("Some Modules are missing {}".format(e))
 
 # Global Variables
-CHROME_PATH = './browser_dependency/chromedriver_v83.exe'
+CHROME_PATH = './browser_dependency/chromedriver_v86.exe'
 SUMMARY_COLUMNS = ["Primary_Key", "Location", 'Country',
                    "Company", "Salary", "Ratings", "Remote_work", "Date_posted"]
 DESCRIPTION_COLUMNS = ["Primary_Key", "Title", "Full_Description"]
@@ -25,10 +32,25 @@ CANADIAN_LIST = [('Toronto', 'Ontario'), ('Montreal', 'Quebec'), ('Vancouver', '
                                                                    'Ontario'), ('Quebec City', 'Quebec')]
 AMERICAN_LIST = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Portland', 'OR'),
                  ('Austin', 'TX'), ('Washington', 'DC'), ('San Francisco', 'CA'), ('Seattle', 'WA')]
-FILE_NAME_END = str(date.today()) + '.csv'
+
+FILE_NAME_END = datetime.now().strftime("%d-%b-%Y(%H.%M.%S)") + '.csv'
 JOB_TITLE = 'Data Scientist'
 FILE_NAME = JOB_TITLE + '-' + FILE_NAME_END
 DATA_FOLDER = './Scraped_Data/'
+RADIUS_OPTIONS = ['0', '5', '10', '25', '50', '100']  # in KiloMeters
+RADIUS = RADIUS_OPTIONS[3]
+DATE_POSTED_OPTIONS = ['1',    # 24 hours
+                       '3',    # 3 days
+                       '7',    # 7 days
+                       '14',   # 14 days
+                       'last']  # since your last visit
+DATE_POSTED = DATE_POSTED_OPTIONS[0]
+
+# BUCKET INFO
+SERVICE_KEY = '../ServiceAccountKey.json'
+BUCKET_NAME = 'indeed_job_analysis'
+BUCKET_DESTINATION_FOLDER = 'Data Scientist/'
+DESTINATION_BLOB_NAME = BUCKET_DESTINATION_FOLDER + FILE_NAME
 
 
 def write_to_new_file(filename, fileinfo):
@@ -123,7 +145,7 @@ def get_job_summary(urls):
 
     options = Options()
     options.add_experimental_option("detach", True)
-    options.add_argument("--incognito")
+    # options.add_argument("--incognito")
     driver = webdriver.Chrome(
         options=options, executable_path=CHROME_PATH)
 
@@ -134,6 +156,7 @@ def get_job_summary(urls):
         next_url_counter = 0
         driver.implicitly_wait(1)
         while(_flag):
+            time.sleep(5)
             new_site = url + '&start=' + str(next_url_counter)
             # print(new_site)
 
@@ -145,6 +168,7 @@ def get_job_summary(urls):
             job_check = 0
 
             for jobcard in jobcards:
+                time.sleep(5)
                 # summary_to_csv = summary_to_csv.head(0)  # Reset
                 jobcard_jk = jobcard.get_attribute('data-jk')
 
@@ -237,6 +261,7 @@ def get_job_description(url_jks):
     print('get_job_description started...')
 
     for jk in url_jks:
+        time.sleep(3)
         # description_to_csv = description_to_csv.head(0) # Reset
         full_link = BASE_JOB_URL + jk
         # print(full_link)
@@ -281,7 +306,7 @@ def get_job_description(url_jks):
     return job_description_df
 
 
-def merge_dataframes(df1, df2, file_names):
+def merge_dataframes(df1, df2):
     df1_columns = list(df1.columns.values)
     df2_columns = list(df2.columns.values)
     common_columns = list(set(df1_columns) & set(df2_columns))
@@ -290,11 +315,7 @@ def merge_dataframes(df1, df2, file_names):
     df3 = df1.merge(df2, how='inner', on=Key)
     df3 = df3[ALL_COLUMNS]
 
-    file_name = file_names[0] + ' ' + file_names[1] + \
-        ' ' + file_names[2] + ' ' + file_names[3] + '.csv'
-
-    df3.to_csv(file_name, index=False)
-    print('End!')
+    return df3
 
 
 def get_total_num_jobs(job_site):
@@ -330,24 +351,59 @@ def open_browser(url):
 
 def create_urls():
     urls = []
-    # location[0] = City
-    # location[1] = State/Province
+
+    # Validate Radius
+    if 'RADIUS' not in globals():
+        sys.exit("Please define Radius!")
+    else:
+        if RADIUS not in RADIUS_OPTIONS:
+            sys.exit("Please define Radius Correctly!")
+
+    # Validate Date Posted
+    if 'DATE_POSTED' not in globals():
+        sys.exit("Please define DATE POSTED!")
+    else:
+        if DATE_POSTED not in DATE_POSTED_OPTIONS:
+            sys.exit("Please define DATE POSTED Correctly!")
+
+    # Create Canadian URLs
     for location in CANADIAN_LIST:
-        website = CANADA_DOMAIN + '/jobs?q=' + \
-            JOB_TITLE + '&l=' + location[0] + \
-            '%2C+' + location[1] + '&sort=date'
+        website = CANADA_DOMAIN + '/jobs?q=' + JOB_TITLE + \
+            '&l=' + location[0] + \
+            '%2C+' + location[1] + \
+            '&radius=' + RADIUS + \
+            'fromage=' + DATE_POSTED + \
+            '&sort=date'
         urls.append(website)
 
+    # Create American URLs
     for location in AMERICAN_LIST:
-        website = USA_DOMAIN + '/jobs?q=' + \
-            JOB_TITLE + '&l=' + location[0] + \
-            '%2C+' + location[1] + '&sort=date'
+        website = USA_DOMAIN + '/jobs?q=' + JOB_TITLE + \
+            '&l=' + location[0] + \
+            '%2C+' + location[1] + \
+            '&radius=' + RADIUS + \
+            'fromage=' + DATE_POSTED + \
+            '&sort=date'
         urls.append(website)
 
     return urls
 
 
+def create_csv_upload_gcp(dataset, source_folder, filename):
+    # create csv
+    dataset.to_csv(source_folder + filename, index=False)
+
+    # upload to Google Cloud Storage
+    storage_client = storage.Client.from_service_account_json(SERVICE_KEY)
+
+    # Create a Bucket Object
+    bucket = storage_client.get_bucket(BUCKET_NAME)
+    blob = bucket.blob(DESTINATION_BLOB_NAME)
+    blob.upload_from_filename(source_folder + filename)
+
+
 def main():
+
     start_time_main = time.time()
     firstpage_urls = create_urls()
     pprint(firstpage_urls)
@@ -361,15 +417,12 @@ def main():
     print("get_job_description time: %s minutes" %
           ((time.time() - middle_time_main)/60))
 
-    df3 = job_summary_df.merge(job_description_df, how='inner', on=KEY)
-    df3 = df3[ALL_COLUMNS]
-
     # TODO:
     # check if file exist and only add the new rows
-    df3.to_csv(DATA_FOLDER + FILE_NAME, mode='a',
-               index=False, encoding='utf_8')
-
+    final_df = merge_dataframes(job_summary_df, job_description_df)
+    create_csv_upload_gcp(final_df, DATA_FOLDER, FILE_NAME)
     print('End!')
+
     # for testing
     # number_of_jobs = get_total_num_jobs(main_url)
     # print('Number of Jobs:', number_of_jobs)
