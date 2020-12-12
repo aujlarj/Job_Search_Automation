@@ -14,29 +14,36 @@ try:
 except Exception as e:
     print("Some Modules are missing {}".format(e))
 
-# Global Variables
+######## GLOBAL VARIABLES ########
+## Browser Dependency for selenium chrome
 CHROME_PATH = './browser_dependency/chromedriver_v86.exe'
+
+## Dataframe
+KEY = 'Primary_Key'
 SUMMARY_COLUMNS = ["Primary_Key", "Location", 'Country',
                    "Company", "Salary", "Ratings", "Remote_work", "Date_posted"]
 DESCRIPTION_COLUMNS = ["Primary_Key", "Title", "Full_Description"]
 ALL_COLUMNS = ['Primary_Key', 'Title', 'Company',
                'Location', 'Country', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']
-KEY = 'Primary_Key'
+
+## Cites list
+JOB = 'dev'
+if JOB == 'test':
+    CANADIAN_LIST = [('Fernie', 'BC'), ('Banff', 'AB')]
+    AMERICAN_LIST = [('Sidney', 'MT'), ('Marfa', 'TX')]
+else:
+    CANADIAN_LIST = [('Toronto', 'Ontario'), ('Montreal', 'Quebec'), ('Vancouver', 'British Columbia'),
+                 ('Calgary', 'Alberta'), ('Edmonton', 'Alberta'), ('Ottawa',
+                                                                   'Ontario'), ('Quebec City', 'Quebec')]
+    AMERICAN_LIST = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Portland', 'OR'),
+                 ('Austin', 'TX'), ('Washington', 'DC'), ('San Francisco', 'CA'), ('Seattle', 'WA')]
+
+## ULR
 USA_DOMAIN = 'https://www.indeed.com'
 CANADA_DOMAIN = 'https://ca.indeed.com'
 BASE_JOB_URL = 'https://www.indeed.com/viewjob?jk='
-# CANADIAN_LIST = [('Fernie', 'BC'), ('Banff', 'AB')]
-# AMERICAN_LIST = [('Sidney', 'MT'), ('Marfa', 'TX')]
-CANADIAN_LIST = [('Toronto', 'Ontario'), ('Montreal', 'Quebec'), ('Vancouver', 'British Columbia'),
-                 ('Calgary', 'Alberta'), ('Edmonton', 'Alberta'), ('Ottawa',
-                                                                   'Ontario'), ('Quebec City', 'Quebec')]
-AMERICAN_LIST = [('New York City', 'NY'), ('Los Angeles', 'CA'), ('Portland', 'OR'),
-                 ('Austin', 'TX'), ('Washington', 'DC'), ('San Francisco', 'CA'), ('Seattle', 'WA')]
 
-FILE_NAME_END = datetime.now().strftime("%d-%b-%Y(%H.%M.%S)") + '.csv'
-JOB_TITLE = 'Data Scientist'
-FILE_NAME = JOB_TITLE + '-' + FILE_NAME_END
-DATA_FOLDER = './Scraped_Data/'
+## Search Options
 RADIUS_OPTIONS = ['0', '5', '10', '25', '50', '100']  # in KiloMeters
 RADIUS = RADIUS_OPTIONS[3]
 DATE_POSTED_OPTIONS = ['1',    # 24 hours
@@ -46,7 +53,13 @@ DATE_POSTED_OPTIONS = ['1',    # 24 hours
                        'last']  # since your last visit
 DATE_POSTED = DATE_POSTED_OPTIONS[0]
 
-# BUCKET INFO
+## File Name and Location
+FILE_NAME_END = datetime.now().strftime("%d-%b-%Y(%H.%M.%S)") + '.csv'
+JOB_TITLE = 'Data Scientist'
+FILE_NAME = JOB_TITLE + '-' + FILE_NAME_END
+DATA_FOLDER = './Scraped_Data/'
+
+## BUCKET INFO
 SERVICE_KEY = '../ServiceAccountKey.json'
 BUCKET_NAME = 'indeed_job_analysis'
 BUCKET_DESTINATION_FOLDER = 'Data Scientist/'
