@@ -105,3 +105,6 @@ dist
 
 # executable
 *.exe
+
+# Data
+*.csv
