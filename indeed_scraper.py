@@ -20,14 +20,14 @@ CHROME_PATH = './browser_dependency/chromedriver_v86.exe'
 
 ## Dataframe
 KEY = 'Primary_Key'
-SUMMARY_COLUMNS = ["Primary_Key", "Location", 'Country',
+SUMMARY_COLUMNS = ["Primary_Key", "Location", "City", "State", "Country",
                    "Company", "Salary", "Ratings", "Remote_work", "Date_posted"]
 DESCRIPTION_COLUMNS = ["Primary_Key", "Title", "Full_Description"]
 ALL_COLUMNS = ['Primary_Key', 'Title', 'Company',
-               'Location', 'Country', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']
+               "Location", "City", "State", 'Country', 'Salary', 'Ratings', 'Remote_work', 'Date_posted', 'Full_Description']
 
 ## Cites list
-JOB = 'dev'
+JOB = 'test'
 if JOB == 'test':
     CANADIAN_LIST = [('Fernie', 'BC'), ('Banff', 'AB')]
     AMERICAN_LIST = [('Sidney', 'MT'), ('Marfa', 'TX')]
@@ -193,10 +193,18 @@ def get_job_summary(urls):
                         'innerHTML'), 'html.parser')
 
                     try:
-                        location = jobcard_html.find(
-                            class_="location").get_text()
+                        location = jobcard_html.find(class_="location").get_text()
+                        loc = location.split(',')
+                        if len(loc) > 1:
+                            city = loc[0]
+                            state = loc[1].strip().split(' ')[0]
+                        else:
+                            city = 'None'
+                            state = 'None'
                     except:
                         location = 'None'
+                        city = 'None'
+                        state = 'None'
 
                     try:
                         company = jobcard_html.find(class_="company").text.replace(
@@ -235,7 +243,7 @@ def get_job_summary(urls):
                     else:
                         country = 'None'
 
-                    job_summary_df = job_summary_df.append({"Primary_Key": jobcard_jk, 'Location': location, 'Country': country, "Company": company, "Salary": salary,
+                    job_summary_df = job_summary_df.append({"Primary_Key": jobcard_jk, 'Location': location, 'City': city, 'State': state, 'Country': country, "Company": company, "Salary": salary,
                                                             "Ratings": rating, "Remote_work": remote_work, "Date_posted": date_posted
                                                             }, ignore_index=True)
 
